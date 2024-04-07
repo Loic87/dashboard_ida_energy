@@ -1,0 +1,19 @@
+country: all # country to show in charts (write "all" to run all countries + EU27)
+
+# Years selection
+year:
+  first: 2011 # earliest year covered
+  last: 2021 # latest year covered
+
+# Actions to do
+actions:
+  download: False  # True: download raw data, False: use existing data
+  clear: True # True clears existing charts, False: only replace the ones generated
+  context: True # Generate context data (Part 1)
+  industry_GVA_final: True # Run the decomposition of the final energy consumption in the industry sector, based on GVA
+  industry_GVA_primary: True # Run the decomposition of the primary energy consumption in the industry sector, based on GVA
+  economy_emp_final: True # Run the decomposition of the final energy consumption in the different economy sector, based on employment
+  household_final: True # Run the decomposition of the final energy consumption in the residential sector
+  transport_final: True # Run the decomposition of the final energy consumption in the industry sector, based on VKM
+
+
