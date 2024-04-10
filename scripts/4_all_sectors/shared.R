@@ -57,18 +57,18 @@ filter_industry_GVA <- function(
 prepare_energy_product_breakdown <- function(
     nrg_bal_c,
     first_year,
-    last_year,
-    country_list) {
+    last_year) {
   nrg_bal_c %>%
     filter(
-      geo %in% country_list,
       # from first year
       time >= first_year,
       # to last year
       time <= last_year,
       # work with total energy consumption, in TJ
       siec %in% NRG_PRODS,
-      unit == "TJ"
+      # take industry end uses
+      nrg_bal %in% NRG_IND_SECTORS,
+      unit == "TJ",
     ) %>%
     group_by(geo, time, siec) %>%
     summarise(values = sum(values, na.rm = TRUE), .groups = "drop_last") %>%
@@ -173,6 +173,7 @@ prepare_energy_product_breakdown <- function(
       names_to = "product",
       values_to = "energy_consumption"
     ) %>%
+    filter(energy_consumption > 0) %>%
     mutate(product = factor(product, level = IDA_FINAL_PROD)) %>%
     group_by(geo, time) %>%
     mutate(share_energy_consumption = energy_consumption / sum(energy_consumption)) %>%
