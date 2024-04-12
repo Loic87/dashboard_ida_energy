@@ -1,27 +1,45 @@
+library(ggplot2)
+
 script_directory <- dirname(rstudioapi::getActiveDocumentContext()$path)
 setwd(file.path(script_directory))
 print(getwd())
+
+source("0_support/mapping_countries.R")
 source("4_all_sectors/shared.R")
+source("1_industry/1a_industry_gva_final.R")
 
-nrg_bal_c = read_feather(
-  paste0("../data/nrg_bal_c_BE.feather")
+first_year_test = 2017
+last_year_test = 2020
+country_test = "Belgium"
+
+nrg_bal_c = load_industry_energy_consumption(country_test)
+nama_10_a64 = load_industry_GVA(country_test)
+
+industry_GVA <- prepare_activity(
+  nama_10_a64 = nama_10_a64,
+  first_year = first_year_test,
+  last_year = last_year_test
 )
-first_year = 1960
-last_year = 2022
-country = "Belgique"
 
+# energy consumption (and supply) from the energy balance (nrg_bal_c)
+industry_energy_final <- prepare_energy_consumption(
+    nrg_bal_c = nrg_bal_c,
+    first_year = first_year_test,
+    last_year = last_year_test
+  )
 
-energy_product_breakdown <- prepare_energy_product_breakdown(
-  nrg_bal_c,
-  first_year,
-  last_year
-)
+industry_GVA_final_LMDI <- prepare_decomposition(
+  industry_GVA,
+  industry_energy_final,
+  first_year = first_year_test,
+  last_year = last_year_test
+  )
 
-ggplot(energy_product_breakdown, aes(x = time, y = energy_consumption / 1000)) +
-  geom_bar(aes(fill = product), stat = "identity") +
-  scale_fill_manual(values = FinalProductsColors, limits = force) +
-  theme_classic() +
-  theme(axis.title.x = element_blank()) +
-  scale_y_continuous(labels = scales::number) +
-  ylab(paste("Energy consumption (PJ)")) +
-  ggtitle(paste("Industry energy consumption by fuel for", country))
+industry_GVA_final_waterfall_chart <- prepare_waterfall_chart(
+    industry_GVA_final_LMDI,
+    first_year = first_year_test,
+    last_year = last_year_test,
+    country = country_test
+  )
+plot(industry_GVA_final_waterfall_chart)
+

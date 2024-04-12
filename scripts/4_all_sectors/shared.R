@@ -19,14 +19,12 @@ filter_industry_GVA <- function(
   unique_sectors <- unique(df$sector)
 
   for (country in unique_countries) {
-    first_year_shown <- industry_GVA_base_year(country = country, first_year = first_year)
-    last_year_shown <- industry_GVA_last_year(country = country, final_year = last_year)
     for (sector in unique_sectors) {
       subset_df <- df[
         df$geo == country &
           df$sector == sector &
-          df$time <= last_year_shown &
-          df$time >= first_year_shown,
+          df$time <= last_year &
+          df$time >= first_year,
       ]
       if (any(is.na(subset_df$GVA) | subset_df$GVA == 0)) {
         missing_years <- subset_df$time[is.na(subset_df$GVA) | subset_df$GVA == 0]
@@ -183,11 +181,9 @@ prepare_energy_product_breakdown <- function(
 prepare_industry_GVA <- function(
     nama_10_a64,
     first_year,
-    last_year,
-    country_list) {
+    last_year) {
   nama_10_a64 %>%
     filter(
-      geo %in% country_list,
       # from first year
       time >= first_year,
       # to last year
@@ -249,11 +245,9 @@ prepare_industry_GVA <- function(
 prepare_industry_energy <- function(
     nrg_bal_c,
     first_year,
-    last_year,
-    country_list) {
+    last_year) {
   nrg_bal_c %>%
     filter(
-      geo %in% country_list,
       # from first year
       time >= first_year,
       # to last year

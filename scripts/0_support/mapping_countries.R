@@ -1,3 +1,4 @@
+library(eurostat)
 
 all_countries <- eu_countries %>% 
   rbind(efta_countries) %>%
