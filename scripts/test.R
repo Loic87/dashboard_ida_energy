@@ -8,7 +8,7 @@ source("0_support/mapping_countries.R")
 source("4_all_sectors/shared.R")
 source("1_industry/1a_industry_gva_final.R")
 
-first_year_test = 2017
+first_year_test = 1990
 last_year_test = 2020
 country_test = "Belgium"
 
@@ -35,9 +35,9 @@ industry_GVA_final_full <- prepare_decomposition(
   last_year = last_year_test
   )
 
-industry_GVA_final_LMDI <- prepare_LMDI(
+industry_GVA_final_LMDI <- apply_LMDI(
   industry_GVA_final_full,
-  first_year = first_year_test,
+  first_year = first_year_test
 )
 
 industry_GVA_final_waterfall_chart <- prepare_waterfall_chart(

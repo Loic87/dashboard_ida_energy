@@ -12,7 +12,6 @@ source("4_all_sectors/shared.R")
 
 script_directory <- dirname(rstudioapi::getActiveDocumentContext()$path)
 setwd(file.path(script_directory))
-print(getwd())
 
 load_industry_energy_consumption <- function(
     country
@@ -215,6 +214,9 @@ add_index_delta <- function(
 apply_LMDI <- function(
     df,
     first_year) {
+  if (nrow(df) == 0) {
+    stop("No data available for LMDI calculation.")
+  }
   df %>%
     # Reshape to wide (moving all measures calculated in Value, index and delta, all in separate columns)
     pivot_wider(

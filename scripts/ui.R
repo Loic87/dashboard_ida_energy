@@ -5,11 +5,11 @@ library(eurostat)
 source("0_support/mapping_countries.R")
 
 ui <- dashboardPage(
-  dashboardHeader(title = "Decomposition analysis"),
+  dashboardHeader(title = "IDA energy"),
   dashboardSidebar(
     sidebarMenu(
       selectInput("country", "Select country", country_long_list),
-      sliderInput("YearRange","Select base year and last year", min = 1990, max = 2023, value = c(2000, 2021)),
+      sliderInput("YearRange", "Select base year and last year", min = 1990, max = 2023, value = c(2000, 2021)),
       menuItem("Industry", tabName = "industry"),
       menuItem("Transport", tabName = "transport"),
       menuItem("Residential", tabName = "residential")

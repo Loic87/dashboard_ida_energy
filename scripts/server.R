@@ -81,6 +81,9 @@ server <- function(input, output) {
   })
   
   output$industry_GVA_indexed <- renderPlotly({
+    validate(
+      need(nrow(industry_GVA_final_full()) > 0, "Please select years with data available")
+    )
     p <- prepare_indexed_chart(
       industry_GVA_final_full(),
       first_year = first_year(),
@@ -90,6 +93,9 @@ server <- function(input, output) {
   })
   
   output$industry_GVA_final_waterfall <- renderPlotly({
+    validate(
+      need(nrow(industry_GVA_final_LMDI()) > 0, "Please select years with data available")
+    )
     p <- prepare_waterfall_chart(
         industry_GVA_final_LMDI(),
         first_year = first_year(),
@@ -100,7 +106,9 @@ server <- function(input, output) {
   })
   
   output$industry_GVA_final_intensity_effects<- renderPlotly({
-    # Plot the intensity effect as area chart
+    validate(
+      need(nrow(industry_GVA_final_LMDI()) > 0, "Please select years with data available")
+    )
     p <- prepare_intensity_effects_chart(
       industry_GVA_final_LMDI(),
       first_year = first_year(),
