@@ -28,12 +28,17 @@ industry_energy_final <- prepare_energy_consumption(
     last_year = last_year_test
   )
 
-industry_GVA_final_LMDI <- prepare_decomposition(
+industry_GVA_final_full <- prepare_decomposition(
   industry_GVA,
   industry_energy_final,
   first_year = first_year_test,
   last_year = last_year_test
   )
+
+industry_GVA_final_LMDI <- prepare_LMDI(
+  industry_GVA_final_full,
+  first_year = first_year_test,
+)
 
 industry_GVA_final_waterfall_chart <- prepare_waterfall_chart(
     industry_GVA_final_LMDI,

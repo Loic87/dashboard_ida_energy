@@ -1,5 +1,6 @@
 library(plotly)
 library(shinydashboard)
+library(eurostat)
 
 source("0_support/mapping_countries.R")
 
@@ -27,8 +28,11 @@ ui <- dashboardPage(
               plotlyOutput("industry_GVA_by_sector")
             ),
             tabPanel('Decomposition of energy consumption',
-              plotlyOutput("industry_GVA_final_waterfall"),
-              plotlyOutput("industry_GVA_final_intensity_effects")
+                     plotlyOutput("industry_GVA_final_intensity_effects"),
+                     fluidRow(
+                       column(6, plotlyOutput("industry_GVA_indexed")),
+                       column(6, plotlyOutput("industry_GVA_final_waterfall"))
+                     )
             )
         )
       ),

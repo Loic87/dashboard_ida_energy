@@ -1,5 +1,6 @@
 # FUNCTIONS CALLED BY DIFFERENT PROCESSES
 library(futile.logger)
+library(feather)
 
 reverse_negative_gva <- function(df) {
   for (i in 1:nrow(df)) {

@@ -1,3 +1,5 @@
+library(plotly)
+
 source("1_industry/1a_industry_gva_final.R")
 source("4_all_sectors/shared.R")
 
@@ -38,12 +40,19 @@ server <- function(input, output) {
     )
   })
   
-  industry_GVA_final_LMDI <- reactive({
+  industry_GVA_final_full <- reactive({
     prepare_decomposition(
       industry_GVA_by_sector(),
       industry_energy_consumption_by_sector(),
       first_year = first_year(),
       last_year = last_year()
+    )
+  })
+  
+  industry_GVA_final_LMDI <- reactive({
+    apply_LMDI(
+      industry_GVA_final_full(),
+      first_year = first_year()
     )
   })
   
@@ -67,6 +76,15 @@ server <- function(input, output) {
     p <-prepare_industry_GVA_by_sector_charts(
       industry_GVA_by_sector(),
       country()
+    )
+    ggplotly(p)
+  })
+  
+  output$industry_GVA_indexed <- renderPlotly({
+    p <- prepare_indexed_chart(
+      industry_GVA_final_full(),
+      first_year = first_year(),
+      country = country()
     )
     ggplotly(p)
   })

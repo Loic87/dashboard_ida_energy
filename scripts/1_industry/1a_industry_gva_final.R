@@ -1,3 +1,9 @@
+library(futile.logger)
+library(tidyr)
+library(dplyr)
+library(ggplot2)
+library(waterfalls)
+
 source("0_support/mapping_sectors.R")
 source("0_support/mapping_products.R")
 source("0_support/mapping_colors.R")
@@ -55,9 +61,8 @@ prepare_decomposition <- function(
   industry_GVA_final_full <- industry_GVA_final_augmented %>%
     rbind(industry_GVA_final_total) %>%
     add_index_delta(first_year = first_year)
-  
-  # Calculate the effects using the LMDI formulas
-  industry_GVA_final_full %>% apply_LMDI(first_year = first_year)
+
+  industry_GVA_final_full
   
 }
 
@@ -349,6 +354,48 @@ prepare_industry_GVA_by_sector_charts <- function(
     scale_y_continuous(labels = scales::number) +
     ylab(paste("Gross Value Added (Billion EUR)")) +
     ggtitle(paste("Industry gross value added by subsector for", country))
+}
+
+prepare_indexed_chart <- function(
+    industry_GVA_final_full,
+    first_year,
+    country
+){
+  industry_GVA_final_full %>%
+    filter(sector == "Total") %>%
+    select(-c(value, value_delta)) %>%
+    pivot_wider(
+      names_from = measure,
+      values_from = value_indexed
+    ) %>%
+    select(c(
+      geo,
+      time,
+      intensity,
+      energy_consumption,
+      GVA
+    )) %>%
+    rename(
+      "Energy intensity" = "intensity",
+      "Energy consumption" = "energy_consumption",
+      "Gross Value Added" = "GVA"
+    ) %>%
+    pivot_longer(
+      cols = -c(geo, time),
+      names_to = "measure",
+      values_to = "value"
+    ) %>%
+    ggplot() +
+    geom_blank(aes(x = time)) +
+    geom_line(aes(x = time, y = value, color = measure), size = 1) +
+    scale_color_manual(values = IndustryGVAColorsIndex) +
+    theme_classic() +
+    theme(
+      axis.title.x = element_blank(),
+    ) +
+    scale_y_continuous(labels = scales::number) +
+    ylab(paste("Index (", first_year, "=1)")) +
+    ggtitle(paste("Indexed indicators for", country, "\nall years related to", as.character(first_year)))
 }
 
 prepare_waterfall_chart <- function(
