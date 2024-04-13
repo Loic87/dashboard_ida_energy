@@ -8,9 +8,7 @@ library(feather)
 # Function to fetch Eurostat data, write to a file, and log the process.
 fetch_write_log <- function(country_code,
                             dataset_id,
-                            filters,
-                            file_prefix,
-                            unit_desc) {
+                            filters) {
   country_long <- get_country_long(country_code)
   
   # Attempt to fetch data and handle errors within the function
@@ -24,7 +22,7 @@ fetch_write_log <- function(country_code,
     }
     # Constructing file path dynamically based on parameters
     file_path <-
-      paste0("../data/", file_prefix, "_", country_code, ".feather")
+      paste0("../data/", dataset_id, "_", country_code, ".feather")
     write_feather(data, file_path)
     flog.info(paste0("Loaded data from ", dataset_id, " for: ", country_long))
   }, error = function(e) {
@@ -51,9 +49,7 @@ for (country_code in country_code_list) {
       geo = country_code,
       unit = c("TJ", "GWH"),
       freq = "A"
-    ),
-    "nrg_bal_c",
-    "energy balance"
+    )
   )
   fetch_write_log(
     country_code,
@@ -63,8 +59,6 @@ for (country_code in country_code_list) {
       na_item = "B1G",
       unit = "CLV15_MEUR",
       freq = "A"
-    ),
-    "nama_10_a64",
-    "GDP"
+    )
   )
 }

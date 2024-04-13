@@ -7,7 +7,8 @@ library(waterfalls)
 source("0_support/mapping_sectors.R")
 source("0_support/mapping_products.R")
 source("0_support/mapping_colors.R")
-source("0_support/manual_corrections.R")
+#source("0_support/manual_corrections.R")
+source("0_support/mapping_countries.R")
 source("4_all_sectors/shared.R")
 
 script_directory <- dirname(rstudioapi::getActiveDocumentContext()$path)
@@ -53,7 +54,7 @@ prepare_decomposition <- function(
   # Effects calculation
   
   # calculate the required indicators for the 3 effects
-  industry_GVA_final_augmented <- add_share_sectors(industry_GVA_final_filtered)
+  industry_GVA_final_augmented <- add_share_sectors(industry_GVA_final_filtered$df)
   industry_GVA_final_total <- add_total_sectors(industry_GVA_final_augmented)
   
   # Calculate the indexed and indexed indicators
@@ -61,7 +62,7 @@ prepare_decomposition <- function(
     rbind(industry_GVA_final_total) %>%
     add_index_delta(first_year = first_year)
 
-  industry_GVA_final_full
+  list(df = industry_GVA_final_full, notifications = industry_GVA_final_filtered$notifications)
   
 }
 
@@ -87,13 +88,13 @@ prepare_activity <- function(
     nama_10_a64,
     first_year,
     last_year) {
-  prepare_industry_GVA(
+  industry_GVA <- prepare_industry_GVA(
     nama_10_a64,
     first_year = first_year,
     last_year = last_year
-  ) %>%
-    apply_gva_corrections() %>%
-    reverse_negative_gva()
+  )
+    #apply_gva_corrections() %>%
+  reverse_negative_gva(industry_GVA)
 }
 
 join_energy_consumption_activity <- function(df) {
@@ -535,5 +536,5 @@ prepare_intensity_effects_chart <- function(
     scale_y_continuous(labels = scales::number) +
     ylab("Energy consumption (PJ)") +
     expand_limits(y = 0) +
-    ggtitle(paste("Actual energy consumption in the industry vs theoretical (without energy intensity improvements) for", country))
+    ggtitle(paste("Actual energy consumption in the industry vs theoretical (without energy intensity effect) for", country))
 }

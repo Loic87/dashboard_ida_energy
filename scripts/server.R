@@ -3,6 +3,8 @@ library(plotly)
 source("1_industry/1a_industry_gva_final.R")
 source("4_all_sectors/shared.R")
 
+warning_duration = 5
+
 server <- function(input, output) {
   first_year <- reactive(input$YearRange[1])
   last_year <- reactive(input$YearRange[2])
@@ -40,23 +42,41 @@ server <- function(input, output) {
     )
   })
   
+  observe({
+    result <- industry_GVA_by_sector()
+    if (!is.null(result$notifications) && length(result$notifications) > 0) {
+      for (warning in result$notifications) {
+        showNotification(warning, type = "warning", duration = warning_duration)
+      }
+    }
+  })
+  
   industry_GVA_final_full <- reactive({
     prepare_decomposition(
-      industry_GVA_by_sector(),
+      industry_GVA_by_sector()$df,
       industry_energy_consumption_by_sector(),
       first_year = first_year(),
       last_year = last_year()
     )
   })
   
+  observe({
+    result <- industry_GVA_final_full()
+    if (!is.null(result$notifications) && length(result$notifications) > 0) {
+      for (warning in result$notifications) {
+        showNotification(warning, type = "warning", duration = warning_duration)
+      }
+    }
+  })
+  
   industry_GVA_final_LMDI <- reactive({
     apply_LMDI(
-      industry_GVA_final_full(),
+      industry_GVA_final_full()$df,
       first_year = first_year()
     )
   })
   
-  output$industry_energy_consumption_by_product <- renderPlotly({
+  output$industry_energy_consumption_by_product_plot <- renderPlotly({
     p <- prepare_industry_energy_consumption_by_product_charts(
       industry_energy_consumption_by_product(),
       country()
@@ -64,7 +84,7 @@ server <- function(input, output) {
     ggplotly(p)
   })
   
-  output$industry_energy_consumption_by_sector <- renderPlotly({
+  output$industry_energy_consumption_by_sector_plot <- renderPlotly({
     p <- prepare_industry_energy_consumption_by_sector_charts(
       industry_energy_consumption_by_sector(),
       country()
@@ -72,27 +92,27 @@ server <- function(input, output) {
     ggplotly(p)
   })
   
-  output$industry_GVA_by_sector <- renderPlotly({
+  output$industry_GVA_by_sector_plot <- renderPlotly({
     p <-prepare_industry_GVA_by_sector_charts(
-      industry_GVA_by_sector(),
+      industry_GVA_by_sector()$df,
       country()
     )
     ggplotly(p)
   })
   
-  output$industry_GVA_indexed <- renderPlotly({
+  output$industry_GVA_indexed_plot <- renderPlotly({
     validate(
-      need(nrow(industry_GVA_final_full()) > 0, "Please select years with data available")
+      need(nrow(industry_GVA_final_full()$df) > 0, "Please select years with data available")
     )
     p <- prepare_indexed_chart(
-      industry_GVA_final_full(),
+      industry_GVA_final_full()$df,
       first_year = first_year(),
       country = country()
     )
     ggplotly(p)
   })
   
-  output$industry_GVA_final_waterfall <- renderPlotly({
+  output$industry_GVA_final_waterfall_plot <- renderPlotly({
     validate(
       need(nrow(industry_GVA_final_LMDI()) > 0, "Please select years with data available")
     )
@@ -105,7 +125,7 @@ server <- function(input, output) {
     ggplotly(p)
   })
   
-  output$industry_GVA_final_intensity_effects<- renderPlotly({
+  output$industry_GVA_final_intensity_effects_plot <- renderPlotly({
     validate(
       need(nrow(industry_GVA_final_LMDI()) > 0, "Please select years with data available")
     )

@@ -1,6 +1,7 @@
 library(plotly)
 library(shinydashboard)
 library(eurostat)
+library(shinyjs)
 
 source("0_support/mapping_countries.R")
 
@@ -20,20 +21,20 @@ ui <- dashboardPage(
       tabItem(
         tabName = "industry",
           tabsetPanel(
-            tabPanel('Energy consumption by product',
-              plotlyOutput("industry_energy_consumption_by_product")
-            ),
-            tabPanel('Energy consumption by sector',
-              plotlyOutput("industry_energy_consumption_by_sector"),
-              plotlyOutput("industry_GVA_by_sector")
+            tabPanel('Energy consumption and GVA by sector',
+              plotlyOutput("industry_energy_consumption_by_sector_plot"),
+              plotlyOutput("industry_GVA_by_sector_plot")
             ),
             tabPanel('Decomposition of energy consumption',
-                     plotlyOutput("industry_GVA_final_intensity_effects"),
+                     plotlyOutput("industry_GVA_final_intensity_effects_plot"),
                      fluidRow(
-                       column(6, plotlyOutput("industry_GVA_indexed")),
-                       column(6, plotlyOutput("industry_GVA_final_waterfall"))
+                       column(6, plotlyOutput("industry_GVA_indexed_plot")),
+                       column(6, plotlyOutput("industry_GVA_final_waterfall_plot"))
                      )
-            )
+            ),
+            tabPanel('Energy consumption by product',
+                     plotlyOutput("industry_energy_consumption_by_product_plot")
+            ),
         )
       ),
       tabItem(tabName = "transport"),

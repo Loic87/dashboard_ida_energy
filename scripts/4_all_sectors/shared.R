@@ -3,13 +3,16 @@ library(futile.logger)
 library(feather)
 
 reverse_negative_gva <- function(df) {
+  my_warnings = c()
   for (i in 1:nrow(df)) {
     if (!is.na(df$GVA[i]) && df$GVA[i] < 0) {
       df$GVA[i] <- -df$GVA[i]
-      flog.warn(paste("Country:", df$geo[i], ", Sector:", df$sector[i], ", Year:", df$time[i], " - ", "negative GVA reversed"))
+      warning_message <- paste("Country:", df$geo[i], ", Sector:", df$sector[i], ", Year:", df$time[i], " - ", "negative GVA reversed")
+      my_warnings <- c(my_warnings, warning_message)
+      flog.warn(warning_message)
     }
   }
-  return(df)
+  list(df = df, notifications = my_warnings)
 }
 
 filter_industry_GVA <- function(
@@ -18,7 +21,7 @@ filter_industry_GVA <- function(
     last_year) {
   unique_countries <- unique(df$geo)
   unique_sectors <- unique(df$sector)
-
+  my_warnings = c()
   for (country in unique_countries) {
     for (sector in unique_sectors) {
       subset_df <- df[
@@ -30,27 +33,27 @@ filter_industry_GVA <- function(
       if (any(is.na(subset_df$GVA) | subset_df$GVA == 0)) {
         missing_years <- subset_df$time[is.na(subset_df$GVA) | subset_df$GVA == 0]
         df <- df[!(df$geo == country & df$sector == sector), ]
-        flog.warn(
-          paste(
-            "Country:", country, ", Sector:", sector,
-            "- removed (missing GVA in years:",
-            paste(missing_years, collapse = ", "), ")"
-          )
+        warning_message <- paste(
+          "Country:", country, ", Sector:", sector,
+          "- removed (missing GVA in years:",
+          paste(missing_years, collapse = ", "), ")"
         )
+        my_warnings <- c(my_warnings, warning_message)
+        flog.warn(warning_message)
       } else if (any((is.na(subset_df$energy_consumption) | subset_df$energy_consumption == 0) & (!is.na(subset_df$GVA) & subset_df$GVA != 0))) {
         missing_years <- subset_df$time[is.na(subset_df$energy_consumption) | subset_df$energy_consumption == 0]
         df <- df[!(df$geo == country & df$sector == sector), ]
-        flog.warn(
-          paste(
-            "Country:", country, ", Sector:", sector,
-            "- removed (missing energy consumption in years:",
-            paste(missing_years, collapse = ", "), ")"
-          )
+        warning_message <- paste(
+          "Country:", country, ", Sector:", sector,
+          "- removed (missing energy consumption in years:",
+          paste(missing_years, collapse = ", "), ")"
         )
+        my_warnings <- c(my_warnings, warning_message)
+        flog.warn(warning_message)
       }
     }
   }
-  return(df)
+  list(df = df, notifications = my_warnings)
 }
 
 prepare_energy_product_breakdown <- function(
