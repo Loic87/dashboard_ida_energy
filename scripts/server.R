@@ -1,7 +1,8 @@
 library(plotly)
 
 source("1_industry/1a_industry_gva_final.R")
-source("4_all_sectors/shared.R")
+source("0_support/shared_functions.R")
+source("0_support/data_load.R")
 
 warning_duration = 5
 
@@ -12,7 +13,6 @@ server <- function(input, output) {
   
   # Load data
   nrg_bal_c <- reactive(load_industry_energy_consumption(country()))
-  
   nama_10_a64 <- reactive(load_industry_GVA(country()))
   
   # Energy consumption by fuel

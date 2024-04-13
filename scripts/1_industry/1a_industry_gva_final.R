@@ -4,30 +4,43 @@ library(dplyr)
 library(ggplot2)
 library(waterfalls)
 
-source("0_support/mapping_sectors.R")
-source("0_support/mapping_products.R")
-source("0_support/mapping_colors.R")
-#source("0_support/manual_corrections.R")
-source("0_support/mapping_countries.R")
-source("4_all_sectors/shared.R")
-
 script_directory <- dirname(rstudioapi::getActiveDocumentContext()$path)
 setwd(file.path(script_directory))
 
-load_industry_energy_consumption <- function(
-    country
-){
-  read_feather(
-    paste0("../data/nrg_bal_c_", get_country_code(country), ".feather")
+source("0_support/mapping_sectors.R")
+source("0_support/mapping_products.R")
+source("0_support/mapping_colors.R")
+source("0_support/shared_functions.R")
+
+prepare_energy_consumption <- function(
+    nrg_bal_c,
+    first_year,
+    last_year) {
+  prepare_industry_energy(
+    nrg_bal_c,
+    first_year = first_year,
+    last_year = last_year) %>%
+    filter(siec == "TOTAL") %>%
+    select(-c(siec)) %>%
+    # reshape to long
+    pivot_longer(
+      cols = -c(geo, time),
+      names_to = "sector",
+      values_to = "energy_consumption"
     )
 }
 
-load_industry_GVA <- function(
-    country
-){
-  read_feather(
-    paste0("../data/nama_10_a64_", get_country_code(country), ".feather")
+prepare_activity <- function(
+    nama_10_a64,
+    first_year,
+    last_year) {
+  industry_GVA <- prepare_industry_GVA(
+    nama_10_a64,
+    first_year = first_year,
+    last_year = last_year
   )
+  #apply_gva_corrections() %>%
+  reverse_negative_gva(industry_GVA)
 }
 
 prepare_decomposition <- function(
@@ -64,37 +77,6 @@ prepare_decomposition <- function(
 
   list(df = industry_GVA_final_full, notifications = industry_GVA_final_filtered$notifications)
   
-}
-
-prepare_energy_consumption <- function(
-    nrg_bal_c,
-    first_year,
-    last_year) {
-  prepare_industry_energy(
-    nrg_bal_c,
-    first_year = first_year,
-    last_year = last_year) %>%
-    filter(siec == "TOTAL") %>%
-    select(-c(siec)) %>%
-    # reshape to long
-    pivot_longer(
-      cols = -c(geo, time),
-      names_to = "sector",
-      values_to = "energy_consumption"
-    )
-}
-
-prepare_activity <- function(
-    nama_10_a64,
-    first_year,
-    last_year) {
-  industry_GVA <- prepare_industry_GVA(
-    nama_10_a64,
-    first_year = first_year,
-    last_year = last_year
-  )
-    #apply_gva_corrections() %>%
-  reverse_negative_gva(industry_GVA)
 }
 
 join_energy_consumption_activity <- function(df) {

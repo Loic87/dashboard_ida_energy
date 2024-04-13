@@ -5,7 +5,7 @@ setwd(file.path(script_directory))
 print(getwd())
 
 source("0_support/mapping_countries.R")
-source("4_all_sectors/shared.R")
+source("0_support/shared_functions.R")
 source("1_industry/1a_industry_gva_final.R")
 
 first_year_test = 1990

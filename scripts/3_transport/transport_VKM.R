@@ -1,16 +1,16 @@
-library(fs)
-library(tidyverse)
+library(futile.logger)
 library(tidyr)
 library(dplyr)
 library(ggplot2)
-library(futile.logger)
-# FINAL ENERGY CONSUMPTION IN TRANSPORT
-source("scripts/0_support/outputs.R")
-source("scripts/0_support/year_selection.R")
-source("scripts/0_support/mapping_sectors.R")
-source("scripts/0_support/mapping_products.R")
-source("scripts/0_support/mapping_colors.R")
-source("scripts/0_support/manual_corrections.R")
+library(waterfalls)
+
+script_directory <- dirname(rstudioapi::getActiveDocumentContext()$path)
+setwd(file.path(script_directory))
+
+source("0_support/mapping_sectors.R")
+source("0_support/mapping_products.R")
+source("0_support/mapping_colors.R")
+source("0_support/share_functions.R")
 
 # Data preparation
 transport_final <- function(
@@ -24,18 +24,6 @@ transport_final <- function(
   country_list <- geo_codes
 
   # DATA PREPARATION
-
-  # Energy consumption (and supply) from the energy balance (nrg_bal_c)
-  load(paste0(data_path, "/nrg_bal_c.Rda"))
-
-  # Vehicle kilometer from road transport data (road_tf_vehmov)
-  load(paste0(data_path, "/road_tf_vehmov.Rda"))
-
-  # Vehicle kilometer from rail transport data (rail_tf_trainmv)
-  load(paste0(data_path, "/rail_tf_trainmv.Rda"))
-
-  # Vehicle kilometer from water transport data (iww_tf_vetf)
-  load(paste0(data_path, "/iww_tf_vetf.Rda"))
 
   # Energy consumption by fuel
   transport_energy_breakdown <- prepare_energy_product_breakdown(
