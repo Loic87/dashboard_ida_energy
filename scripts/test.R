@@ -8,9 +8,9 @@ source("0_support/mapping_countries.R")
 source("0_support/shared_functions.R")
 source("1_industry/1a_industry_gva_final.R")
 
-first_year_test = 1990
-last_year_test = 2020
-country_test = "Belgium"
+first_year = 1990
+last_year = 2020
+country = "Belgium"
 
 nrg_bal_c = load_industry_energy_consumption(country_test)
 nama_10_a64 = load_industry_GVA(country_test)

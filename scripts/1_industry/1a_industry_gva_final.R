@@ -10,13 +10,79 @@ setwd(file.path(script_directory))
 source("0_support/mapping_sectors.R")
 source("0_support/mapping_products.R")
 source("0_support/mapping_colors.R")
-source("0_support/shared_functions.R")
 
-prepare_energy_consumption <- function(
+prepare_industry_energy_consumption_by_product <- function(
     nrg_bal_c,
     first_year,
     last_year) {
-  prepare_industry_energy(
+  nrg_bal_c %>%
+    filter(
+      # from first year
+      time >= first_year,
+      # to last year
+      time <= last_year,
+      # work with total energy consumption, in TJ
+      siec %in% NRG_PRODS,
+      # take industry end uses
+      nrg_bal %in% NRG_IND_SECTORS,
+      unit == "TJ",
+    ) %>%
+    group_by(geo, time, siec) %>%
+    summarise(
+      values = sum(values, na.rm = TRUE), 
+      .groups = "drop_last") %>%
+    ungroup() %>%
+    # reshape to wide
+    pivot_wider(
+      names_from = siec,
+      values_from = values
+    ) %>%
+    # aggregate
+    mutate(
+      # Coal, manufactured gases, peat and peat products
+      CPS = rowSums(select(., all_of(COAL_PRODS)), na.rm = TRUE),
+      # Oil, petroleum products, oil shale and oil sands
+      OS = rowSums(select(., all_of(OIL_PRODS)), na.rm = TRUE),
+      # Biofuels and renewable wastes
+      RW = rowSums(select(., all_of(BIO_PRODS)), na.rm = TRUE),
+      # Non-renewable wastes
+      NRW = rowSums(select(., all_of(OTH_PRODS)), na.rm = TRUE),
+      # Wind, solar, geothermal, etc.
+      MR = rowSums(select(., all_of(OTH_REN)), na.rm = TRUE)
+    ) %>%
+    # keep only relevant columns
+    select(-all_of(c(COAL_PRODS, OIL_PRODS, BIO_PRODS, OTH_PRODS, OTH_REN))) %>%
+    # rename to explicit names
+    rename(
+      "Coal" = "CPS",
+      "Oil" = "OS",
+      "Gas" = "G3000",
+      "Biofuels and renewable wastes" = "RW",
+      "Non-renewable wastes" = "NRW",
+      "Nuclear" = "N900H",
+      "Hydro" = "RA100",
+      "Wind, solar, geothermal, etc." = "MR",
+      "Heat" = "H8000",
+      "Electricity" = "E7000"
+    ) %>%
+    # reshape to long
+    pivot_longer(
+      cols = -c(geo, time),
+      names_to = "product",
+      values_to = "energy_consumption"
+    ) %>%
+    filter(energy_consumption > 0) %>%
+    mutate(product = factor(product, level = IDA_FINAL_PROD)) %>%
+    group_by(geo, time) %>%
+    mutate(share_energy_consumption = energy_consumption / sum(energy_consumption)) %>%
+    ungroup()
+}
+
+prepare_industry_energy_consumption_by_sector <- function(
+    nrg_bal_c,
+    first_year,
+    last_year) {
+  prepare_industry_energy_consumption(
     nrg_bal_c,
     first_year = first_year,
     last_year = last_year) %>%
@@ -30,20 +96,142 @@ prepare_energy_consumption <- function(
     )
 }
 
-prepare_activity <- function(
+prepare_industry_energy_consumption <- function(
+    nrg_bal_c,
+    first_year,
+    last_year) {
+  nrg_bal_c %>%
+    filter(
+      # from first year
+      time >= first_year,
+      # to last year
+      time <= last_year,
+      # take industry end uses
+      nrg_bal %in% NRG_IND_SECTORS,
+      # work with total energy consumption, in TJ
+      siec %in% c(NRG_PRODS, "TOTAL"),
+      unit == "TJ"
+    ) %>%
+    select(-c(unit)) %>%
+    # reshape to wide
+    pivot_wider(
+      names_from = nrg_bal,
+      values_from = values
+    ) %>%
+    replace(is.na(.), 0) %>%
+    # aggregate
+    mutate(
+      # basic metals
+      FC_MBM = rowSums(select(., all_of(BASIC_METALS)), na.rm = TRUE),
+      # mining and quarrying
+      FC_MQ = rowSums(select(., all_of(MINING_QUARRYING)), na.rm = TRUE),
+      # other manufacturing
+      FC_NSP = rowSums(select(., all_of(OTHER_MANUFACTURING)), na.rm = TRUE)
+    ) %>%
+    # keep only relevant columns
+    select(-all_of(c(BASIC_METALS, MINING_QUARRYING, OTHER_MANUFACTURING))) %>%
+    # rename to explicit names
+    rename(
+      "Construction" = "FC_IND_CON_E",
+      "Mining and quarrying" = "FC_MQ",
+      # "Food, beverages and tobacco" = "FC_IND_FBT_E",
+      "Food, bev. and tobacco" = "FC_IND_FBT_E",
+      "Textile and leather" = "FC_IND_TL_E",
+      "Wood and wood products" = "FC_IND_WP_E",
+      "Paper, pulp and printing" = "FC_IND_PPP_E",
+      # "Coke and refined petroleum products" = "NRG_PR_E",
+      "Coke and ref. pet. products" = "NRG_PR_E",
+      # "Chemical and petrochemical" = "FC_IND_CPC_E",
+      "Chemical and petrochem." = "FC_IND_CPC_E",
+      "Non-metallic minerals" = "FC_IND_NMM_E",
+      "Basic metals" = "FC_MBM",
+      "Machinery" = "FC_IND_MAC_E",
+      "Transport equipment" = "FC_IND_TE_E",
+      "Other manufacturing" = "FC_NSP"
+    )
+}
+
+prepare_industry_GVA_by_sector <- function(
     nama_10_a64,
     first_year,
     last_year) {
-  industry_GVA <- prepare_industry_GVA(
-    nama_10_a64,
-    first_year = first_year,
-    last_year = last_year
-  )
+  industry_GVA <- nama_10_a64 %>%
+    filter(
+      # from first year
+      time >= first_year,
+      # to last year
+      time <= last_year,
+      # take industry sub sectors
+      nace_r2 %in% GVA_IND_SECTORS,
+      # Gross Value Added in Chain linked volumes (2015), million euro
+      na_item == "B1G",
+      unit == "CLV15_MEUR"
+    ) %>%
+    select(c("geo", "time", "nace_r2", "values")) %>%
+    # reshape to wide
+    pivot_wider(
+      names_from = nace_r2,
+      values_from = values
+    ) %>%
+    # aggregate
+    mutate(
+      # Paper
+      "C17-C18" = rowSums(select(., c("C17", "C18")), na.rm = TRUE),
+      # Chem and petchem
+      "C20-C21" = rowSums(select(., c("C20", "C21")), na.rm = TRUE),
+      # Non-metallic minerals
+      "C22-C23" = rowSums(select(., c("C22", "C23")), na.rm = TRUE),
+      # Machinery
+      "C25-C28" = rowSums(select(., c("C25", "C26", "C27", "C28")), na.rm = TRUE),
+      # Transport equipment
+      "C29-C30" = rowSums(select(., c("C29", "C30")), na.rm = TRUE)
+    ) %>%
+    # keep only relevant columns
+    select(-c(C17, C18, C20, C21, C22, C23, C25, C26, C27, C28, C29, C30)) %>%
+    # Rename to explicit names
+    rename(
+      "Construction" = "F",
+      "Mining and quarrying" = "B",
+      # "Food, beverages and tobacco" = "C10-C12",
+      "Food, bev. and tobacco" = "C10-C12",
+      "Textile and leather" = "C13-C15",
+      "Wood and wood products" = "C16",
+      "Paper, pulp and printing" = "C17-C18",
+      # "Coke and refined petroleum products" = "C19",
+      "Coke and ref. pet. products" = "C19",
+      # "Chemical and petrochemical" = "C20-C21",
+      "Chemical and petrochem." = "C20-C21",
+      "Non-metallic minerals" = "C22-C23",
+      "Basic metals" = "C24",
+      "Machinery" = "C25-C28",
+      "Transport equipment" = "C29-C30",
+      "Other manufacturing" = "C31_C32"
+    ) %>%
+    # Reshape to long
+    pivot_longer(
+      cols = -c(geo, time),
+      names_to = "sector",
+      values_to = "GVA"
+    )
+  
   #apply_gva_corrections() %>%
   reverse_negative_gva(industry_GVA)
 }
 
-prepare_decomposition <- function(
+reverse_negative_gva <- function(df) {
+  my_warnings = c()
+  for (i in 1:nrow(df)) {
+    if (!is.na(df$GVA[i]) && df$GVA[i] < 0) {
+      df$GVA[i] <- -df$GVA[i]
+      warning_message <- paste("Country:", df$geo[i], ", Sector:", df$sector[i], ", Year:", df$time[i], " - ", "negative GVA reversed")
+      my_warnings <- c(my_warnings, warning_message)
+      flog.warn(warning_message)
+    }
+  }
+  list(df = df, notifications = my_warnings)
+}
+
+prepare_industry_GVA_decomposition <- function(
     industry_GVA,
     industry_energy_final,
     first_year,
@@ -55,10 +243,10 @@ prepare_decomposition <- function(
     industry_energy_final,
     by = c("geo", "time", "sector")
   ) %>%
-    join_energy_consumption_activity()
+    join_industry_energy_consumption_gva()
   
   # filter out sectors with incomplete data
-  industry_GVA_final_filtered <- filter_energy_consumption_activity(
+  industry_GVA_final_filtered <- filter_industry_GVA(
     industry_GVA_final_complete,
     first_year = first_year,
     last_year = last_year
@@ -67,19 +255,19 @@ prepare_decomposition <- function(
   # Effects calculation
   
   # calculate the required indicators for the 3 effects
-  industry_GVA_final_augmented <- add_share_sectors(industry_GVA_final_filtered$df)
-  industry_GVA_final_total <- add_total_sectors(industry_GVA_final_augmented)
+  industry_GVA_final_augmented <- add_share_industry_sectors(industry_GVA_final_filtered$df)
+  industry_GVA_final_total <- add_total_industry_sectors(industry_GVA_final_augmented)
   
   # Calculate the indexed and indexed indicators
   industry_GVA_final_full <- industry_GVA_final_augmented %>%
     rbind(industry_GVA_final_total) %>%
-    add_index_delta(first_year = first_year)
+    add_index_delta_industry_sectors(first_year = first_year)
 
   list(df = industry_GVA_final_full, notifications = industry_GVA_final_filtered$notifications)
   
 }
 
-join_energy_consumption_activity <- function(df) {
+join_industry_energy_consumption_gva <- function(df) {
   df %>%
     # correcting for missing GVA / Energy
     mutate(
@@ -114,7 +302,49 @@ join_energy_consumption_activity <- function(df) {
     )
 }
 
-add_share_sectors <- function(df) {
+filter_industry_GVA <- function(
+    df,
+    first_year,
+    last_year) {
+  unique_countries <- unique(df$geo)
+  unique_sectors <- unique(df$sector)
+  my_warnings = c()
+  for (country in unique_countries) {
+    for (sector in unique_sectors) {
+      subset_df <- df[
+        df$geo == country &
+          df$sector == sector &
+          df$time <= last_year &
+          df$time >= first_year,
+      ]
+      # For this decomposition, remove where any data is missing
+      if (any(is.na(subset_df$GVA) | subset_df$GVA == 0)) {
+        missing_years <- subset_df$time[is.na(subset_df$GVA) | subset_df$GVA == 0]
+        df <- df[!(df$geo == country & df$sector == sector), ]
+        warning_message <- paste(
+          "Country:", country, ", Sector:", sector,
+          "- removed (missing GVA in years:",
+          paste(missing_years, collapse = ", "), ")"
+        )
+        my_warnings <- c(my_warnings, warning_message)
+        flog.warn(warning_message)
+      } else if (any((is.na(subset_df$energy_consumption) | subset_df$energy_consumption == 0) & (!is.na(subset_df$GVA) & subset_df$GVA != 0))) {
+        missing_years <- subset_df$time[is.na(subset_df$energy_consumption) | subset_df$energy_consumption == 0]
+        df <- df[!(df$geo == country & df$sector == sector), ]
+        warning_message <- paste(
+          "Country:", country, ", Sector:", sector,
+          "- removed (missing energy consumption in years:",
+          paste(missing_years, collapse = ", "), ")"
+        )
+        my_warnings <- c(my_warnings, warning_message)
+        flog.warn(warning_message)
+      }
+    }
+  }
+  list(df = df, notifications = my_warnings)
+}
+
+add_share_industry_sectors <- function(df) {
   df %>%
     # For each country and each year
     group_by(geo, time) %>%
@@ -139,18 +369,7 @@ add_share_sectors <- function(df) {
     ungroup()
 }
 
-filter_energy_consumption_activity <- function(
-    df,
-    first_year,
-    last_year) {
-  filter_industry_GVA(
-    df,
-    first_year = first_year,
-    last_year = last_year
-  )
-}
-
-add_total_sectors <- function(df) {
+add_total_industry_sectors <- function(df) {
   df %>%
     group_by(geo, time) %>%
     summarize(
@@ -164,7 +383,7 @@ add_total_sectors <- function(df) {
     mutate(sector = "Total")
 }
 
-add_index_delta <- function(
+add_index_delta_industry_sectors <- function(
     df,
     first_year) {
   df %>%
@@ -194,7 +413,7 @@ add_index_delta <- function(
     ungroup()
 }
 
-apply_LMDI <- function(
+apply_LMDI_industry_gva <- function(
     df,
     first_year) {
   if (nrow(df) == 0) {
@@ -238,7 +457,7 @@ apply_LMDI <- function(
     group_by(geo) %>%
     mutate(
       value_energy_consumption_total_baseline = value_energy_consumption[sector == "Total" & time == base_year]
-    ) %>%
+      ) %>%
     ungroup() %>%
     # Similarly, the figures calculated for the total sector and the end figures need to be expanded across all subsectors
     group_by(geo, time) %>%
@@ -271,13 +490,14 @@ apply_LMDI <- function(
     # The aggregation is performed differently:
     summarize(
       # Either by summing all subsectors
-      activity_effect = sum(ACT), # na.rm = TRUE),
-      structural_effect = sum(STR), # na.rm = TRUE),
-      intensity_effect = sum(INT), # na.rm = TRUE),
+      activity_effect = sum(ACT, na.rm = TRUE),
+      structural_effect = sum(STR, na.rm = TRUE),
+      intensity_effect = sum(INT, na.rm = TRUE),
       # By keeping the mean figure when only one exist across all subsectors
       energy_consumption_var_obs = mean(value_delta_energy_consumption_total),
       value_energy_consumption_total_baseline = mean(value_energy_consumption_total_baseline),
-      value_energy_consumption_total_end = mean(value_energy_consumption_total_end)
+      value_energy_consumption_total_end = mean(value_energy_consumption_total_end),
+      .groups = "drop_last"
     ) %>%
     ungroup() %>%
     # For checking purposes, recalculate the total energy consumption calculated as the sum of the effects
@@ -292,7 +512,6 @@ apply_LMDI <- function(
               "intensity_effect"
             )
           ),
-          # na.rm = TRUE
         )
     )
 }

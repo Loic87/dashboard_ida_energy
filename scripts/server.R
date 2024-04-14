@@ -1,7 +1,6 @@
 library(plotly)
 
 source("1_industry/1a_industry_gva_final.R")
-source("0_support/shared_functions.R")
 source("0_support/data_load.R")
 
 warning_duration = 5
@@ -17,7 +16,7 @@ server <- function(input, output) {
   
   # Energy consumption by fuel
   industry_energy_consumption_by_product <- reactive({
-    prepare_energy_product_breakdown(
+    prepare_industry_energy_consumption_by_product(
       nrg_bal_c = nrg_bal_c(),
       first_year = first_year(),
       last_year = last_year()
@@ -26,7 +25,7 @@ server <- function(input, output) {
   
   # energy consumption (and supply) from the energy balance (nrg_bal_c)
   industry_energy_consumption_by_sector <- reactive({
-    prepare_energy_consumption(
+    prepare_industry_energy_consumption_by_sector(
       nrg_bal_c = nrg_bal_c(),
       first_year = first_year(),
       last_year = last_year()
@@ -35,7 +34,7 @@ server <- function(input, output) {
   
   # economic activity from the national account data (nama_10_a64)
   industry_GVA_by_sector <- reactive({
-    prepare_activity(
+    prepare_industry_GVA_by_sector(
       nama_10_a64 = nama_10_a64(),
       first_year = first_year(),
       last_year = last_year()
@@ -52,7 +51,7 @@ server <- function(input, output) {
   })
   
   industry_GVA_final_full <- reactive({
-    prepare_decomposition(
+    prepare_industry_GVA_decomposition(
       industry_GVA_by_sector()$df,
       industry_energy_consumption_by_sector(),
       first_year = first_year(),
@@ -70,7 +69,7 @@ server <- function(input, output) {
   })
   
   industry_GVA_final_LMDI <- reactive({
-    apply_LMDI(
+    apply_LMDI_industry_gva(
       industry_GVA_final_full()$df,
       first_year = first_year()
     )

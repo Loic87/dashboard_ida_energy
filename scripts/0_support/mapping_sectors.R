@@ -1,29 +1,41 @@
 # list of end uses sectors, used for the industry subset the energy balance (nrg_bal_c)
-NRG_IND_SECTORS <- c(
-  "NRG_CM_E",
-  "NRG_OIL_NG_E",
-  "NRG_PR_E",
+BASIC_METALS <- c(
+  "FC_IND_IS_E",
   "NRG_CO_E",
   "NRG_BF_E",
-  "FC_IND_CON_E",
-  "FC_IND_CPC_E",
-  "FC_IND_FBT_E",
-  "FC_IND_IS_E",
-  "FC_IND_MAC_E",
+  "FC_IND_NFM_E"
+)
+
+MINING_QUARRYING <- c(
   "FC_IND_MQ_E",
-  "FC_IND_NFM_E",
-  "FC_IND_NMM_E",
-  "FC_IND_NSP_E",
-  "FC_IND_PPP_E",
-  "FC_IND_TE_E",
-  "FC_IND_TL_E",
-  "FC_IND_WP_E",
+  "NRG_CM_E",
+  "NRG_OIL_NG_E"
+)
+
+OTHER_MANUFACTURING <- c(
   "NRG_PF_E",
   "NRG_BKBPB_E",
   "NRG_CL_E",
   "NRG_GTL_E",
   "NRG_CPP_E",
-  "NRG_NSP_E"
+  "NRG_NSP_E",
+  "FC_IND_NSP_E"
+)
+
+NRG_IND_SECTORS <- c(
+  BASIC_METALS,
+  MINING_QUARRYING,
+  OTHER_MANUFACTURING,
+  "NRG_PR_E",
+  "FC_IND_CON_E",
+  "FC_IND_CPC_E",
+  "FC_IND_FBT_E",
+  "FC_IND_MAC_E",
+  "FC_IND_NMM_E",
+  "FC_IND_PPP_E",
+  "FC_IND_TE_E",
+  "FC_IND_TL_E",
+  "FC_IND_WP_E"
 )
 
 # list of end uses sectors, used for the industry subset of the economic data (nama_10_a64)

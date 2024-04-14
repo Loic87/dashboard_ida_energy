@@ -10,225 +10,27 @@ setwd(file.path(script_directory))
 source("0_support/mapping_sectors.R")
 source("0_support/mapping_products.R")
 source("0_support/mapping_colors.R")
-source("0_support/share_functions.R")
 
-# Data preparation
-transport_final <- function(
-    first_year,
-    last_year,
-    country,
-    data_path,
-    chart_path) {
-  flog.info("Prepare the data for final energy consumption in transport (traffic based) decomposition (all countries)")
-  # Define the list as the whole list
-  country_list <- geo_codes
-
-  # DATA PREPARATION
-
-  # Energy consumption by fuel
-  transport_energy_breakdown <- prepare_energy_product_breakdown(
-    nrg_bal_c,
-    first_year = first_year,
-    last_year = last_year,
-    country_list = country_list
-  )
-
-  # energy consumption (and supply) from the energy balance (nrg_bal_c)
-  transport_energy <- prepare_energy_consumption(
-    nrg_bal_c,
-    first_year = first_year,
-    last_year = last_year,
-    country_list = country_list
-  )
-
-  # prepare and gather traffic data
-  traffic <- prepare_activity(
-    road_tf_vehmov,
-    rail_tf_trainmv,
-    iww_tf_vetf,
-    first_year = first_year,
-    last_year = last_year,
-    country_list = country_list
-  )
-
-  transport_complete <- full_join(
-    transport_energy,
-    traffic,
-    by = c("geo", "time", "mode")
-  ) %>%
-    join_energy_consumption_activity()
-
-  # filter out sectors with incomplete data
-  transport_filtered <- filter_energy_consumption_activity(
-    transport_complete,
-    first_year = first_year,
-    last_year = last_year
-  )
-
-  # Effects calculation
-
-  # calculate the required indicators for the 3 effects
-  transport_augmented <- add_share_sectors(transport_filtered)
-  transport_total <- add_total_sectors(transport_augmented)
-
-  # calculate the indexed and differenced indicators
-  transport_full <- transport_augmented %>%
-    rbind(transport_total) %>%
-    add_index_delta()
-
-  # Calculate the effects using the LMDI formulas
-  transport_LMDI <- apply_LMDI(transport_full)
-
-  ### CHARTS ###
-
-  if (country == "all") {
-    countries <- geo_codes
-  } else {
-    countries <- country
-  }
-
-  for (country_chart in countries) {
-    # Long name for the country
-    country_name <- ifelse(country_chart == "EU27", "EU27", filter(eu27, code == country_chart)$name)
-    # Output charts
-    output_path <- paste0(chart_path, "/", country_chart, "/")
-    # first and last year shown in charts
-    first_year_chart <- transport_base_year(country = country_chart, first_year = first_year)
-    last_year_chart <- transport_last_year(country = country_chart, final_year = last_year)
-
-    flog.info(paste("Prepare the charts and data for", country_name, "(", first_year_chart, "-", last_year_chart, ")"))
-    flog.info(paste("Saved in", output_path))
-
-    tryCatch(
-      {
-        generate_energy_breakdown_charts(
-          transport_energy_breakdown,
-          country_chart = country_chart,
-          country_name = country_name,
-          first_year = first_year,
-          last_year = last_year,
-          output_path = output_path
-        )
-      },
-      error = function(e) {
-        flog.error("Error preparing energy beakdown charts: ", e)
-      }
-    )
-
-    tryCatch(
-      {
-        generate_country_charts(
-          transport_complete,
-          country_chart = country_chart,
-          country_name = country_name,
-          first_year = first_year,
-          last_year = last_year,
-          output_path = output_path
-        )
-      },
-      error = function(e) {
-        flog.error("Error preparing country charts: ", e)
-      }
-    )
-
-    # Skip countries without data
-    if (country_chart %in% transport_skipped_countries) {
-      flog.warn(paste("Country: ", country_chart, "is excluded from the transport decomposition"))
-      next
-    }
-
-    tryCatch(
-      {
-        generate_subsectors_charts(
-          transport_full,
-          country_name = country_name,
-          country_chart = country_chart,
-          first_year_chart = first_year_chart,
-          last_year_chart = last_year_chart,
-          output_path = output_path
-        )
-      },
-      error = function(e) {
-        flog.error("Error preparing subsector charts: ", e)
-      }
-    )
-
-    tryCatch(
-      {
-        # Simple effect decomposition
-        generate_final_effects_charts(
-          transport_LMDI,
-          country_chart = country_chart,
-          country_name = country_name,
-          first_year = first_year,
-          last_year = last_year,
-          first_year_chart = first_year_chart,
-          last_year_chart = last_year_chart,
-          output_path = output_path
-        )
-      },
-      error = function(e) {
-        flog.error("Error preparing final effects charts: ", e)
-      }
-    )
-
-    if (country_chart == "EU27") {
-      output_path <- paste0(chart_path, "/EU27/")
-      flog.info(paste("Additional charts and data for EU27 (", first_year_chart, "-", last_year_chart, ")"))
-
-      tryCatch(
-        {
-          generate_coverage_chart(
-            transport_complete,
-            last_year_chart = last_year_chart,
-            output_path = output_path
-          )
-        },
-        error = function(e) {
-          flog.error("Error preparing coverage charts: ", e)
-        }
-      )
-
-      tryCatch(
-        {
-          generate_eu_comparison_chart(
-            transport_full,
-            first_year_chart = first_year_chart,
-            last_year_chart = last_year_chart,
-            output_path = output_path
-          )
-        },
-        error = function(e) {
-          flog.error("Error preparing eu comparison charts: ", e)
-        }
-      )
-    }
-  }
-}
-
-prepare_energy_product_breakdown <- function(
+prepare_transport_energy_consumption_by_product <- function(
     nrg_bal_c,
     first_year,
-    last_year,
-    country_list) {
+    last_year) {
   nrg_bal_c %>%
     filter(
-      geo %in% country_list,
       # from first year
       time >= first_year,
       # to last year
       time <= last_year,
-      # take industry end uses
-      nrg_bal %in% NRG_TRA,
       # work with total energy consumption, in TJ
       siec %in% TRA_PRODS,
+      # take industry end uses
+      nrg_bal %in% NRG_TRA,
       unit == "TJ"
     ) %>%
     group_by(geo, time, siec) %>%
     summarise(
       values = sum(values, na.rm = TRUE),
-      .groups = "drop_last"
-      ) %>%
+      .groups = "drop_last") %>%
     ungroup() %>%
     # reshape to wide
     pivot_wider(
@@ -261,62 +63,7 @@ prepare_energy_product_breakdown <- function(
       OTH = rowSums(select(., all_of(OTH_BIOWASTE_PRODS)), na.rm = TRUE)
     ) %>%
     # keep only relevant columns
-    select(
-      -c(
-        C0110,
-        C0121,
-        C0129,
-        C0210,
-        C0220,
-        C0311,
-        C0312,
-        C0320,
-        C0330,
-        C0340,
-        C0350,
-        C0360,
-        C0371,
-        C0379,
-        P1100,
-        P1200,
-        O4100_TOT,
-        O4200,
-        O4300,
-        O4400X4410,
-        O4500,
-        O4610,
-        O4620,
-        O4630,
-        O4640,
-        O4651,
-        O4652XR5210B,
-        O4669,
-        O4671XR5220B,
-        O4653,
-        O4661XR5230B,
-        O4680,
-        O4691,
-        O4692,
-        O4693,
-        O4694,
-        O4695,
-        O4699,
-        S2000,
-        .data[["R5110-5150_W6000RI"]],
-        R5160,
-        R5210P,
-        R5210B,
-        R5220P,
-        R5220B,
-        R5230P,
-        R5230B,
-        R5290,
-        R5300,
-        W6210,
-        W6100,
-        W6220
-      )
-    ) %>%
+    select(-all_of(c(CPS, GASOLINE, BIOGASOLINE, DIESEL, BIODIESEL, LPG, KEROSENE, OTHER_OIL, OTHER_BIOLIQUIDS, BIOGAS, OTH))) %>%
     # rename to explicit names
     rename(
       "Coal" = "CPS",
@@ -339,20 +86,19 @@ prepare_energy_product_breakdown <- function(
       names_to = "product",
       values_to = "energy_consumption"
     ) %>%
+    filter(energy_consumption > 0) %>%
     mutate(product = factor(product, level = IDA_TRA_PROD)) %>%
     group_by(geo, time) %>%
     mutate(share_energy_consumption = energy_consumption / sum(energy_consumption)) %>%
     ungroup()
 }
 
-prepare_energy_consumption <- function(
+prepare_transport_energy_consumption_by_mode <- function(
     nrg_bal_c,
     first_year,
-    last_year,
-    country_list) {
+    last_year) {
   nrg_bal_c %>%
     filter(
-      geo %in% country_list,
       # from first year
       time >= first_year,
       # to last year
@@ -385,20 +131,17 @@ prepare_energy_consumption <- function(
     )
 }
 
-prepare_activity <- function(
+prepare_transport_vkm <- function(
     road_tf_vehmov,
     rail_tf_trainmv,
     iww_tf_vetf,
     first_year,
-    last_year,
-    country_list) {
+    last_year) {
   # prepare road traffic data
-
+  
   # subset the road traffic data from road_tf_vehmov to keep only total vehicle transport in VKM, for EU28 countries from 2010.
   traffic_road <- road_tf_vehmov %>%
     filter(
-      # take only EU countries
-      geo %in% country_list,
       # from first year
       time >= first_year,
       # to last year
@@ -420,17 +163,13 @@ prepare_activity <- function(
       mode = "Road"
     ) %>%
     # keep only relevant columns
-    select(-c(unit, vehicle, values)) %>%
-    # correction
-    apply_vkm_corrections()
+    select(-c(unit, vehicle, values))
 
   # prepare rail traffic data}
-
+  
   # subset the rail traffic data from rail_tf_trainmv to keep only total vehicle transport in VKM, for EU28 countries from 2010.
   traffic_rail <- rail_tf_trainmv %>%
     filter(
-      # take only EU countries
-      geo %in% country_list,
       # from first year
       time >= first_year,
       # to last year
@@ -446,14 +185,12 @@ prepare_activity <- function(
     ) %>%
     # keep only relevant columns
     select(-c(unit, train, values))
-
+  
   # prepare vessel traffic data}
-
+  
   # subset the vessel traffic data from iww_tf_vetf to keep only national transport in VKM, for EU28 countries from 2010.
   traffic_water <- iww_tf_vetf %>%
     filter(
-      # take only EU countries
-      geo %in% country_list,
       # from first year
       time >= first_year,
       # to last year
@@ -470,16 +207,51 @@ prepare_activity <- function(
     ) %>%
     # keep only relevant columns
     select(-c(unit, tra_cov, loadstat, values))
-
+  
   # joining datasets
   traffic <- traffic_road %>%
     bind_rows(traffic_rail) %>%
     bind_rows(traffic_water)
-
+  
   traffic
 }
 
-join_energy_consumption_activity <- function(df) {
+prepare_transport_vkm_decomposition <- function(
+    traffic,
+    transport_energy,
+    first_year,
+    last_year
+){
+  # Joining datasets
+  transport_complete <- full_join(
+    transport_energy,
+    traffic,
+    by = c("geo", "time", "mode")
+  ) %>%
+    join_transport_energy_consumption_vkm()
+  
+  # filter out sectors with incomplete data
+  transport_filtered <- filter_energy_consumption_activity(
+    transport_complete,
+    first_year = first_year,
+    last_year = last_year
+  )
+  
+  # Effects calculation
+  
+  # calculate the required indicators for the 3 effects
+  transport_augmented <- add_share_transport_modes(transport_filtered$df)
+  transport_total <- add_total_transport_modes(transport_augmented)
+  
+  # calculate the indexed and differenced indicators
+  transport_full <- transport_augmented %>%
+    rbind(transport_total) %>%
+    add_index_delta()
+  
+  list(df = transport_full, notifications = transport_filtered$notifications)
+}
+
+join_transport_energy_consumption_vkm <- function(df) {
   df %>%
     # correcting for missing VKM / Energy
     mutate(
@@ -505,8 +277,8 @@ join_energy_consumption_activity <- function(df) {
       total_energy_consumption = sum(energy_consumption, na.rm = TRUE),
       total_VKM = sum(VKM, na.rm = TRUE)
     ) %>%
-    ungroup() %>%
     # for each country, each year and each mode
+    ungroup() %>%
     mutate(
       # calculate the share of the subsecto in the overall energy consumption and in the overall traffic
       share_energy_consumption = energy_consumption / total_energy_consumption,
@@ -514,51 +286,49 @@ join_energy_consumption_activity <- function(df) {
     )
 }
 
-filter_energy_consumption_activity <- function(
+filter_transport_vkm <- function(
     df,
     first_year,
     last_year) {
   unique_countries <- unique(df$geo)
   unique_mode <- unique(df$mode)
-
+  my_warnings = c()
   for (country in unique_countries) {
-    first_year_shown <- transport_base_year(country = country, first_year = first_year)
-    last_year_shown <- transport_last_year(country = country, final_year = last_year)
     for (mode in unique_mode) {
       subset_df <- df[
         df$geo == country &
           df$mode == mode &
-          df$time <= last_year_shown &
-          df$time >= first_year_shown,
+          df$time <= last_year&
+          df$time >= first_year,
       ]
       # For this decomposition, due to the many gaps, we only remove mode where first or last year are missing
       if (any((is.na(subset_df$VKM) | subset_df$VKM == 0) & (subset_df$time %in% c(last_year_shown, first_year_shown)))) {
         missing_years <- subset_df$time[is.na(subset_df$VKM) | subset_df$VKM == 0]
         df <- df[!(df$geo == country & df$mode == mode), ]
-        flog.warn(
-          paste(
-            "Country:", country, ", Mode:", mode,
-            "- removed (missing VKM in years:",
-            paste(missing_years, collapse = ", "), ")"
-          )
+        warning_message <- paste(
+          "Country:", country, ", Mode:", mode,
+          "- removed (missing VKM in years:",
+          paste(missing_years, collapse = ", "), ")"
         )
+        my_warnings <- c(my_warnings, warning_message)
+        flog.warn(warning_message)
       } else if (any((is.na(subset_df$energy_consumption) | subset_df$energy_consumption == 0) & (!is.na(subset_df$VKM) & subset_df$VKM != 0) & (subset_df$time %in% c(last_year_shown, first_year_shown)))) {
         missing_years <- subset_df$time[is.na(subset_df$energy_consumption) | subset_df$energy_consumption == 0]
         df <- df[!(df$geo == country & df$mode == mode), ]
-        message(
-          paste(
-            "Country:", country, ", Mode:", mode,
-            "- removed (missing energy consumption in years:",
-            paste(missing_years, collapse = ", "), ")"
-          )
+        warning_message <- paste(
+          "Country:", country, ", Mode:", mode,
+          "- removed (missing energy consumption in years:",
+          paste(missing_years, collapse = ", "), ")"
         )
+        my_warnings <- c(my_warnings, warning_message)
+        flog.warn(warning_message)
       }
     }
   }
-  return(df)
+  list(df = df, notifications = my_warnings)
 }
 
-add_share_sectors <- function(df) {
+add_share_transport_modes <- function(df) {
   df %>%
     # For each country and each year
     group_by(geo, time) %>%
@@ -583,7 +353,7 @@ add_share_sectors <- function(df) {
     ungroup()
 }
 
-add_total_sectors <- function(df) {
+add_total_transport_modes <- function(df) {
   df %>%
     group_by(geo, time) %>%
     summarize(
@@ -598,7 +368,7 @@ add_total_sectors <- function(df) {
     mutate(mode = "Total")
 }
 
-add_index_delta <- function(df) {
+add_index_delta_transport_modes <- function(df) {
   df %>%
     # calculate intensity again, to include the total intensity
     mutate(intensity = case_when(
@@ -620,7 +390,12 @@ add_index_delta <- function(df) {
     ungroup()
 }
 
-apply_LMDI <- function(df) {
+apply_LMDI_transport_vkm <- function(
+    df,
+    first_year) {
+  if (nrow(df) == 0) {
+    stop("No data available for LMDI calculation.")
+  }
   df %>%
     # Reshape to wide (moving all measures calculated in Value, index and delta, all in separate columns)
     pivot_wider(
@@ -654,11 +429,12 @@ apply_LMDI <- function(df) {
     ) %>%
     # The baseline figures need to be expanded across all mode, and across all years
     rowwise() %>%
-    mutate(base_year = transport_base_year(country = .data[["geo"]], first_year = first_year)) %>%
+    mutate(base_year = first_year) %>%
     ungroup() %>%
     group_by(geo) %>%
-    mutate(value_energy_consumption_total_baseline = value_energy_consumption[mode == "Total" &
-      time == base_year]) %>%
+    mutate(
+      value_energy_consumption_total_baseline = value_energy_consumption[mode == "Total" & time == base_year]
+      ) %>%
     ungroup() %>%
     # Similarly, the figures calculated for the total mode and the end figures need to be expanded across all modes
     group_by(geo, time) %>%
@@ -713,10 +489,11 @@ apply_LMDI <- function(df) {
               "intensity_effect"
             )
           ),
-          # na.rm = TRUE
         )
     )
 }
+
+### Charts
 
 generate_country_charts <- function(
     transport_complete,
