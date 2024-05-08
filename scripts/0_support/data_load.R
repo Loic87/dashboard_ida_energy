@@ -9,9 +9,16 @@ load_data <- function(
     dataset_id,
     country
 ){
-  read_feather(
-    paste0("../data/", dataset_id, "_", get_country_code(country), ".feather")
-  )
+  file_path <- paste0("../data/", dataset_id, "_", get_country_code(country), ".feather")
+  if (file.exists(file_path)) {
+    file <- read_feather(file_path)
+  } else {
+    file <- data.frame()
+  }
+  if ("freq" %in% names(file)) {
+    file <- file[,!(names(file) %in% "freq")]
+  }
+  file
 }
 
 load_industry_energy_consumption <- function(
