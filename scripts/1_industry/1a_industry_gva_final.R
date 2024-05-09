@@ -173,7 +173,7 @@ prepare_industry_GVA_by_sector <- function(
     first_year,
     last_year) {
   if (nrow(nama_10_a64) == 0) {
-    return (data.frame())
+    list(df = data.frame(), notifications = c("No GVA data"))
   } else {
     industry_GVA <- nama_10_a64 %>%
       filter(
@@ -258,6 +258,7 @@ prepare_industry_GVA_decomposition <- function(
     first_year,
     last_year
   ){
+  
   if ((nrow(industry_GVA) > 0) && (nrow(industry_energy_final) > 0)) {
     # Joining datasets
     industry_GVA_final_complete <- full_join(

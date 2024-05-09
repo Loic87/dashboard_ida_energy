@@ -1,6 +1,7 @@
 library(plotly)
 
 source("0_support/data_load.R")
+source("0_support/mapping_years.R")
 source("1_industry/1a_industry_gva_final.R")
 source("3_transport/transport_VKM.R")
 
@@ -56,14 +57,27 @@ server <- function(input, output) {
       }
     }
   })
+  
+  industry_GVA_final_years_with_data <- reactive({
+    get_years_with_data(
+      activity_df = industry_GVA_by_sector()$df,
+      activity_col = "GVA",
+      energy_df = industry_energy_consumption_by_sector(),
+      energy_col = "energy_consumption",
+      first_year = first_year(),
+      last_year = last_year()
+    )})
+  
+  industry_GVA_final_first_year_with_data <- reactive(industry_GVA_final_years_with_data()[[1]])
+  industry_GVA_final_last_year_with_data <- reactive(industry_GVA_final_years_with_data()[[2]])
 
   ## Industry GVA decomposition
   industry_GVA_final_full <- reactive({
     prepare_industry_GVA_decomposition(
       industry_GVA_by_sector()$df,
       industry_energy_consumption_by_sector(),
-      first_year = first_year(),
-      last_year = last_year()
+      first_year = industry_GVA_final_first_year_with_data(),
+      last_year = industry_GVA_final_last_year_with_data()
     )
   })
 
@@ -81,7 +95,7 @@ server <- function(input, output) {
   industry_GVA_final_LMDI <- reactive({
     apply_LMDI_industry_gva(
       industry_GVA_final_full()$df,
-      first_year = first_year()
+      first_year = industry_GVA_final_first_year_with_data()
     )
   })
 
@@ -119,7 +133,7 @@ server <- function(input, output) {
     )
     p <- prepare_industry_indexed_chart(
       industry_GVA_final_full()$df,
-      first_year = first_year(),
+      first_year = industry_GVA_final_first_year_with_data(),
       country = country()
     )
     ggplotly(p)
@@ -132,8 +146,8 @@ server <- function(input, output) {
     )
     p <- prepare_industry_waterfall_chart(
         industry_GVA_final_LMDI(),
-        first_year = first_year(),
-        last_year = last_year(),
+        first_year = industry_GVA_final_first_year_with_data(),
+        last_year = industry_GVA_final_last_year_with_data(),
         country = country()
       )
     ggplotly(p)
@@ -146,8 +160,8 @@ server <- function(input, output) {
     )
     p <- prepare_industry_intensity_effects_chart(
       industry_GVA_final_LMDI(),
-      first_year = first_year(),
-      last_year = last_year(),
+      first_year = industry_GVA_final_first_year_with_data(),
+      last_year = industry_GVA_final_last_year_with_data(),
       country = country()
     )
     ggplotly(p)
@@ -193,14 +207,27 @@ server <- function(input, output) {
       }
     }
   })
+  
+  transport_VKM_years_with_data <- reactive({
+    get_years_with_data(
+      activity_df = transport_VKM_by_mode()$df,
+      activity_col = "VKM",
+      energy_df = transport_energy_consumption_by_mode(),
+      energy_col = "energy_consumption",
+      first_year = first_year(),
+      last_year = last_year()
+    )})
+  
+  transport_VKM_first_year_with_data <- reactive(transport_VKM_years_with_data()[[1]])
+  transport_VKM_last_year_with_data <- reactive(transport_VKM_years_with_data()[[2]])
 
   ## Transport VKM decomposition
   transport_VKM_full <- reactive({
     prepare_transport_vkm_decomposition(
-      transport_VKM_by_mode(),
+      transport_VKM_by_mode()$df,
       transport_energy_consumption_by_mode(),
-      first_year = first_year(),
-      last_year = last_year()
+      first_year = transport_VKM_first_year_with_data(),
+      last_year = transport_VKM_last_year_with_data()
     )
   })
 
@@ -218,7 +245,7 @@ server <- function(input, output) {
   transport_VKM_LMDI <- reactive({
     apply_LMDI_transport_vkm(
       transport_VKM_full()$df,
-      first_year = first_year()
+      first_year = transport_VKM_first_year_with_data()
     )
   })
 
@@ -243,7 +270,7 @@ server <- function(input, output) {
   ## Plot VKM by sector
   output$transport_VKM_by_mode_plot <- renderPlotly({
     p <- prepare_transport_VKM_by_mode_charts(
-      transport_VKM_by_mode(),
+      transport_VKM_by_mode()$df,
       country()
     )
     ggplotly(p)
@@ -256,7 +283,7 @@ server <- function(input, output) {
     )
     p <- prepare_transport_indexed_chart(
       transport_VKM_full()$df,
-      first_year = first_year(),
+      first_year = transport_VKM_first_year_with_data(),
       country = country()
     )
     ggplotly(p)
@@ -269,8 +296,8 @@ server <- function(input, output) {
     )
     p <- prepare_transport_waterfall_chart(
       transport_VKM_LMDI(),
-      first_year = first_year(),
-      last_year = last_year(),
+      first_year = transport_VKM_first_year_with_data(),
+      last_year = transport_VKM_last_year_with_data(),
       country = country()
     )
     ggplotly(p)
@@ -283,8 +310,8 @@ server <- function(input, output) {
     )
     p <- prepare_industry_intensity_effects_chart(
       transport_VKM_LMDI(),
-      first_year = first_year(),
-      last_year = last_year(),
+      first_year = transport_VKM_first_year_with_data(),
+      last_year = transport_VKM_last_year_with_data(),
       country = country()
     )
     ggplotly(p)

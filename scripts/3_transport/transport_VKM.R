@@ -236,7 +236,7 @@ prepare_transport_vkm <- function(
     bind_rows(traffic_rail) %>%
     bind_rows(traffic_water)
   
-  traffic
+  list(df = traffic, notifications = c())
 }
 
 prepare_transport_vkm_decomposition <- function(
