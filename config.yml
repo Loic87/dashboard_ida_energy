@@ -3,7 +3,7 @@ country: all # country to show in charts (write "all" to run all countries + EU2
 # Years selection
 year:
   first: 2011 # earliest year covered
-  last: 2021 # latest year covered
+  last: 2023 # latest year covered (updated Nov 2025 - Eurostat has data through 2023)
 
 # Actions to do
 actions:
