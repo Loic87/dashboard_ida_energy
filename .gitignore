@@ -9,6 +9,13 @@
 # User-specific files
 .Ruserdata
 
+# macOS files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+
 # Example code in package build process
 *-Ex.R
 
@@ -39,8 +46,8 @@ vignettes/*.pdf
 # R Environment Variables
 .Renviron
 
-# pkgdown site
-docs/
+# pkgdown site (but keep our docs/ directory for documentation)
+# docs/
 
 # translation temp files
 po/*~
@@ -61,14 +68,14 @@ renv/staging/
 # !renv/activate.R
 # !renv/settings.json
 
-# Project exlusions
+# Project exclusions
 /data/*
 /output/*
 *.Rda
 *.jpg
 *.csv
 
-# Setup and utility scripts (optional - comment out if you want to version them)
-# setup_renv.R
-# install_packages.R
-# check_packages.R
+# Backup files
+*~
+*.bak
+*.swp

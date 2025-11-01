@@ -142,29 +142,61 @@ dashboard_ida_energy/
 ├── renv.lock                    # Locked R package versions
 ├── README.md                    # This file
 ├── TODO_RESIDENTIAL.md          # Residential sector implementation plan
+├── LICENSE                      # MIT License
+├── DESCRIPTION                  # R package metadata
+├── eurostat_ida_energy.Rproj    # R project file (optional, not required)
+│
 ├── data/                        # Cached Eurostat data (*.feather files)
+│   ├── nama_10_a64_BE.feather   # Industry GVA by NACE sector
+│   ├── nrg_bal_c_BE.feather     # Energy balance
+│   ├── nrg_d_hhq_BE.feather     # Household energy
+│   └── ...                      # (per-country files)
+│
 ├── output/                      # Generated static charts by country
-├── test_*.R                     # Validation test scripts
-├── scripts/
-│   ├── app.R                    # Main Shiny app entry point
-│   ├── ui.R                     # Dashboard UI definition
-│   ├── server.R                 # Dashboard server logic
-│   ├── 0_support/               # Core utilities
-│   │   ├── data_download.R      # Eurostat API data fetching
-│   │   ├── data_load.R          # Per-country data loading functions
-│   │   ├── mapping_countries.R  # Country code mappings
-│   │   ├── mapping_sectors.R    # NACE sector classifications
-│   │   ├── mapping_products.R   # Energy product classifications
-│   │   ├── mapping_colors.R     # Chart color schemes
-│   │   └── outputs.R            # Chart generation utilities
-│   ├── 1_industry/              # Industry sector LMDI analysis
-│   │   └── 1a_industry_gva_final.R
-│   ├── 2_household/             # Residential sector (not yet integrated)
-│   │   └── households.R
-│   ├── 3_transport/             # Transport sector LMDI analysis
-│   │   └── transport_*.R
-│   └── 4_all_sectors/           # Economy-wide analysis
-       └── full_energy.R
+│   ├── BE/                      # Belgium charts
+│   ├── FR/                      # France charts
+│   └── ...
+│
+├── tests/                       # Test and validation scripts
+│   ├── README.md                # Test documentation
+│   ├── test_countries.R         # Multi-country validation
+│   ├── test_residential.R       # Residential data checks
+│   ├── test_code_modernization.R  # RStudio dependency tests
+│   └── ...
+│
+├── docs/                        # Documentation
+│   ├── QUICKSTART.md            # Quick start guide
+│   ├── SETUP_GUIDE.md           # Detailed setup instructions
+│   └── history/                 # Development phase summaries
+│       ├── PHASE1_COMPLETE.md
+│       ├── PHASE2_COMPLETE.md
+│       └── PHASE3_SUMMARY.md
+│
+└── scripts/                     # Dashboard and analysis code
+    ├── app.R                    # Main Shiny app entry point
+    ├── ui.R                     # Dashboard UI definition
+    ├── server.R                 # Dashboard server logic
+    │
+    ├── 0_support/               # Core utilities
+    │   ├── data_download.R      # Eurostat API data fetching
+    │   ├── data_load.R          # Per-country data loading functions
+    │   ├── mapping_countries.R  # Country code mappings
+    │   ├── mapping_sectors.R    # NACE sector classifications
+    │   ├── mapping_products.R   # Energy product classifications
+    │   ├── mapping_colors.R     # Chart color schemes
+    │   └── outputs.R            # Chart generation utilities
+    │
+    ├── 1_industry/              # Industry sector LMDI analysis
+    │   └── 1a_industry_gva_final.R
+    │
+    ├── 2_household/             # Residential sector (not yet integrated)
+    │   └── households.R
+    │
+    ├── 3_transport/             # Transport sector LMDI analysis
+    │   └── transport_*.R
+    │
+    └── 4_all_sectors/           # Economy-wide analysis
+        └── full_energy.R
 ```
 
 ## Methodology
