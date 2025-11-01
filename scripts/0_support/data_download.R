@@ -48,29 +48,10 @@ fetch_write_log <- function(country_code,
 # Loop through each country code
 for (country_code in country_code_list) {
   # Fetch and log datasets
-  # fetch_write_log(country_code,
-  #                 "nrg_bal_c",
-  #                 list(geo = country_code, freq = "A", unit = c("TJ", "GWH"))
-  #                 )
-  # fetch_write_log(country_code,
-  #                 "nama_10_a64",
-  #                 list(geo = country_code, freq = "A", na_item = "B1G",unit = "CLV10_MEUR")
-  #                 )
-  # fetch_write_log(country_code,
-  #                 "road_tf_vehmov",
-  #                 list(geo = country_code, freq = "A", vehicle = "TOTAL")
-  #                 )
-  # fetch_write_log(country_code,
-  #                 "rail_tf_trainmv",
-  #                 list(geo = country_code, freq = "A", train = "TOTAL", unit = "THS_TRKM")
-  #                 )
-  # fetch_write_log(country_code,
-  #                 "iww_tf_vetf",
-  #                 list(geo = country_code, freq = "A", tra_cov = "TOTAL", loadstat = "TOTAL", unit = "THS_VESKM")
-  #                 )
+  # Note: Using nama_10_a64 for detailed industry breakdown (A64 classification with C17, C18, etc.)
   fetch_write_log(country_code,
-                  "nama_10_a10_e",
-                  list(geo = country_code, freq = "A", na_item = "EMP_DC", unit = "THS_PER")
+                  "nama_10_a64",
+                  list(geo = country_code, freq = "A", na_item = "B1G", unit = "CLV10_MEUR")
                   )
   fetch_write_log(country_code,
                   "nrg_d_hhq",

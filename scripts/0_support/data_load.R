@@ -49,3 +49,28 @@ load_iwww_vkm <- function(
 ){
   load_data("iww_tf_vetf", country)
 }
+
+# Residential sector data loading functions
+load_household_energy_breakdown <- function(
+    country
+){
+  load_data("nrg_d_hhq", country)
+}
+
+load_household_demographics <- function(
+    country
+){
+  load_data("demo_gind", country)
+}
+
+load_household_size <- function(
+    country
+){
+  load_data("ilc_lvph01", country)
+}
+
+load_heating_cooling_degree_days <- function(
+    country
+){
+  load_data("nrg_chdd_a", country)
+}

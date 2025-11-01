@@ -184,7 +184,8 @@ prepare_industry_GVA_by_sector <- function(
         nace_r2 %in% GVA_IND_SECTORS,
         # Gross Value Added in Chain linked volumes (2015), million euro
         na_item == "B1G",
-        unit == "CLV15_MEUR"
+        # Accept both CLV10_MEUR (2010 reference) and CLV15_MEUR (2015 reference)
+        unit %in% c("CLV10_MEUR", "CLV15_MEUR")
       ) %>%
       select(c("geo", "time", "nace_r2", "values")) %>%
       # reshape to wide
