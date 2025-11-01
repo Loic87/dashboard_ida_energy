@@ -48,9 +48,27 @@ po/*~
 # RStudio Connect folder
 rsconnect/
 
+# renv - exclude library but keep lock file
+renv/library/
+renv/local/
+renv/cellar/
+renv/lock/
+renv/python/
+renv/sandbox/
+renv/staging/
+# Keep these renv files:
+# !renv.lock
+# !renv/activate.R
+# !renv/settings.json
+
 # Project exlusions
 /data/*
 /output/*
 *.Rda
 *.jpg
 *.csv
+
+# Setup and utility scripts (optional - comment out if you want to version them)
+# setup_renv.R
+# install_packages.R
+# check_packages.R
