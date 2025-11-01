@@ -1,14 +1,12 @@
 library(ggplot2)
+library(here)  # For portable path resolution
 
-script_directory <- dirname(rstudioapi::getActiveDocumentContext()$path)
-setwd(file.path(script_directory))
-print(getwd())
-
-source("0_support/mapping_countries.R")
-source("0_support/data_load.R")
-source("0_support/mapping_years.R")
-source("1_industry/1a_industry_gva_final.R")
-source("3_transport/transport_VKM.R")
+# Source all required files using here for portable paths
+source(here("scripts", "0_support", "mapping_countries.R"))
+source(here("scripts", "0_support", "data_load.R"))
+source(here("scripts", "0_support", "mapping_years.R"))
+source(here("scripts", "1_industry", "1a_industry_gva_final.R"))
+source(here("scripts", "3_transport", "transport_VKM.R"))
 
 first_year_test = 1990
 last_year_test = 2023

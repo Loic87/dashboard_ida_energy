@@ -1,17 +1,16 @@
-library(feather)
+library(arrow)  # Using arrow instead of feather (more actively maintained, backward compatible)
+library(here)   # For portable path resolution
 
-script_directory <- dirname(rstudioapi::getActiveDocumentContext()$path)
-setwd(file.path(script_directory))
-
-source("0_support/mapping_countries.R")
+# Source mapping file using here for portable paths
+source(here("scripts", "0_support", "mapping_countries.R"))
 
 load_data <- function(
     dataset_id,
     country
 ){
-  file_path <- paste0("../data/", dataset_id, "_", get_country_code(country), ".feather")
+  file_path <- here("data", paste0(dataset_id, "_", get_country_code(country), ".feather"))
   if (file.exists(file_path)) {
-    file <- read_feather(file_path)
+    file <- arrow::read_feather(file_path)
   } else {
     file <- data.frame()
   }

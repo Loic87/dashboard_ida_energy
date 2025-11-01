@@ -1,9 +1,10 @@
 library(plotly)
+library(here)
 
-source("0_support/data_load.R")
-source("0_support/mapping_years.R")
-source("1_industry/1a_industry_gva_final.R")
-source("3_transport/transport_VKM.R")
+source(here("scripts", "0_support", "data_load.R"))
+source(here("scripts", "0_support", "mapping_years.R"))
+source(here("scripts", "1_industry", "1a_industry_gva_final.R"))
+source(here("scripts", "3_transport", "transport_VKM.R"))
 
 warning_duration = 5
 

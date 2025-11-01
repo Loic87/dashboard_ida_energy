@@ -3,13 +3,12 @@ library(tidyr)
 library(dplyr)
 library(ggplot2)
 library(waterfalls)
+library(here)  # For portable path resolution
 
-script_directory <- dirname(rstudioapi::getActiveDocumentContext()$path)
-setwd(file.path(script_directory))
-
-source("0_support/mapping_sectors.R")
-source("0_support/mapping_products.R")
-source("0_support/mapping_colors.R")
+# Source mapping files using here for portable paths
+source(here("scripts", "0_support", "mapping_sectors.R"))
+source(here("scripts", "0_support", "mapping_products.R"))
+source(here("scripts", "0_support", "mapping_colors.R"))
 
 placeholder_text = paste("\nPlease select country and years with available data\n")
 placeholder_plot <- ggplot() + 

@@ -2,8 +2,9 @@ library(plotly)
 library(shinydashboard)
 library(eurostat)
 library(shinyjs)
+library(here)
 
-source("0_support/mapping_countries.R")
+source(here("scripts", "0_support", "mapping_countries.R"))
 
 ui <- dashboardPage(
   dashboardHeader(title = "IDA energy"),

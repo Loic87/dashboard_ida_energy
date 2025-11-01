@@ -2,12 +2,11 @@ library(futile.logger)
 library(eurostat)
 library(tidyr)
 library(dplyr)
-library(feather)
+library(arrow)  # Using arrow instead of feather (more actively maintained, backward compatible)
+library(here)   # For portable path resolution
 
-script_directory <- dirname(rstudioapi::getActiveDocumentContext()$path)
-setwd(file.path(script_directory))
-
-source("0_support/mapping_countries.R")
+# Source mapping file using here for portable paths
+source(here("scripts", "0_support", "mapping_countries.R"))
 
 # Function to fetch Eurostat data, write to a file, and log the process.
 fetch_write_log <- function(country_code,
@@ -25,9 +24,12 @@ fetch_write_log <- function(country_code,
       data <- data[,!(names(data) %in% "freq")]
     }
     # Constructing file path dynamically based on parameters
-    file_path <-
-      paste0("../data/", dataset_id, "_", country_code, ".feather")
-    write_feather(data, file_path)
+    file_path <- here("data", paste0(dataset_id, "_", country_code, ".feather"))
+    
+    # Create data directory if it doesn't exist
+    dir.create(dirname(file_path), showWarnings = FALSE, recursive = TRUE)
+    
+    arrow::write_feather(data, file_path)
     flog.info(paste0("Loaded data from ", dataset_id, " for: ", country_long))
   }, error = function(e) {
     flog.error(
