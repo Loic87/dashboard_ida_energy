@@ -24,6 +24,7 @@ R -e "shiny::runApp('scripts')"
 ## Common Tasks
 
 ### Update Data from Eurostat
+
 ```r
 # Edit config first
 edit('config.yml')  # Set download: True
@@ -33,11 +34,13 @@ source('scripts/0_support/data_download.R')
 ```
 
 ### Check Package Status
+
 ```bash
 Rscript check_packages.R
 ```
 
 ### Update Packages
+
 ```r
 library(renv)
 renv::update()          # Update all
@@ -46,6 +49,7 @@ renv::snapshot()        # Save changes
 ```
 
 ### View Project Status
+
 ```r
 renv::status()           # Check sync status
 renv::dependencies()     # List all dependencies
@@ -72,17 +76,20 @@ actions:
 ## Troubleshooting
 
 ### App won't start
+
 ```r
 # Check for errors
 shiny::runApp('scripts', test.mode = TRUE)
 ```
 
 ### Package issues
+
 ```r
 renv::restore()  # Reset to lockfile
 ```
 
 ### Data issues
+
 ```r
 # Re-download data
 source('scripts/0_support/data_download.R')
@@ -90,7 +97,7 @@ source('scripts/0_support/data_download.R')
 
 ## Project Structure
 
-```
+``` text
 dashboard_ida_energy/
 ├── scripts/
 │   ├── app.R              # Main app

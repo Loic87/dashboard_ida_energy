@@ -1,3 +1,11 @@
+# TODO: FULL ECONOMY ENERGY ANALYSIS - BATCH CHART GENERATION
+# This script generates static charts saved to output/ folder for batch processing.
+# Currently NOT integrated into the dashboard (which uses interactive plotly charts).
+# To integrate:
+#   1. Add UI tab in scripts/ui.R
+#   2. Add reactive logic in scripts/server.R
+#   3. Adapt chart generation functions to return plotly objects instead of saving files
+
 library(fs)
 library(tidyverse)
 library(tidyr)

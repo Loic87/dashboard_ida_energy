@@ -7,12 +7,14 @@ An interactive Shiny dashboard for **Index Decomposition Analysis (IDA)** of ene
 This dashboard analyzes energy consumption changes over time by decomposing them into different effects:
 
 ### Sectors Analyzed
+
 - **Industry**: Energy consumption decomposed by Gross Value Added (GVA) and employment
 - **Transport**: Energy consumption decomposed by Vehicle Kilometers (VKM) traveled
 - **Residential**: Household energy consumption analysis
 - **Economy-wide**: Full economy energy consumption patterns
 
 ### Data Source
+
 All data is retrieved from [Eurostat](https://ec.europa.eu/eurostat) using their API, covering 40+ European countries.
 
 ## Features
@@ -52,39 +54,28 @@ renv::restore()
 ```
 
 **Key packages used:**
+
 - **Dashboard**: `shiny`, `shinydashboard`, `shinyjs`, `plotly`, `ggplot2`
 - **Data**: `eurostat` (v4.0.0), `arrow`, `dplyr`, `tidyr`
 - **Utilities**: `here`, `futile.logger`, `RColorBrewer`, `waterfalls`
 
 ## Configuration
 
-The dashboard uses country and year selectors in the UI. The `config.yml` file is used for batch chart generation:
+The dashboard uses interactive country and year selectors in the UI - no configuration file needed.
 
-```yaml
-country: all  # Specific country code (e.g., "BE", "FR", "DE") or "all"
+**Dashboard Controls:**
 
-year:
-  first: 2011  # Start year
-  last: 2023   # End year (latest Eurostat data as of Nov 2025)
+- **Country Selector**: Choose from 40+ European countries (dropdown)
+- **Year Range Slider**: Adjust start and end years (1990-2023)
+- **Tabs**: Navigate between Industry and Transport sectors
 
-actions:
-  download: False  # True: download fresh data, False: use cached data
-  clear: True      # Clear existing charts before generating new ones
-  context: True    # Generate context data
-  industry_GVA_final: True     # Industry decomposition by GVA
-  industry_GVA_primary: True   # Primary energy in industry
-  economy_emp_final: True      # Economy-wide by employment
-  household_final: True        # Residential sector (not yet in dashboard)
-  transport_final: True        # Transport by VKM
-```
+**Country Codes**: Belgium (BE), France (FR), Germany (DE), Czech Republic (CZ), Denmark (DK), etc.
 
-**Country Codes**: Use ISO 3166-1 alpha-2 codes (e.g., `BE` for Belgium, `FR` for France, `DE` for Germany)
+## Running the Dashboard
 
-## Usage
+### Quick Start
 
-### Running the Dashboard
-
-#### Quick Start (Recommended)
+#### Recommended Method
 
 ```r
 # From project root directory
@@ -103,13 +94,14 @@ library(here)
 shiny::runApp('scripts', port=8080)
 ```
 
-#### Usage
+#### Using the Dashboard
+
 1. Select a country from the dropdown (40+ European countries available)
 2. Adjust the year range slider (1990-2023)
 3. Navigate between tabs:
    - **Industry**: Energy and GVA decomposition by industrial sector
    - **Transport**: Energy and VKM decomposition by transport mode
-   - **Residential**: (Not yet implemented - see `TODO_RESIDENTIAL.md`)
+   - **Other sectors**: Not yet implemented - see [`todos/`](./todos/) folder
 
 ### Downloading Data
 
@@ -122,6 +114,7 @@ source(here::here("scripts", "0_support", "data_download.R"))
 ```
 
 **Data files** are stored in `data/` as Apache Arrow `.feather` files (one per country per dataset):
+
 - `nama_10_a64_BE.feather` - Industry GVA (NACE Rev.2 A64 classification, 96 sectors)
 - `nrg_bal_c_BE.feather` - Energy balance
 - `nrg_d_hhq_BE.feather` - Household energy consumption
@@ -136,12 +129,10 @@ source(here::here("scripts", "0_support", "data_download.R"))
 
 ## Project Structure
 
-```
+``` text
 dashboard_ida_energy/
-├── config.yml                   # Configuration for batch chart generation
 ├── renv.lock                    # Locked R package versions
 ├── README.md                    # This file
-├── TODO_RESIDENTIAL.md          # Residential sector implementation plan
 ├── LICENSE                      # MIT License
 ├── DESCRIPTION                  # R package metadata
 ├── eurostat_ida_energy.Rproj    # R project file (optional, not required)
@@ -152,10 +143,12 @@ dashboard_ida_energy/
 │   ├── nrg_d_hhq_BE.feather     # Household energy
 │   └── ...                      # (per-country files)
 │
-├── output/                      # Generated static charts by country
-│   ├── BE/                      # Belgium charts
-│   ├── FR/                      # France charts
-│   └── ...
+├── todos/                       # Future integration plans
+│   ├── README.md                # Overview and implementation order
+│   ├── TODO_FULL_ECONOMY.md     # Full economy overview (Priority: HIGH)
+│   ├── TODO_RESIDENTIAL.md      # Residential sector (Priority: MEDIUM-HIGH)
+│   ├── TODO_ECONOMY_EMPLOYMENT.md  # Employment-based decomposition
+│   └── TODO_INDUSTRY_PRIMARY.md    # Primary energy in industry
 │
 ├── tests/                       # Test and validation scripts
 │   ├── README.md                # Test documentation
@@ -186,22 +179,25 @@ dashboard_ida_energy/
     │   ├── mapping_colors.R     # Chart color schemes
     │   └── outputs.R            # Chart generation utilities
     │
-    ├── 1_industry/              # Industry sector LMDI analysis
-    │   └── 1a_industry_gva_final.R
+    ├── 1_industry/              # Industry sector analysis
+    │   ├── 1a_industry_gva_final.R      # ✓ Integrated in dashboard
+    │   ├── 1b_industry_gva_primary.R    # TODO: Batch charts only
+    │   └── 1c_economy_emp_final.R       # TODO: Batch charts only
     │
     ├── 2_household/             # Residential sector (not yet integrated)
-    │   └── households.R
+    │   └── households.R                 # TODO: See TODO_RESIDENTIAL.md
     │
-    ├── 3_transport/             # Transport sector LMDI analysis
-    │   └── transport_*.R
+    ├── 3_transport/             # Transport sector analysis
+    │   └── transport_*.R                # ✓ Integrated in dashboard
     │
     └── 4_all_sectors/           # Economy-wide analysis
-        └── full_energy.R
+        └── full_energy.R                # TODO: Batch charts only
 ```
 
 ## Methodology
 
 ### LMDI Decomposition
+
 The Logarithmic Mean Divisia Index (LMDI) method decomposes energy consumption changes into:
 
 1. **Activity Effect**: Changes due to overall economic activity (GVA, employment, VKM)
@@ -209,13 +205,15 @@ The Logarithmic Mean Divisia Index (LMDI) method decomposes energy consumption c
 3. **Intensity Effect**: Changes in energy efficiency (energy per unit of activity)
 
 Formula:
-```
+
+``` text
 ΔE = ΔE_activity + ΔE_structure + ΔE_intensity
 ```
 
 ### Data Coverage
 
 **Eurostat Datasets Used:**
+
 - `nama_10_a64` - GVA by 96 NACE Rev.2 sectors (A64 detailed classification)
   - Chain-linked volumes (CLV10_MEUR - 2010 reference year)
   - Annual data 1975-2024
@@ -231,6 +229,7 @@ Formula:
 - `iww_tf_vetf` - Inland waterway transport
 
 **NACE Rev.2 Sectors:** Industry analysis uses A64 detailed classification (96 sectors) including:
+
 - C10-C12 (Food, beverages, tobacco)
 - C13-C15 (Textile and leather)
 - C16 (Wood products)
@@ -244,6 +243,7 @@ Formula:
 ### Common Issues
 
 1. **Package installation errors**
+
    ```r
    # Reset renv and restore
    renv::restore()
@@ -251,7 +251,7 @@ Formula:
 
 2. **Data download failures**
    - Check internet connection
-   - Verify Eurostat API is accessible: https://ec.europa.eu/eurostat
+   - Verify Eurostat API is accessible: <https://ec.europa.eu/eurostat>
    - Some countries may have limited data availability
    - Try reducing the year range if specific years fail
 
@@ -294,6 +294,7 @@ Formula:
 ## Contributing
 
 Contributions are welcome! Please:
+
 1. Fork the repository
 2. Create a feature branch
 3. Make your changes
@@ -306,14 +307,15 @@ MIT License - see LICENSE file for details
 ## Citation
 
 If you use this tool in your research, please cite:
-```
+
+``` text
 [Your Name] (2025). Energy Decomposition Analysis Dashboard for European Countries.
 GitHub repository: https://github.com/Loic87/dashboard_ida_energy
 ```
 
 ## Contact
 
-For questions or issues, please open an issue on GitHub: https://github.com/Loic87/dashboard_ida_energy/issues
+For questions or issues, please open an issue on GitHub: <https://github.com/Loic87/dashboard_ida_energy/issues>
 
 ## Acknowledgments
 

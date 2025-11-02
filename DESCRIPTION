@@ -2,7 +2,7 @@ Package: EurostatEnergyIDA
 Title: Energy Decomposition Analysis Dashboard for European Countries
 Version: 0.2.0
 Authors@R: 
-    person("Loic", "", email = "your.email@example.com", role = c("aut", "cre"))
+    person("Loic", "", email = "loic.coent@gmail.com", role = c("aut", "cre"))
 Description: An interactive Shiny dashboard for Index Decomposition Analysis (IDA) 
     of energy consumption across European countries. Analyzes energy consumption 
     decomposition using LMDI methodology for industry (by GVA), transport (by VKM), 
