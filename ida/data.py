@@ -37,3 +37,25 @@ def available_countries(dataset_id: str = "nrg_bal_c") -> list[str]:
         for p in DATA_DIR.glob(f"{prefix}*.feather")
     ]
     return sorted(codes)
+
+
+def latest_year(
+    dataset_ids: tuple[str, ...] = ("nrg_bal_c", "nama_10_a64", "nama_10_a10_e"),
+) -> int | None:
+    """Latest year present in the cache across the given datasets.
+
+    Reads only the `time` column from each cached file (cheap), so the UI can
+    track whatever vintage `ida.download` last fetched instead of a hardcoded
+    cap. Returns None if the cache is empty.
+    """
+    years: list[int] = []
+    for dataset_id in dataset_ids:
+        for code in available_countries(dataset_id):
+            path = DATA_DIR / f"{dataset_id}_{code}.feather"
+            try:
+                col = feather.read_table(path, columns=["time"]).column("time")
+            except Exception:
+                continue
+            if len(col):
+                years.append(int(max(col.to_pylist())))
+    return max(years) if years else None

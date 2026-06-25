@@ -19,7 +19,11 @@ INDUSTRY_COUNTRIES = sorted(
 COUNTRY_OPTIONS = [{"label": countries.name(c), "value": c} for c in INDUSTRY_COUNTRIES]
 DEFAULT_COUNTRY = "FR" if "FR" in INDUSTRY_COUNTRIES else INDUSTRY_COUNTRIES[0]
 
-MIN_YEAR, MAX_YEAR = 1990, 2023
+# MAX_YEAR tracks whatever vintage `ida.download` last fetched (falls back to a
+# sensible cap if the cache is empty); MIN_YEAR is a fixed sensible floor.
+MIN_YEAR = 1990
+MAX_YEAR = data.latest_year() or 2023
+DEFAULT_YEARS = [2000, MAX_YEAR]
 
 app = dash.Dash(
     __name__,
@@ -52,7 +56,7 @@ sidebar = dbc.Card(dbc.CardBody([
                  clearable=False, className="mb-4"),
     html.Label("Year range", className="fw-bold"),
     dcc.RangeSlider(
-        id="year-range", min=MIN_YEAR, max=MAX_YEAR, step=1, value=[2000, 2021],
+        id="year-range", min=MIN_YEAR, max=MAX_YEAR, step=1, value=DEFAULT_YEARS,
         marks={y: str(y) for y in range(MIN_YEAR, MAX_YEAR + 1, 5)},
         tooltip={"placement": "bottom", "always_visible": True}),
     html.Hr(),
