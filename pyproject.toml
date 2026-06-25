@@ -1,0 +1,6 @@
+[tool.pytest.ini_options]
+# Put the repo root on sys.path so `import ida` works regardless of how pytest
+# is launched (`pytest` console script vs `python -m pytest`). Without this,
+# tests/conftest.py's `from ida import data` only resolves under `python -m`.
+pythonpath = ["."]
+testpaths = ["tests"]

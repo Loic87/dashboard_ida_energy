@@ -1,0 +1,34 @@
+# GitHub Actions workflow: run the parity test suite on every push / PR.
+# Lives at .github/workflows/ — GitHub auto-discovers any .yml file here.
+
+name: tests                       # shows up as the check name on commits/PRs
+
+# WHEN to run this workflow.
+on:
+  push:
+    branches: [main]              # every push to main
+  pull_request:                   # and every pull request (any branch -> main)
+
+jobs:
+  pytest:                         # one job, id "pytest" (name is arbitrary)
+    runs-on: ubuntu-latest        # GitHub gives us a fresh Ubuntu VM each run
+
+    steps:
+      # 1. Check out the repository's code onto the VM.
+      #    `uses:` pulls in a prebuilt, shared action (here, GitHub's official one).
+      - uses: actions/checkout@v4
+
+      # 2. Install the Python interpreter we want.
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.10"  # matches local dev
+          cache: pip              # cache downloaded packages between runs (faster)
+
+      # 3. Install our dependencies. `run:` executes a shell command on the VM.
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      # 4. Run the tests. A non-zero exit code here fails the whole workflow,
+      #    which is what turns the commit's check red.
+      - name: Run tests
+        run: pytest tests/ -q
