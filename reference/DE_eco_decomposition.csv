@@ -1,0 +1,551 @@
+"geo","time","sector","measure","value","value_indexed","value_delta"
+"DE",2000,"Agricult., forest. and fish.","employment",765,1,0
+"DE",2000,"Agricult., forest. and fish.","energy_consumption",12141.1,1,0
+"DE",2000,"Agricult., forest. and fish.","intensity",15.8707189542484,1,0
+"DE",2000,"Agricult., forest. and fish.","share_employment",0.0206266177739431,1,0
+"DE",2000,"Agricult., forest. and fish.","share_energy_consumption",0.00317968897806172,1,0
+"DE",2000,"Comm. and pub. services","employment",27846,1,0
+"DE",2000,"Comm. and pub. services","energy_consumption",1081017.33,1,0
+"DE",2000,"Comm. and pub. services","intensity",38.82127881922,1,0
+"DE",2000,"Comm. and pub. services","share_employment",0.750808886971527,1,0
+"DE",2000,"Comm. and pub. services","share_energy_consumption",0.2831126413006,1,0
+"DE",2000,"Manufacturing","employment",7840,1,0
+"DE",2000,"Manufacturing","energy_consumption",2523296.035,1,0
+"DE",2000,"Manufacturing","intensity",321.848984056122,1,0
+"DE",2000,"Manufacturing","share_employment",0.211389128559103,1,0
+"DE",2000,"Manufacturing","share_energy_consumption",0.660837699292184,1,0
+"DE",2000,"Other industries","employment",637,1,0
+"DE",2000,"Other industries","energy_consumption",201874.964,1,0
+"DE",2000,"Other industries","intensity",316.9151711146,1,0
+"DE",2000,"Other industries","share_employment",0.0171753666954271,1,0
+"DE",2000,"Other industries","share_energy_consumption",0.0528699704291544,1,0
+"DE",2000,"Total","employment",37088,1,0
+"DE",2000,"Total","energy_consumption",3818329.429,1,0
+"DE",2000,"Total","intensity",102.95323093723,1,0
+"DE",2000,"Total","share_employment",1,1,0
+"DE",2000,"Total","share_energy_consumption",1,1,0
+"DE",2001,"Agricult., forest. and fish.","employment",734,0.959477124183007,-31
+"DE",2001,"Agricult., forest. and fish.","energy_consumption",11363.99,0.935993443757155,-777.110000000001
+"DE",2001,"Agricult., forest. and fish.","intensity",15.4822752043597,0.975524502008479,-0.388443749888694
+"DE",2001,"Agricult., forest. and fish.","share_employment",0.0197471078827011,0.957360440723684,-0.000879509891241952
+"DE",2001,"Agricult., forest. and fish.","share_energy_consumption",0.0029709018423034,0.934337245812766,-0.000208787135758325
+"DE",2001,"Comm. and pub. services","employment",27974,1.00459671047906,128
+"DE",2001,"Comm. and pub. services","energy_consumption",1147223.291,1.06124412547577,66205.9609999999
+"DE",2001,"Comm. and pub. services","intensity",41.0103414241796,1.0563882146993,2.1890626049596
+"DE",2001,"Comm. and pub. services","share_employment",0.752596179714824,1.00238048959504,0.00178729274329659
+"DE",2001,"Comm. and pub. services","share_energy_consumption",0.299919991901195,1.05936630213114,0.0168073506005957
+"DE",2001,"Manufacturing","employment",7853,1.00165816326531,13
+"DE",2001,"Manufacturing","energy_consumption",2466456.212,0.977473977602473,-56839.8229999999
+"DE",2001,"Manufacturing","intensity",314.078213676302,0.975855849280962,-7.77077037982036
+"DE",2001,"Manufacturing","share_employment",0.211272531611515,0.999448425052022,-0.000116596947588005
+"DE",2001,"Manufacturing","share_energy_consumption",0.644808672322965,0.975744381734899,-0.0160290269692192
+"DE",2001,"Other industries","employment",609,0.956043956043956,-28
+"DE",2001,"Other industries","energy_consumption",200054.273,0.990981095605298,-1820.69099999996
+"DE",2001,"Other industries","intensity",328.49634318555,1.03654344482853,11.5811720709505
+"DE",2001,"Other industries","share_employment",0.0163841807909605,0.953934846428793,-0.00079118590446664
+"DE",2001,"Other industries","share_energy_consumption",0.0523004339335362,0.989227599505066,-0.000569536495618167
+"DE",2001,"Total","employment",37170,1.00221095772217,82
+"DE",2001,"Total","energy_consumption",3825097.766,1.00177259116214,6768.33699999982
+"DE",2001,"Total","intensity",102.908199246704,0.999562600511746,-0.0450316905260451
+"DE",2001,"Total","share_employment",1,1,0
+"DE",2001,"Total","share_energy_consumption",1,1,1.11022302462516e-16
+"DE",2002,"Agricult., forest. and fish.","employment",716,0.935947712418301,-49
+"DE",2002,"Agricult., forest. and fish.","energy_consumption",11120.8,0.915963133488728,-1020.3
+"DE",2002,"Agricult., forest. and fish.","intensity",15.531843575419,0.978647761339214,-0.338875378829373
+"DE",2002,"Agricult., forest. and fish.","share_employment",0.0192856758067123,0.934989731136398,-0.00134094196723078
+"DE",2002,"Agricult., forest. and fish.","share_energy_consumption",0.00290028249901138,0.912127732939257,-0.00027940647905034
+"DE",2002,"Comm. and pub. services","employment",28125,1.01001939237233,279
+"DE",2002,"Comm. and pub. services","energy_consumption",1135034.016,1.04996838117295,54016.686
+"DE",2002,"Comm. and pub. services","intensity",40.3567650133333,1.03955269483171,1.53548619411334
+"DE",2002,"Comm. and pub. services","share_employment",0.757555352044389,1.00898559565547,0.00674646507286225
+"DE",2002,"Comm. and pub. services","share_energy_consumption",0.296014611573574,1.0455718621878,0.0129019702729746
+"DE",2002,"Manufacturing","employment",7684,0.980102040816327,-156
+"DE",2002,"Manufacturing","energy_consumption",2495131.211,0.988838081775054,-28164.824
+"DE",2002,"Manufacturing","intensity",324.717752602811,1.00891339941651,2.86876854668861
+"DE",2002,"Manufacturing","share_employment",0.206970856003879,0.979098865748961,-0.00441827255522398
+"DE",2002,"Manufacturing","share_energy_consumption",0.650725252140167,0.98469753289976,-0.0101124471520171
+"DE",2002,"Other industries","employment",601,0.943485086342229,-36
+"DE",2002,"Other industries","energy_consumption",193099.073,0.95652808636538,-8775.89099999997
+"DE",2002,"Other industries","intensity",321.296294509151,1.01382427789475,4.38112339455176
+"DE",2002,"Other industries","share_employment",0.0161881161450197,0.942519390245666,-0.00098725055040743
+"DE",2002,"Other industries","share_energy_consumption",0.0503598537872474,0.952522828714827,-0.00251011664190699
+"DE",2002,"Total","employment",37126,1.00102459016393,38
+"DE",2002,"Total","energy_consumption",3834385.1,1.00420489412937,16055.6709999996
+"DE",2002,"Total","intensity",103.280318375263,1.00317704879249,0.327087438032237
+"DE",2002,"Total","share_employment",1,1,1.11022302462516e-16
+"DE",2002,"Total","share_energy_consumption",1,1,1.11022302462516e-16
+"DE",2003,"Agricult., forest. and fish.","employment",705,0.92156862745098,-60
+"DE",2003,"Agricult., forest. and fish.","energy_consumption",7819.099,0.644018993336683,-4322.001
+"DE",2003,"Agricult., forest. and fish.","intensity",11.0909205673759,0.698829120429167,-4.77979838687248
+"DE",2003,"Agricult., forest. and fish.","share_employment",0.0191487627997936,0.928352045383979,-0.00147785497414948
+"DE",2003,"Agricult., forest. and fish.","share_energy_consumption",0.00184981936060126,0.581761100964308,-0.00132986961746046
+"DE",2003,"Comm. and pub. services","employment",28045,1.00714644832292,199
+"DE",2003,"Comm. and pub. services","energy_consumption",1465777.622,1.35592425886456,384760.292
+"DE",2003,"Comm. and pub. services","intensity",52.2652031378142,1.34630297423222,13.4439243185942
+"DE",2003,"Comm. and pub. services","share_employment",0.761740500312356,1.01455978149769,0.0109316133408286
+"DE",2003,"Comm. and pub. services","share_energy_consumption",0.346769343054958,1.22484584744052,0.0636567017543586
+"DE",2003,"Manufacturing","employment",7484,0.954591836734694,-356
+"DE",2003,"Manufacturing","energy_consumption",2561736.09,1.01523406467842,38440.0549999997
+"DE",2003,"Manufacturing","intensity",342.2950414217,1.06352686625853,20.4460573655771
+"DE",2003,"Manufacturing","share_employment",0.20327566070022,0.961618329598184,-0.00811346785888264
+"DE",2003,"Manufacturing","share_energy_consumption",0.606047962307803,0.917090479185636,-0.0547897369843815
+"DE",2003,"Other industries","employment",583,0.915227629513344,-54
+"DE",2003,"Other industries","energy_consumption",191619.921,0.949201016328107,-10255.043
+"DE",2003,"Other industries","intensity",328.679109777015,1.03712014991596,11.7639386624158
+"DE",2003,"Other industries","share_employment",0.0158350761876307,0.921964373071975,-0.00134029050779638
+"DE",2003,"Other industries","share_energy_consumption",0.0453328752766379,0.857440904707595,-0.00753709515251644
+"DE",2003,"Total","employment",36817,0.992693054357204,-271
+"DE",2003,"Total","energy_consumption",4226952.732,1.10701625163521,408623.302999999
+"DE",2003,"Total","intensity",114.809808838308,1.11516469947706,11.856577901078
+"DE",2003,"Total","share_employment",1,1,1.11022302462516e-16
+"DE",2003,"Total","share_energy_consumption",1,1,1.11022302462516e-16
+"DE",2004,"Agricult., forest. and fish.","employment",703,0.918954248366013,-62
+"DE",2004,"Agricult., forest. and fish.","energy_consumption",8360.337,0.688597985355528,-3780.763
+"DE",2004,"Agricult., forest. and fish.","intensity",11.8923712660028,0.749327821901819,-3.97834768824552
+"DE",2004,"Agricult., forest. and fish.","share_employment",0.0189892223332703,0.920617356727228,-0.00163739544067275
+"DE",2004,"Agricult., forest. and fish.","share_energy_consumption",0.00196319947572176,0.61741871273161,-0.00121648950233996
+"DE",2004,"Comm. and pub. services","employment",28364,1.01860231271996,518
+"DE",2004,"Comm. and pub. services","energy_consumption",1442124.998,1.33404429140835,361107.668
+"DE",2004,"Comm. and pub. services","intensity",50.8434987307855,1.30968119230563,12.0222199115655
+"DE",2004,"Comm. and pub. services","share_employment",0.766159747170525,1.02044576251743,0.0153508601989977
+"DE",2004,"Comm. and pub. services","share_energy_consumption",0.33864412881907,1.19614626624711,0.0555314875184705
+"DE",2004,"Manufacturing","employment",7368,0.939795918367347,-472
+"DE",2004,"Manufacturing","energy_consumption",2610613.114,1.03460437371947,87317.0789999999
+"DE",2004,"Manufacturing","intensity",354.317740770901,1.10088196117816,32.4687567147787
+"DE",2004,"Manufacturing","share_employment",0.199022176602469,0.941496745641883,-0.0123669519566338
+"DE",2004,"Manufacturing","share_energy_consumption",0.613032022120297,0.927658974021774,-0.047805677171887
+"DE",2004,"Other industries","employment",586,0.919937205651491,-51
+"DE",2004,"Other industries","energy_consumption",197428.055,0.977971963873638,-4446.90899999999
+"DE",2004,"Other industries","intensity",336.907943686007,1.0630855648251,19.9927725714072
+"DE",2004,"Other industries","share_employment",0.015828853893736,0.921602092952716,-0.0013465128016911
+"DE",2004,"Other industries","share_energy_consumption",0.046360649584911,0.876880565822032,-0.00650932084424341
+"DE",2004,"Total","employment",37021,0.998193485763589,-67
+"DE",2004,"Total","energy_consumption",4258526.504,1.1152852531939,440197.074999999
+"DE",2004,"Total","intensity",115.030023608222,1.11730367819496,12.076792670992
+"DE",2004,"Total","share_employment",1,1,1.11022302462516e-16
+"DE",2004,"Total","share_energy_consumption",1,1,1.11022302462516e-16
+"DE",2005,"Agricult., forest. and fish.","employment",679,0.887581699346405,-86
+"DE",2005,"Agricult., forest. and fish.","energy_consumption",8383.273,0.690487105781189,-3757.827
+"DE",2005,"Agricult., forest. and fish.","intensity",12.346499263623,0.777942026395596,-3.52421969062539
+"DE",2005,"Agricult., forest. and fish.","share_employment",0.0183255964590306,0.888444080356242,-0.0023010213149125
+"DE",2005,"Agricult., forest. and fish.","share_energy_consumption",0.00197021955363059,0.619626500335137,-0.00120946942443113
+"DE",2005,"Comm. and pub. services","employment",28552,1.02535373123608,706
+"DE",2005,"Comm. and pub. services","energy_consumption",1411467.346,1.30568429092621,330450.016
+"DE",2005,"Comm. and pub. services","intensity",49.4349728915663,1.27339887801665,10.6136940723463
+"DE",2005,"Comm. and pub. services","share_employment",0.770592680557055,1.02634997258134,0.0197837935855278
+"DE",2005,"Comm. and pub. services","share_energy_consumption",0.331720148490962,1.17168963903224,0.0486075071903627
+"DE",2005,"Manufacturing","employment",7244,0.923979591836735,-596
+"DE",2005,"Manufacturing","energy_consumption",2636559.712,1.04488719334908,113263.677
+"DE",2005,"Manufacturing","intensity",363.964620651574,1.1308552727577,42.1156365954512
+"DE",2005,"Manufacturing","share_employment",0.195509014358199,0.924877337310829,-0.0158801142009034
+"DE",2005,"Manufacturing","share_energy_consumption",0.619638833054469,0.937656604213345,-0.0411988662377152
+"DE",2005,"Other industries","employment",577,0.905808477237049,-60
+"DE",2005,"Other industries","energy_consumption",198583.984,0.983697928981426,-3290.97999999998
+"DE",2005,"Other industries","intensity",344.166350086655,1.08598887480272,27.2511789720554
+"DE",2005,"Other industries","share_employment",0.0155727086257152,0.906688567520449,-0.00160265806971188
+"DE",2005,"Other industries","share_energy_consumption",0.0466707989009381,0.882746831936985,-0.00619917152821625
+"DE",2005,"Total","employment",37052,0.999029335634167,-36
+"DE",2005,"Total","energy_consumption",4254994.315,1.11436019183771,436664.885999999
+"DE",2005,"Total","intensity",114.838451770485,1.11544291252501,11.8852208332543
+"DE",2005,"Total","share_employment",1,1,1.11022302462516e-16
+"DE",2005,"Total","share_energy_consumption",1,1,1.11022302462516e-16
+"DE",2006,"Agricult., forest. and fish.","employment",663,0.866666666666667,-102
+"DE",2006,"Agricult., forest. and fish.","energy_consumption",9671.852,0.79662073452982,-2469.248
+"DE",2006,"Agricult., forest. and fish.","intensity",14.588012066365,0.919177770611331,-1.28270688788336
+"DE",2006,"Agricult., forest. and fish.","share_employment",0.0177548069198222,0.860771606591327,-0.00287181085412087
+"DE",2006,"Agricult., forest. and fish.","share_energy_consumption",0.00219097939136217,0.689054623417209,-0.000988709586699551
+"DE",2006,"Comm. and pub. services","employment",28946,1.03950298067945,1100
+"DE",2006,"Comm. and pub. services","energy_consumption",1527275.634,1.41281327469561,446258.304
+"DE",2006,"Comm. and pub. services","intensity",52.7629252401023,1.3591238322108,13.9416464208823
+"DE",2006,"Comm. and pub. services","share_employment",0.775159338010819,1.03243228931068,0.0243504510392918
+"DE",2006,"Comm. and pub. services","share_energy_consumption",0.345976079764619,1.22204391218714,0.0628634384640195
+"DE",2006,"Manufacturing","employment",7165,0.91390306122449,-675
+"DE",2006,"Manufacturing","energy_consumption",2681926.34,1.06286630771803,158630.305
+"DE",2006,"Manufacturing","intensity",374.309328681089,1.16299676936628,52.4603446249662
+"DE",2006,"Manufacturing","share_employment",0.191875100423116,0.907686699552618,-0.0195140281359866
+"DE",2006,"Manufacturing","share_energy_consumption",0.60754086601939,0.919349587152973,-0.0532968332727943
+"DE",2006,"Other industries","employment",568,0.891679748822606,-69
+"DE",2006,"Other industries","energy_consumption",195522.785,0.96853409222156,-6352.179
+"DE",2006,"Other industries","intensity",344.23025528169,1.08619052243862,27.3150841670904
+"DE",2006,"Other industries","share_employment",0.0152107546462428,0.885614549952676,-0.00196461204918425
+"DE",2006,"Other industries","share_energy_consumption",0.0442920748246288,0.837754862828609,-0.00857789560452555
+"DE",2006,"Total","employment",37342,1.00684857635893,254
+"DE",2006,"Total","energy_consumption",4414396.611,1.15610679829585,596067.182
+"DE",2006,"Total","intensity",118.215323523111,1.14824296864647,15.2620925858803
+"DE",2006,"Total","share_employment",1,1,1.11022302462516e-16
+"DE",2006,"Total","share_energy_consumption",1,1,0
+"DE",2007,"Agricult., forest. and fish.","employment",664,0.86797385620915,-101
+"DE",2007,"Agricult., forest. and fish.","energy_consumption",14938.222,1.23038456153067,2797.122
+"DE",2007,"Agricult., forest. and fish.","intensity",22.4973222891566,1.41753643007675,6.62660333490826
+"DE",2007,"Agricult., forest. and fish.","share_employment",0.0174847271961239,0.84767785915012,-0.00314189057781919
+"DE",2007,"Agricult., forest. and fish.","share_energy_consumption",0.00348029312455066,1.09453885224717,0.000300604146488945
+"DE",2007,"Comm. and pub. services","employment",29471,1.05835667600373,1625
+"DE",2007,"Comm. and pub. services","energy_consumption",1312982.33,1.21458027874539,231965
+"DE",2007,"Comm. and pub. services","intensity",44.5516721522853,1.14760959729715,5.7303933330653
+"DE",2007,"Comm. and pub. services","share_employment",0.776042763850853,1.03360892141422,0.025233876879326
+"DE",2007,"Comm. and pub. services","share_energy_consumption",0.305897407051221,1.08047950683498,0.022784765750622
+"DE",2007,"Manufacturing","employment",7274,0.92780612244898,-566
+"DE",2007,"Manufacturing","energy_consumption",2770815.182,1.09809358219041,247519.146999999
+"DE",2007,"Manufacturing","intensity",380.920426450371,1.18353776249282,59.0714423942487
+"DE",2007,"Manufacturing","share_employment",0.19154202654308,0.906111056177263,-0.0198471020160228
+"DE",2007,"Manufacturing","share_energy_consumption",0.645541954545541,0.976854007023167,-0.0152957447466435
+"DE",2007,"Other industries","employment",567,0.89010989010989,-70
+"DE",2007,"Other industries","energy_consumption",193495.255,0.95849059817046,-8379.70899999997
+"DE",2007,"Other industries","intensity",341.261472663139,1.0768227707841,24.3463015485397
+"DE",2007,"Other industries","share_employment",0.0149304824099431,0.869296281977976,-0.00224488428548397
+"DE",2007,"Other industries","share_energy_consumption",0.045080345278687,0.852664469315232,-0.00778962515046743
+"DE",2007,"Total","employment",37976,1.0239430543572,888
+"DE",2007,"Total","energy_consumption",4292230.989,1.12411227706042,473901.56
+"DE",2007,"Total","intensity",113.024831182852,1.09782694679842,10.0716002456219
+"DE",2007,"Total","share_employment",1,1,0
+"DE",2007,"Total","share_energy_consumption",1,1,0
+"DE",2008,"Agricult., forest. and fish.","employment",659,0.861437908496732,-106
+"DE",2008,"Agricult., forest. and fish.","energy_consumption",14474.019,1.19215054649085,2332.919
+"DE",2008,"Agricult., forest. and fish.","intensity",21.9636100151745,1.38390769053945,6.09289106092614
+"DE",2008,"Agricult., forest. and fish.","share_employment",0.0170920219939828,0.828639100278213,-0.00353459577996028
+"DE",2008,"Agricult., forest. and fish.","share_energy_consumption",0.00329362600094506,1.03583275712482,0.000113937022883339
+"DE",2008,"Comm. and pub. services","employment",29874,1.07282913165266,2028
+"DE",2008,"Comm. and pub. services","energy_consumption",1454168.473,1.34518516275775,373151.143
+"DE",2008,"Comm. and pub. services","intensity",48.6767246769766,1.25386710993347,9.85544585775664
+"DE",2008,"Comm. and pub. services","share_employment",0.774821039526922,1.03198171062179,0.0240121525553947
+"DE",2008,"Comm. and pub. services","share_energy_consumption",0.3309023632225,1.16880108815473,0.047789721921901
+"DE",2008,"Manufacturing","employment",7457,0.951147959183673,-383
+"DE",2008,"Manufacturing","energy_consumption",2729345.023,1.08165866594405,206048.988
+"DE",2008,"Manufacturing","intensity",366.011133565777,1.1372138850746,44.1621495096547
+"DE",2008,"Manufacturing","share_employment",0.1934069924266,0.914933486622162,-0.0179821361325024
+"DE",2008,"Manufacturing","share_energy_consumption",0.621074335559653,0.939828850903752,-0.0397633637325315
+"DE",2008,"Other industries","employment",566,0.888540031397174,-71
+"DE",2008,"Other industries","energy_consumption",196566.996,0.973706655373076,-5307.96799999996
+"DE",2008,"Other industries","intensity",347.291512367491,1.09585006973966,30.3763412528915
+"DE",2008,"Other industries","share_employment",0.0146799460524951,0.854709323696919,-0.00249542064293202
+"DE",2008,"Other industries","share_energy_consumption",0.0447296752169016,0.846031780495116,-0.00814029521225276
+"DE",2008,"Total","employment",38556,1.03958153580673,1468
+"DE",2008,"Total","energy_consumption",4394554.511,1.15091025871775,576225.082
+"DE",2008,"Total","intensity",113.978486124079,1.10708993866905,11.0252551868489
+"DE",2008,"Total","share_employment",1,1,1.11022302462516e-16
+"DE",2008,"Total","share_energy_consumption",1,1,0
+"DE",2009,"Agricult., forest. and fish.","employment",653,0.85359477124183,-112
+"DE",2009,"Agricult., forest. and fish.","energy_consumption",16917.044,1.39336995824102,4775.944
+"DE",2009,"Agricult., forest. and fish.","intensity",25.90665237366,1.63235531095617,10.0359334194117
+"DE",2009,"Agricult., forest. and fish.","share_employment",0.0169201668696396,0.820307384132278,-0.00370645090430348
+"DE",2009,"Agricult., forest. and fish.","share_energy_consumption",0.00417297771477973,1.31238550171769,0.000993288736718014
+"DE",2009,"Comm. and pub. services","employment",30091,1.0806219923867,2245
+"DE",2009,"Comm. and pub. services","energy_consumption",1409529.6,1.30389177017171,328512.27
+"DE",2009,"Comm. and pub. services","intensity",46.8422318965804,1.20661228381249,8.02095307736037
+"DE",2009,"Comm. and pub. services","share_employment",0.779700982043376,1.03848129074283,0.0288920950718486
+"DE",2009,"Comm. and pub. services","share_energy_consumption",0.347692871705151,1.22810790117981,0.0645802304045514
+"DE",2009,"Manufacturing","employment",7278,0.928316326530612,-562
+"DE",2009,"Manufacturing","energy_consumption",2441426.397,0.967554485536217,-81869.6379999998
+"DE",2009,"Manufacturing","intensity",335.452926215993,1.04226809104204,13.603942159871
+"DE",2009,"Manufacturing","share_employment",0.188583421864069,0.892115044654921,-0.022805706695034
+"DE",2009,"Manufacturing","share_energy_consumption",0.602233933242473,0.91131897270316,-0.0586037660497112
+"DE",2009,"Other industries","employment",571,0.896389324960754,-66
+"DE",2009,"Other industries","energy_consumption",186077.197,0.921744793475233,-15797.767
+"DE",2009,"Other industries","intensity",325.879504378284,1.02828622319391,8.96433326368401
+"DE",2009,"Other industries","share_employment",0.0147954292229161,0.861433091082435,-0.00237993747251102
+"DE",2009,"Other industries","share_energy_consumption",0.0459002173375962,0.868171798944022,-0.00696975309155816
+"DE",2009,"Total","employment",38593,1.04057916307161,1505
+"DE",2009,"Total","energy_consumption",4053950.238,1.06170782625786,235620.809
+"DE",2009,"Total","intensity",105.043666934418,1.02030471485118,2.09043599718778
+"DE",2009,"Total","share_employment",1,1,1.11022302462516e-16
+"DE",2009,"Total","share_energy_consumption",1,1,1.11022302462516e-16
+"DE",2010,"Agricult., forest. and fish.","employment",645,0.843137254901961,-120
+"DE",2010,"Agricult., forest. and fish.","energy_consumption",53893.033,4.43889211027007,41751.933
+"DE",2010,"Agricult., forest. and fish.","intensity",83.5550899224806,5.26473250287846,67.6843709682323
+"DE",2010,"Agricult., forest. and fish.","share_employment",0.0166365746711375,0.806558537781891,-0.00399004310280558
+"DE",2010,"Agricult., forest. and fish.","share_energy_consumption",0.0123574503295508,3.88637077865512,0.0091777613514891
+"DE",2010,"Comm. and pub. services","employment",30414,1.09222150398621,2568
+"DE",2010,"Comm. and pub. services","energy_consumption",1457289.744,1.34807250869882,376272.414
+"DE",2010,"Comm. and pub. services","intensity",47.9150964687315,1.23424827636047,9.09381764951151
+"DE",2010,"Comm. and pub. services","share_employment",0.784472530306938,1.04483650089865,0.0336636433354112
+"DE",2010,"Comm. and pub. services","share_energy_consumption",0.334150531614055,1.18027414840606,0.0510378903134559
+"DE",2010,"Manufacturing","employment",7142,0.910969387755102,-698
+"DE",2010,"Manufacturing","energy_consumption",2659169.868,1.05384775750262,135873.833
+"DE",2010,"Manufacturing","intensity",372.328460935312,1.15684211968924,50.4794768791898
+"DE",2010,"Manufacturing","share_employment",0.184214598916688,0.871447837324251,-0.0271745296424145
+"DE",2010,"Manufacturing","share_energy_consumption",0.609736690114439,0.922672375936664,-0.0511010091777456
+"DE",2010,"Other industries","employment",569,0.893249607535322,-68
+"DE",2010,"Other industries","energy_consumption",190824.747,0.945262073210822,-11050.217
+"DE",2010,"Other industries","intensity",335.368623901582,1.05822836667011,18.453452786982
+"DE",2010,"Other industries","share_employment",0.014676296105236,0.854496813109879,-0.00249907059019108
+"DE",2010,"Other industries","share_energy_consumption",0.043755327941955,0.827602655851435,-0.0091146424871994
+"DE",2010,"Total","employment",38770,1.04535159620362,1682
+"DE",2010,"Total","energy_consumption",4361177.392,1.142168970251,542847.963
+"DE",2010,"Total","intensity",112.488454784627,1.09261704329814,9.53522384739692
+"DE",2010,"Total","share_employment",1,1,0
+"DE",2010,"Total","share_energy_consumption",1,1,0
+"DE",2011,"Agricult., forest. and fish.","employment",651,0.850980392156863,-114
+"DE",2011,"Agricult., forest. and fish.","energy_consumption",55554.778,4.5757615043118,43413.678
+"DE",2011,"Agricult., forest. and fish.","intensity",85.3376006144393,5.37704692903,69.466881660191
+"DE",2011,"Agricult., forest. and fish.","share_employment",0.0166071428571429,0.805131652661064,-0.0040194749168002
+"DE",2011,"Agricult., forest. and fish.","share_energy_consumption",0.0131735553860799,4.14303269186733,0.00999386640801821
+"DE",2011,"Comm. and pub. services","employment",30691,1.10216907275731,2845
+"DE",2011,"Comm. and pub. services","energy_consumption",1286837.958,1.19039530846374,205820.628
+"DE",2011,"Comm. and pub. services","intensity",41.9288377048646,1.08004782377509,3.10755888564462
+"DE",2011,"Comm. and pub. services","share_employment",0.782933673469388,1.04278690230671,0.0321247864978607
+"DE",2011,"Comm. and pub. services","share_energy_consumption",0.305144430828668,1.07781987207232,0.0220317895280683
+"DE",2011,"Manufacturing","employment",7285,0.929209183673469,-555
+"DE",2011,"Manufacturing","energy_consumption",2690772.796,1.06637222057062,167476.760999999
+"DE",2011,"Manufacturing","intensity",369.357967879204,1.14761265741574,47.5089838230813
+"DE",2011,"Manufacturing","share_employment",0.185841836734694,0.87914566847147,-0.0255472918244088
+"DE",2011,"Manufacturing","share_energy_consumption",0.63805573049834,0.9655256217703,-0.0227819687938438
+"DE",2011,"Other industries","employment",573,0.899529042386185,-64
+"DE",2011,"Other industries","energy_consumption",183978.312,0.911347838060791,-17896.652
+"DE",2011,"Other industries","intensity",321.079078534031,1.01313887058416,4.16390741943172
+"DE",2011,"Other industries","share_employment",0.0146173469387755,0.851064620510685,-0.00255801975665158
+"DE",2011,"Other industries","share_energy_consumption",0.0436262832869118,0.825161862826666,-0.00924368714224263
+"DE",2011,"Total","employment",39200,1.05694564279551,2112
+"DE",2011,"Total","energy_consumption",4217143.844,1.10444735647245,398814.414999999
+"DE",2011,"Total","intensity",107.580200102041,1.04494243767475,4.62696916481042
+"DE",2011,"Total","share_employment",1,1,1.11022302462516e-16
+"DE",2011,"Total","share_energy_consumption",1,1,1.11022302462516e-16
+"DE",2012,"Agricult., forest. and fish.","employment",649,0.848366013071895,-116
+"DE",2012,"Agricult., forest. and fish.","energy_consumption",55155.381,4.54286522637982,43014.281
+"DE",2012,"Agricult., forest. and fish.","intensity",84.9851787365177,5.35484113741227,69.1144597822694
+"DE",2012,"Agricult., forest. and fish.","share_employment",0.0163632696283596,0.793308423498826,-0.00426334814558342
+"DE",2012,"Agricult., forest. and fish.","share_energy_consumption",0.0130184072577545,4.09423919998938,0.00983871827969275
+"DE",2012,"Comm. and pub. services","employment",31023,1.11409179056238,3177
+"DE",2012,"Comm. and pub. services","energy_consumption",1340940.573,1.24044317864913,259923.243
+"DE",2012,"Comm. and pub. services","intensity",43.2240780388744,1.11341200891802,4.40279921965439
+"DE",2012,"Comm. and pub. services","share_employment",0.78218445867581,1.0417890254747,0.0313755717042834
+"DE",2012,"Comm. and pub. services","share_energy_consumption",0.316504213573661,1.11794447651529,0.0333915722730613
+"DE",2012,"Manufacturing","employment",7413,0.945535714285714,-427
+"DE",2012,"Manufacturing","energy_consumption",2659937.906,1.05415213637428,136641.871
+"DE",2012,"Manufacturing","intensity",358.820707675705,1.114872892105,36.9717236195825
+"DE",2012,"Manufacturing","share_employment",0.186904341687257,0.884171967410332,-0.0244847868718453
+"DE",2012,"Manufacturing","share_energy_consumption",0.627829131316247,0.950050416295419,-0.0330085679759375
+"DE",2012,"Other industries","employment",577,0.905808477237049,-60
+"DE",2012,"Other industries","energy_consumption",180688.798,0.895053028963017,-21186.166
+"DE",2012,"Other industries","intensity",313.152162911612,0.988126134227802,-3.76300820298792
+"DE",2012,"Other industries","share_employment",0.0145479300085724,0.847022964141184,-0.00262743668685466
+"DE",2012,"Other industries","share_energy_consumption",0.0426482478523379,0.806662979119432,-0.0102217225768165
+"DE",2012,"Total","employment",39662,1.06940250215703,2574
+"DE",2012,"Total","energy_consumption",4236722.658,1.10957494285913,418393.229
+"DE",2012,"Total","intensity",106.820701376633,1.03756531392162,3.86747043940218
+"DE",2012,"Total","share_employment",1,1,1.11022302462516e-16
+"DE",2012,"Total","share_energy_consumption",1,1,0
+"DE",2013,"Agricult., forest. and fish.","employment",642,0.83921568627451,-123
+"DE",2013,"Agricult., forest. and fish.","energy_consumption",52614.048,4.3335486899869,40472.948
+"DE",2013,"Agricult., forest. and fish.","intensity",81.9533457943925,5.16380801844234,66.0826268401442
+"DE",2013,"Agricult., forest. and fish.","share_employment",0.0160656640224219,0.778880192501414,-0.0045609537515212
+"DE",2013,"Agricult., forest. and fish.","share_energy_consumption",0.0122508346451522,3.8528405544306,0.00907114566709046
+"DE",2013,"Comm. and pub. services","employment",31299,1.12400344753286,3453
+"DE",2013,"Comm. and pub. services","energy_consumption",1404651.641,1.2993793920029,323634.311
+"DE",2013,"Comm. and pub. services","intensity",44.8784830505767,1.1560279417781,6.0572042313567
+"DE",2013,"Comm. and pub. services","share_employment",0.783238657691249,1.04319310983456,0.0324297707197219
+"DE",2013,"Comm. and pub. services","share_energy_consumption",0.327063885826323,1.15524296027127,0.0439512445257233
+"DE",2013,"Manufacturing","employment",7438,0.948724489795918,-402
+"DE",2013,"Manufacturing","energy_consumption",2651218.396,1.05069653311606,127922.361
+"DE",2013,"Manufacturing","intensity",356.442376445281,1.10748330460203,34.5933923891586
+"DE",2013,"Manufacturing","share_employment",0.186131478191236,0.880515849892421,-0.0252576503678662
+"DE",2013,"Manufacturing","share_energy_consumption",0.617318746840798,0.934145778157029,-0.0435189524513862
+"DE",2013,"Other industries","employment",582,0.913657770800628,-55
+"DE",2013,"Other industries","energy_consumption",186247.623,0.922589009105656,-15627.341
+"DE",2013,"Other industries","intensity",320.013097938144,1.00977525567062,3.09792682354464
+"DE",2013,"Other industries","share_employment",0.0145642000950927,0.847970256086026,-0.00261116660033438
+"DE",2013,"Other industries","share_energy_consumption",0.0433665326877271,0.820248854609028,-0.0095034377414273
+"DE",2013,"Total","employment",39961,1.07746440897325,2873
+"DE",2013,"Total","energy_consumption",4294731.708,1.12476720195532,476402.278999999
+"DE",2013,"Total","intensity",107.473078951978,1.04390195405818,4.51984801474778
+"DE",2013,"Total","share_employment",1,1,1.11022302462516e-16
+"DE",2013,"Total","share_energy_consumption",1,1,3.33066907387547e-16
+"DE",2014,"Agricult., forest. and fish.","employment",640,0.836601307189543,-125
+"DE",2014,"Agricult., forest. and fish.","energy_consumption",63392.167,5.22128695093525,51251.067
+"DE",2014,"Agricult., forest. and fish.","intensity",99.0502609375,6.2410695585398,83.1795419832516
+"DE",2014,"Agricult., forest. and fish.","share_employment",0.0158706541685265,0.769425910852694,-0.00475596360541655
+"DE",2014,"Agricult., forest. and fish.","share_energy_consumption",0.0152833922202991,4.80656829197666,0.0121037032422374
+"DE",2014,"Comm. and pub. services","employment",31622,1.13560295913237,3776
+"DE",2014,"Comm. and pub. services","energy_consumption",1288112.319,1.19157416190543,207094.989
+"DE",2014,"Comm. and pub. services","intensity",40.7346884763772,1.04928765139519,1.9134096571572
+"DE",2014,"Comm. and pub. services","share_employment",0.78415910330804,1.04441904846256,0.0333502163365124
+"DE",2014,"Comm. and pub. services","share_energy_consumption",0.310554548404633,1.09692928926793,0.0274419071040335
+"DE",2014,"Manufacturing","employment",7481,0.954209183673469,-359
+"DE",2014,"Manufacturing","energy_consumption",2614042.994,1.03596365933338,90746.9590000003
+"DE",2014,"Manufacturing","intensity",349.424274027536,1.08567772880279,27.575289971414
+"DE",2014,"Manufacturing","share_employment",0.185513068491792,0.877590393395865,-0.0258760600673108
+"DE",2014,"Manufacturing","share_energy_consumption",0.630226828466474,0.953678685616003,-0.0306108708257102
+"DE",2014,"Other industries","employment",583,0.915227629513344,-54
+"DE",2014,"Other industries","energy_consumption",182233.725,0.90270591949183,-19641.239
+"DE",2014,"Other industries","intensity",312.579288164666,0.986318474642016,-4.33588294993416
+"DE",2014,"Other industries","share_employment",0.0144571740316421,0.841738886162548,-0.00271819266378497
+"DE",2014,"Other industries","share_energy_consumption",0.0439352309085937,0.831005399699755,-0.0089347395205607
+"DE",2014,"Total","employment",40326,1.08730586712683,3238
+"DE",2014,"Total","energy_consumption",4147781.205,1.08628165330572,329451.776
+"DE",2014,"Total","intensity",102.856251673858,0.999058026032894,-0.0969792633723188
+"DE",2014,"Total","share_employment",1,1,1.11022302462516e-16
+"DE",2014,"Total","share_energy_consumption",1,1,-1.11022302462516e-16
+"DE",2015,"Agricult., forest. and fish.","employment",635,0.830065359477124,-130
+"DE",2015,"Agricult., forest. and fish.","energy_consumption",60755.801,5.00414303481563,48614.701
+"DE",2015,"Agricult., forest. and fish.","intensity",95.6784267716535,6.02861326241568,79.8077078174052
+"DE",2015,"Agricult., forest. and fish.","share_employment",0.0155985162986072,0.756232382330383,-0.00502810147533587
+"DE",2015,"Agricult., forest. and fish.","share_energy_consumption",0.0143305796411816,4.50691238673201,0.0111508906631199
+"DE",2015,"Comm. and pub. services","employment",31987,1.14871076635783,4141
+"DE",2015,"Comm. and pub. services","energy_consumption",1351912.376,1.25059269493857,270895.046
+"DE",2015,"Comm. and pub. services","intensity",42.2644316753681,1.08869241201924,3.44315285614812
+"DE",2015,"Comm. and pub. services","share_employment",0.785747623375666,1.04653479335476,0.0349387364041391
+"DE",2015,"Comm. and pub. services","share_energy_consumption",0.31887799441846,1.1263290574153,0.0357653531178607
+"DE",2015,"Manufacturing","employment",7512,0.958163265306123,-328
+"DE",2015,"Manufacturing","energy_consumption",2638340.651,1.04559299202481,115044.616
+"DE",2015,"Manufacturing","intensity",351.216806576145,1.09124721212387,29.3678225200224
+"DE",2015,"Manufacturing","share_employment",0.184529219582893,0.872936185700299,-0.0268599089762094
+"DE",2015,"Manufacturing","share_energy_consumption",0.622310136602799,0.941698903179023,-0.0385275626893853
+"DE",2015,"Other industries","employment",575,0.902668759811617,-62
+"DE",2015,"Other industries","energy_consumption",188582.488,0.934154905905024,-13292.476
+"DE",2015,"Other industries","intensity",327.969544347826,1.03488117402,11.0543732332264
+"DE",2015,"Other industries","share_employment",0.0141246407428333,0.822377827111775,-0.00305072595259381
+"DE",2015,"Other industries","share_energy_consumption",0.0444812893375594,0.841333728324364,-0.00838868109159503
+"DE",2015,"Total","employment",40709,1.09763265746333,3621
+"DE",2015,"Total","energy_consumption",4239591.316,1.1103262290049,421261.886999999
+"DE",2015,"Total","intensity",104.143833452062,1.01156449879225,1.1906025148318
+"DE",2015,"Total","share_employment",1,1,1.11022302462516e-16
+"DE",2015,"Total","share_energy_consumption",1,1,3.33066907387547e-16
+"DE",2016,"Agricult., forest. and fish.","employment",624,0.815686274509804,-141
+"DE",2016,"Agricult., forest. and fish.","energy_consumption",62712.813,5.16533205393251,50571.713
+"DE",2016,"Agricult., forest. and fish.","intensity",100.501302884615,6.3324984315038,84.630583930367
+"DE",2016,"Agricult., forest. and fish.","share_employment",0.0151320416131144,0.73361720176103,-0.00549457616082862
+"DE",2016,"Agricult., forest. and fish.","share_energy_consumption",0.0146903500649249,4.62005880646852,0.0115106610868632
+"DE",2016,"Comm. and pub. services","employment",32506,1.1673489908784,4660
+"DE",2016,"Comm. and pub. services","energy_consumption",1334145.453,1.23415732197374,253128.123
+"DE",2016,"Comm. and pub. services","intensity",41.0430521442195,1.05723081239404,2.22177332499953
+"DE",2016,"Comm. and pub. services","share_employment",0.788272667749836,1.04989789203138,0.0374637807783091
+"DE",2016,"Comm. and pub. services","share_energy_consumption",0.312520883764182,1.10387470629529,0.0294082424635824
+"DE",2016,"Manufacturing","employment",7534,0.960969387755102,-306
+"DE",2016,"Manufacturing","energy_consumption",2692282.569,1.06697055424969,168986.534
+"DE",2016,"Manufacturing","intensity",357.351017918768,1.11030649659113,35.5020338626458
+"DE",2016,"Manufacturing","share_employment",0.182700002425007,0.864282868614623,-0.028689126134096
+"DE",2016,"Manufacturing","share_energy_consumption",0.630661766237554,0.954336846873368,-0.0301759330546301
+"DE",2016,"Other industries","employment",573,0.899529042386185,-64
+"DE",2016,"Other industries","energy_consumption",179839.327,0.890845122330276,-22035.637
+"DE",2016,"Other industries","intensity",313.855719022688,0.990346148210097,-3.05945209191208
+"DE",2016,"Other industries","share_employment",0.0138952882120426,0.809024253074153,-0.00328007848338451
+"DE",2016,"Other industries","share_energy_consumption",0.0421269999333391,0.796803924635993,-0.0107429704958153
+"DE",2016,"Total","employment",41237,1.11186906816221,4149
+"DE",2016,"Total","energy_consumption",4268980.162,1.11802301016181,450650.732999999
+"DE",2016,"Total","intensity",103.523053616897,1.00553477219199,0.569822679667055
+"DE",2016,"Total","share_employment",1,1,0
+"DE",2016,"Total","share_energy_consumption",1,1,3.33066907387547e-16
+"DE",2017,"Agricult., forest. and fish.","employment",608,0.794771241830065,-157
+"DE",2017,"Agricult., forest. and fish.","energy_consumption",59365.878,4.88966222170973,47224.778
+"DE",2017,"Agricult., forest. and fish.","intensity",97.6412467105263,6.15228881514464,81.770527756278
+"DE",2017,"Agricult., forest. and fish.","share_employment",0.014543019111632,0.70506077491792,-0.00608359866231103
+"DE",2017,"Agricult., forest. and fish.","share_energy_consumption",0.0140273993852278,4.41156335792899,0.0108477104071661
+"DE",2017,"Comm. and pub. services","employment",33015,1.1856280973928,5169
+"DE",2017,"Comm. and pub. services","energy_consumption",1332985.048,1.23308388404837,251967.718
+"DE",2017,"Comm. and pub. services","intensity",40.3751339694078,1.0400258620388,1.55385515018784
+"DE",2017,"Comm. and pub. services","share_employment",0.789700289425216,1.05179933685996,0.0388914024536887
+"DE",2017,"Comm. and pub. services","share_energy_consumption",0.314967356211476,1.11251604578495,0.0318547149108763
+"DE",2017,"Manufacturing","employment",7603,0.969770408163265,-237
+"DE",2017,"Manufacturing","energy_consumption",2665534.432,1.05637007906605,142238.396999999
+"DE",2017,"Manufacturing","intensity",350.589824016835,1.08929914768878,28.7408399607129
+"DE",2017,"Manufacturing","share_employment",0.181859497213385,0.860306764368627,-0.0295296313457173
+"DE",2017,"Manufacturing","share_energy_consumption",0.629831770579393,0.953080871829799,-0.0310059287127911
+"DE",2017,"Other industries","employment",581,0.912087912087912,-56
+"DE",2017,"Other industries","energy_consumption",174251.788,0.863166905629764,-27623.176
+"DE",2017,"Other industries","intensity",299.917018932874,0.946363715810946,-16.9981521817253
+"DE",2017,"Other industries","share_employment",0.0138971942497668,0.809135228155966,-0.00327817244566031
+"DE",2017,"Other industries","share_energy_consumption",0.0411734738239034,0.778768618361073,-0.011696496605251
+"DE",2017,"Total","employment",41807,1.12723792062123,4719
+"DE",2017,"Total","energy_consumption",4232137.146,1.10837402185813,413807.716999998
+"DE",2017,"Total","intensity",101.23034769297,0.983265379545876,-1.72288324426034
+"DE",2017,"Total","share_employment",1,1,1.11022302462516e-16
+"DE",2017,"Total","share_energy_consumption",1,1,3.33066907387547e-16
+"DE",2018,"Agricult., forest. and fish.","employment",606,0.792156862745098,-159
+"DE",2018,"Agricult., forest. and fish.","energy_consumption",139537.941,11.4930229550864,127396.841
+"DE",2018,"Agricult., forest. and fish.","intensity",230.260628712871,14.5085190769656,214.389909758623
+"DE",2018,"Agricult., forest. and fish.","share_employment",0.0143086513033623,0.693698378482485,-0.00631796647058076
+"DE",2018,"Agricult., forest. and fish.","share_energy_consumption",0.0334431845351103,10.5177533921876,0.0302634955570485
+"DE",2018,"Comm. and pub. services","employment",33423,1.20028011204482,5577
+"DE",2018,"Comm. and pub. services","energy_consumption",1209684.245,1.11902391518552,128666.915
+"DE",2018,"Comm. and pub. services","intensity",36.1931677288095,0.932302305067051,-2.62811109041049
+"DE",2018,"Comm. and pub. services","share_employment",0.78917170381564,1.05109531534563,0.0383628168441132
+"DE",2018,"Comm. and pub. services","share_energy_consumption",0.289926117189521,1.02406630752206,0.00681347588892195
+"DE",2018,"Manufacturing","employment",7731,0.98609693877551,-109
+"DE",2018,"Manufacturing","energy_consumption",2651596.004,1.05084618182741,128299.969
+"DE",2018,"Manufacturing","intensity",342.982279653344,1.06566214791449,21.1332955972212
+"DE",2018,"Manufacturing","share_employment",0.182541556479033,0.863533322282445,-0.0288475720800698
+"DE",2018,"Manufacturing","share_energy_consumption",0.635510412715155,0.961673968352355,-0.0253272865770293
+"DE",2018,"Other industries","employment",592,0.929356357927786,-45
+"DE",2018,"Other industries","energy_consumption",171569.785,0.849881439483501,-30305.179
+"DE",2018,"Other industries","intensity",289.813826013514,0.914483913768565,-27.1013451010862
+"DE",2018,"Other industries","share_employment",0.0139780884019645,0.813845121902761,-0.0031972782934626
+"DE",2018,"Other industries","share_energy_consumption",0.0411202855602133,0.777762598057707,-0.0117496848689411
+"DE",2018,"Total","employment",42352,1.14193270060397,5264
+"DE",2018,"Total","energy_consumption",4172387.975,1.09272603440419,354058.546
+"DE",2018,"Total","intensity",98.516905340952,0.956909311578739,-4.43632559627837
+"DE",2018,"Total","share_employment",1,1,1.11022302462516e-16
+"DE",2018,"Total","share_energy_consumption",1,1,1.11022302462516e-16
+"DE",2019,"Agricult., forest. and fish.","employment",599,0.783006535947712,-166
+"DE",2019,"Agricult., forest. and fish.","energy_consumption",150550.849,12.4000995791156,138409.749
+"DE",2019,"Agricult., forest. and fish.","intensity",251.336976627713,15.8365211653145,235.466257673464
+"DE",2019,"Agricult., forest. and fish.","share_employment",0.0140175980529814,0.679587812534605,-0.00660901972096168
+"DE",2019,"Agricult., forest. and fish.","share_energy_consumption",0.0375244713693574,11.8013024633094,0.0343447823912957
+"DE",2019,"Comm. and pub. services","employment",33759,1.21234647705236,5913
+"DE",2019,"Comm. and pub. services","energy_consumption",1152783.64,1.06638775161912,71766.3099999998
+"DE",2019,"Comm. and pub. services","intensity",34.1474463106135,0.879606425888975,-4.67383250860654
+"DE",2019,"Comm. and pub. services","share_employment",0.790016849199663,1.05222096182996,0.0392079622281358
+"DE",2019,"Comm. and pub. services","share_energy_consumption",0.287328812700642,1.01489220467399,0.00421617140004266
+"DE",2019,"Manufacturing","employment",7773,0.991454081632653,-67
+"DE",2019,"Manufacturing","energy_consumption",2553403.216,1.01193168799158,30107.1809999999
+"DE",2019,"Manufacturing","intensity",328.496489900939,1.02065411473742,6.64750584481669
+"DE",2019,"Manufacturing","share_employment",0.181901151361977,0.860503813994005,-0.0294879771971257
+"DE",2019,"Manufacturing","share_energy_consumption",0.636430192919186,0.963065808141483,-0.0244075063729984
+"DE",2019,"Other industries","employment",601,0.943485086342229,-36
+"DE",2019,"Other industries","energy_consumption",155333.445,0.769453734738499,-46541.519
+"DE",2019,"Other industries","intensity",258.458311148087,0.815544141478243,-58.4568599665132
+"DE",2019,"Other industries","share_employment",0.0140644013853786,0.818870515825625,-0.00311096531004845
+"DE",2019,"Other industries","share_energy_consumption",0.0387165230108145,0.732297043038723,-0.0141534474183399
+"DE",2019,"Total","employment",42732,1.15217860224331,5644
+"DE",2019,"Total","energy_consumption",4012071.15,1.05073991770551,193741.720999999
+"DE",2019,"Total","intensity",93.889149817467,0.911959235885568,-9.06408111976339
+"DE",2019,"Total","share_employment",1,1,1.11022302462516e-16
+"DE",2019,"Total","share_energy_consumption",1,1,1.11022302462516e-16
+"DE",2020,"Agricult., forest. and fish.","employment",586,0.766013071895425,-179
+"DE",2020,"Agricult., forest. and fish.","energy_consumption",151169.562,12.4510597886518,139028.462
+"DE",2020,"Agricult., forest. and fish.","intensity",257.968535836177,16.254369860612,242.097816881929
+"DE",2020,"Agricult., forest. and fish.","share_employment",0.0138295612772284,0.670471593006337,-0.00679705649671463
+"DE",2020,"Agricult., forest. and fish.","share_energy_consumption",0.0385083559135639,12.1107303825162,0.0353286669355022
+"DE",2020,"Comm. and pub. services","employment",33597,1.20652876535229,5751
+"DE",2020,"Comm. and pub. services","energy_consumption",1123823.757,1.03959828007568,42806.4269999999
+"DE",2020,"Comm. and pub. services","intensity",33.4501222430574,0.861644007113352,-5.37115657616258
+"DE",2020,"Comm. and pub. services","share_employment",0.792886979916456,1.0560436799232,0.042078092944929
+"DE",2020,"Comm. and pub. services","share_energy_consumption",0.286278564587457,1.01118255713455,0.00316592328685733
+"DE",2020,"Manufacturing","employment",7586,0.967602040816327,-254
+"DE",2020,"Manufacturing","energy_consumption",2509145.005,0.994391847090585,-14151.0300000003
+"DE",2020,"Manufacturing","intensity",330.759953203269,1.02768680216058,8.91096914714672
+"DE",2020,"Manufacturing","share_employment",0.179029098718524,0.846917246590893,-0.0323600298405791
+"DE",2020,"Manufacturing","share_energy_consumption",0.639169999654303,0.967211768243413,-0.0216676996378816
+"DE",2020,"Other industries","employment",604,0.948194662480377,-33
+"DE",2020,"Other industries","energy_consumption",141491.8,0.700888298362743,-60383.164
+"DE",2020,"Other industries","intensity",234.257947019868,0.739181864332893,-82.6572240947321
+"DE",2020,"Other industries","share_employment",0.0142543600877918,0.829930466147599,-0.00292100660763534
+"DE",2020,"Other industries","share_energy_consumption",0.0360430798446767,0.681730660185905,-0.0168268905844777
+"DE",2020,"Total","employment",42373,1.14249892148404,5285
+"DE",2020,"Total","energy_consumption",3925630.124,1.02810147657378,107300.694999999
+"DE",2020,"Total","intensity",92.6446115214877,0.899870850852386,-10.3086194157427
+"DE",2020,"Total","share_employment",1,1,1.11022302462516e-16
+"DE",2020,"Total","share_energy_consumption",1,1,1.11022302462516e-16
+"DE",2021,"Agricult., forest. and fish.","employment",579,0.756862745098039,-186
+"DE",2021,"Agricult., forest. and fish.","energy_consumption",155488.589,12.8067958422219,143347.489
+"DE",2021,"Agricult., forest. and fish.","intensity",268.546785837651,16.9208960609667,252.676066883403
+"DE",2021,"Agricult., forest. and fish.","share_employment",0.0136472917550559,0.66163497596276,-0.00697932601888719
+"DE",2021,"Agricult., forest. and fish.","share_energy_consumption",0.0377597939777027,11.8753105219493,0.0345801049996409
+"DE",2021,"Comm. and pub. services","employment",33769,1.21270559505854,5923
+"DE",2021,"Comm. and pub. services","energy_consumption",1256593.678,1.16241769963114,175576.348
+"DE",2021,"Comm. and pub. services","intensity",37.2114566022091,0.958532478424851,-1.60982221701087
+"DE",2021,"Comm. and pub. services","share_employment",0.795950596332438,1.0601241010119,0.0451417093609106
+"DE",2021,"Comm. and pub. services","share_energy_consumption",0.305158846061454,1.07787078902438,0.0220462047608542
+"DE",2021,"Manufacturing","employment",7470,0.95280612244898,-370
+"DE",2021,"Manufacturing","energy_consumption",2559313.883,1.01427412697535,36017.8479999993
+"DE",2021,"Manufacturing","intensity",342.612300267738,1.06451260448284,20.7633162116151
+"DE",2021,"Manufacturing","share_employment",0.176071277047094,0.832924939173803,-0.0353178515120089
+"DE",2021,"Manufacturing","share_energy_consumption",0.621519338286324,0.940502242762522,-0.0393183610058602
+"DE",2021,"Other industries","employment",608,0.95447409733124,-29
+"DE",2021,"Other industries","energy_consumption",146438.526,0.725392208614834,-55436.438
+"DE",2021,"Other industries","intensity",240.852838815789,0.759991508038896,-76.0623322988102
+"DE",2021,"Other industries","share_employment",0.0143308348654127,0.83438305100224,-0.00284453183001437
+"DE",2021,"Other industries","share_energy_consumption",0.0355620216745195,0.672631767823145,-0.0173079487546349
+"DE",2021,"Total","employment",42426,1.14392795513374,5338
+"DE",2021,"Total","energy_consumption",4117834.676,1.07843881796193,299505.246999999
+"DE",2021,"Total","intensity",97.0592249092537,0.942750645372459,-5.89400602797664
+"DE",2021,"Total","share_employment",1,1,1.11022302462516e-16
+"DE",2021,"Total","share_energy_consumption",1,1,1.11022302462516e-16

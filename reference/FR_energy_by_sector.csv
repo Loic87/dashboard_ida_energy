@@ -1,0 +1,287 @@
+"geo","time","sector","energy_consumption"
+"FR",2000,"Basic metals",219705.167
+"FR",2000,"Chemical and petrochem.",228645.469
+"FR",2000,"Coke and ref. pet. products",246659.846
+"FR",2000,"Construction",47676.656
+"FR",2000,"Food, bev. and tobacco",210758.804
+"FR",2000,"Machinery",103576.927
+"FR",2000,"Mining and quarrying",29783.969
+"FR",2000,"Non-metallic minerals",155643.844
+"FR",2000,"Other manufacturing",125038.462
+"FR",2000,"Paper, pulp and printing",149574.869
+"FR",2000,"Textile and leather",69584.45
+"FR",2000,"Transport equipment",64874.098
+"FR",2000,"Wood and wood products",43916.2
+"FR",2001,"Basic metals",214112.495
+"FR",2001,"Chemical and petrochem.",254619.506
+"FR",2001,"Coke and ref. pet. products",243993.583
+"FR",2001,"Construction",55658.289
+"FR",2001,"Food, bev. and tobacco",217085.828
+"FR",2001,"Machinery",103121.983
+"FR",2001,"Mining and quarrying",18728.192
+"FR",2001,"Non-metallic minerals",178024.291
+"FR",2001,"Other manufacturing",128431.364
+"FR",2001,"Paper, pulp and printing",142581.043
+"FR",2001,"Textile and leather",76063.943
+"FR",2001,"Transport equipment",64050.025
+"FR",2001,"Wood and wood products",45286
+"FR",2002,"Basic metals",216744.102
+"FR",2002,"Chemical and petrochem.",237329.531
+"FR",2002,"Coke and ref. pet. products",220096.894
+"FR",2002,"Construction",73772.184
+"FR",2002,"Food, bev. and tobacco",222336.817
+"FR",2002,"Machinery",97826.292
+"FR",2002,"Mining and quarrying",17239.995
+"FR",2002,"Non-metallic minerals",183503.183
+"FR",2002,"Other manufacturing",83017.34
+"FR",2002,"Paper, pulp and printing",146197.14
+"FR",2002,"Textile and leather",74089.84
+"FR",2002,"Transport equipment",60683.329
+"FR",2002,"Wood and wood products",44912.8
+"FR",2003,"Basic metals",204345.274
+"FR",2003,"Chemical and petrochem.",250351.786
+"FR",2003,"Coke and ref. pet. products",224889.202
+"FR",2003,"Construction",71493.448
+"FR",2003,"Food, bev. and tobacco",220242.971
+"FR",2003,"Machinery",97689.366
+"FR",2003,"Mining and quarrying",18703.879
+"FR",2003,"Non-metallic minerals",179808.927
+"FR",2003,"Other manufacturing",153471.817
+"FR",2003,"Paper, pulp and printing",146231.755
+"FR",2003,"Textile and leather",73027.443
+"FR",2003,"Transport equipment",62782.009
+"FR",2003,"Wood and wood products",46835.219
+"FR",2004,"Basic metals",208118.962
+"FR",2004,"Chemical and petrochem.",218633.767
+"FR",2004,"Coke and ref. pet. products",219572.555
+"FR",2004,"Construction",68062.339
+"FR",2004,"Food, bev. and tobacco",215697.911
+"FR",2004,"Machinery",96632.901
+"FR",2004,"Mining and quarrying",19185.905
+"FR",2004,"Non-metallic minerals",178766.583
+"FR",2004,"Other manufacturing",159251.008
+"FR",2004,"Paper, pulp and printing",136674.181
+"FR",2004,"Textile and leather",65114.275
+"FR",2004,"Transport equipment",64235.205
+"FR",2004,"Wood and wood products",49051.012
+"FR",2005,"Basic metals",217930.569
+"FR",2005,"Chemical and petrochem.",210870.297
+"FR",2005,"Coke and ref. pet. products",178041.695
+"FR",2005,"Construction",65212.589
+"FR",2005,"Food, bev. and tobacco",180150.742
+"FR",2005,"Machinery",88620.578
+"FR",2005,"Mining and quarrying",17861.58
+"FR",2005,"Non-metallic minerals",179638.971
+"FR",2005,"Other manufacturing",313225.034
+"FR",2005,"Paper, pulp and printing",137129.477
+"FR",2005,"Textile and leather",23722.213
+"FR",2005,"Transport equipment",58229.278
+"FR",2005,"Wood and wood products",19385.628
+"FR",2006,"Basic metals",216838.943
+"FR",2006,"Chemical and petrochem.",181537.815
+"FR",2006,"Coke and ref. pet. products",185146.558
+"FR",2006,"Construction",59003.337
+"FR",2006,"Food, bev. and tobacco",182745.308
+"FR",2006,"Machinery",94794.978
+"FR",2006,"Mining and quarrying",17231.606
+"FR",2006,"Non-metallic minerals",181326.36
+"FR",2006,"Other manufacturing",262538.251
+"FR",2006,"Paper, pulp and printing",136071.907
+"FR",2006,"Textile and leather",24329.562
+"FR",2006,"Transport equipment",54529.828
+"FR",2006,"Wood and wood products",18467.632
+"FR",2007,"Basic metals",210540.788
+"FR",2007,"Chemical and petrochem.",191465.998
+"FR",2007,"Coke and ref. pet. products",203509.958
+"FR",2007,"Construction",52777.185
+"FR",2007,"Food, bev. and tobacco",191701.849
+"FR",2007,"Machinery",91963.285
+"FR",2007,"Mining and quarrying",15753.294
+"FR",2007,"Non-metallic minerals",173685.104
+"FR",2007,"Other manufacturing",337140.244
+"FR",2007,"Paper, pulp and printing",116952.926
+"FR",2007,"Textile and leather",19672.418
+"FR",2007,"Transport equipment",54922.661
+"FR",2007,"Wood and wood products",19776.034
+"FR",2008,"Basic metals",181016.75
+"FR",2008,"Chemical and petrochem.",221034.294
+"FR",2008,"Coke and ref. pet. products",235003.272
+"FR",2008,"Construction",57607.033
+"FR",2008,"Food, bev. and tobacco",188990.841
+"FR",2008,"Machinery",94042.339
+"FR",2008,"Mining and quarrying",10732.206
+"FR",2008,"Non-metallic minerals",177760.609
+"FR",2008,"Other manufacturing",341748.705
+"FR",2008,"Paper, pulp and printing",103900.187
+"FR",2008,"Textile and leather",18955.97
+"FR",2008,"Transport equipment",48920.733
+"FR",2008,"Wood and wood products",24150.71
+"FR",2009,"Basic metals",152404.308
+"FR",2009,"Chemical and petrochem.",172456.893
+"FR",2009,"Coke and ref. pet. products",227568.519
+"FR",2009,"Construction",44670.51
+"FR",2009,"Food, bev. and tobacco",186407.899
+"FR",2009,"Machinery",84355.471
+"FR",2009,"Mining and quarrying",12909.873
+"FR",2009,"Non-metallic minerals",154536.69
+"FR",2009,"Other manufacturing",247568.831
+"FR",2009,"Paper, pulp and printing",92893.038
+"FR",2009,"Textile and leather",14866.93
+"FR",2009,"Transport equipment",45946.92
+"FR",2009,"Wood and wood products",25434.194
+"FR",2010,"Basic metals",163616.597
+"FR",2010,"Chemical and petrochem.",161265.237
+"FR",2010,"Coke and ref. pet. products",193130.675
+"FR",2010,"Construction",47166.602
+"FR",2010,"Food, bev. and tobacco",199875.441
+"FR",2010,"Machinery",93708.97
+"FR",2010,"Mining and quarrying",13334.654
+"FR",2010,"Non-metallic minerals",157553.912
+"FR",2010,"Other manufacturing",269149.401
+"FR",2010,"Paper, pulp and printing",104616.511
+"FR",2010,"Textile and leather",13695.803
+"FR",2010,"Transport equipment",47613.87
+"FR",2010,"Wood and wood products",25214.356
+"FR",2011,"Basic metals",176009.501
+"FR",2011,"Chemical and petrochem.",299280.702
+"FR",2011,"Coke and ref. pet. products",167805.111
+"FR",2011,"Construction",62217.027
+"FR",2011,"Food, bev. and tobacco",224332.954
+"FR",2011,"Machinery",86252.877
+"FR",2011,"Mining and quarrying",26101.514
+"FR",2011,"Non-metallic minerals",171645.861
+"FR",2011,"Other manufacturing",67275.454
+"FR",2011,"Paper, pulp and printing",115627.447
+"FR",2011,"Textile and leather",14681.643
+"FR",2011,"Transport equipment",40257.002
+"FR",2011,"Wood and wood products",21645.321
+"FR",2012,"Basic metals",172953.531
+"FR",2012,"Chemical and petrochem.",290164.089
+"FR",2012,"Coke and ref. pet. products",131294.019
+"FR",2012,"Construction",61876.686
+"FR",2012,"Food, bev. and tobacco",228394.618
+"FR",2012,"Machinery",87439.07
+"FR",2012,"Mining and quarrying",23985.194
+"FR",2012,"Non-metallic minerals",166474.934
+"FR",2012,"Other manufacturing",70061.58
+"FR",2012,"Paper, pulp and printing",110808.16
+"FR",2012,"Textile and leather",13341.125
+"FR",2012,"Transport equipment",41056.098
+"FR",2012,"Wood and wood products",22981.136
+"FR",2013,"Basic metals",169947.565
+"FR",2013,"Chemical and petrochem.",298800.741
+"FR",2013,"Coke and ref. pet. products",111297.308
+"FR",2013,"Construction",62437.765
+"FR",2013,"Food, bev. and tobacco",219549.931
+"FR",2013,"Machinery",91582.324
+"FR",2013,"Mining and quarrying",22373.095
+"FR",2013,"Non-metallic minerals",164653.923
+"FR",2013,"Other manufacturing",68638.731
+"FR",2013,"Paper, pulp and printing",110929.917
+"FR",2013,"Textile and leather",13625.863
+"FR",2013,"Transport equipment",41452.745
+"FR",2013,"Wood and wood products",25788.345
+"FR",2014,"Basic metals",164973.999
+"FR",2014,"Chemical and petrochem.",279876.155
+"FR",2014,"Coke and ref. pet. products",109073.162
+"FR",2014,"Construction",59865.203
+"FR",2014,"Food, bev. and tobacco",210544.911
+"FR",2014,"Machinery",82852.29
+"FR",2014,"Mining and quarrying",21220.529
+"FR",2014,"Non-metallic minerals",160509.885
+"FR",2014,"Other manufacturing",65957.548
+"FR",2014,"Paper, pulp and printing",105692.298
+"FR",2014,"Textile and leather",12501.765
+"FR",2014,"Transport equipment",37538.21
+"FR",2014,"Wood and wood products",22751.729
+"FR",2015,"Basic metals",167272.984
+"FR",2015,"Chemical and petrochem.",263602.515
+"FR",2015,"Coke and ref. pet. products",111543.633
+"FR",2015,"Construction",60503.644
+"FR",2015,"Food, bev. and tobacco",222848.697
+"FR",2015,"Machinery",81116.842
+"FR",2015,"Mining and quarrying",19775.213
+"FR",2015,"Non-metallic minerals",152632.069
+"FR",2015,"Other manufacturing",66263.428
+"FR",2015,"Paper, pulp and printing",102218.023
+"FR",2015,"Textile and leather",12213.455
+"FR",2015,"Transport equipment",38281.79
+"FR",2015,"Wood and wood products",24948.452
+"FR",2016,"Basic metals",164173.347
+"FR",2016,"Chemical and petrochem.",266057.779
+"FR",2016,"Coke and ref. pet. products",107719.89
+"FR",2016,"Construction",61410.531
+"FR",2016,"Food, bev. and tobacco",227654.967
+"FR",2016,"Machinery",82917.997
+"FR",2016,"Mining and quarrying",19813.882
+"FR",2016,"Non-metallic minerals",157264.828
+"FR",2016,"Other manufacturing",69910.937
+"FR",2016,"Paper, pulp and printing",104857.683
+"FR",2016,"Textile and leather",12817.345
+"FR",2016,"Transport equipment",41750.861
+"FR",2016,"Wood and wood products",25617.687
+"FR",2017,"Basic metals",172283.815
+"FR",2017,"Chemical and petrochem.",248021.046
+"FR",2017,"Coke and ref. pet. products",103116.34
+"FR",2017,"Construction",60700.027
+"FR",2017,"Food, bev. and tobacco",220725.622
+"FR",2017,"Machinery",80010.556
+"FR",2017,"Mining and quarrying",19253.008
+"FR",2017,"Non-metallic minerals",146758.718
+"FR",2017,"Other manufacturing",85306.546
+"FR",2017,"Paper, pulp and printing",102739.519
+"FR",2017,"Textile and leather",13630.639
+"FR",2017,"Transport equipment",41884.577
+"FR",2017,"Wood and wood products",23950.977
+"FR",2018,"Basic metals",183073.907
+"FR",2018,"Chemical and petrochem.",255508.636
+"FR",2018,"Coke and ref. pet. products",100275.515
+"FR",2018,"Construction",62805.246
+"FR",2018,"Food, bev. and tobacco",223514.039
+"FR",2018,"Machinery",73025.129
+"FR",2018,"Mining and quarrying",18343.414
+"FR",2018,"Non-metallic minerals",155801.197
+"FR",2018,"Other manufacturing",83175.061
+"FR",2018,"Paper, pulp and printing",105262.607
+"FR",2018,"Textile and leather",11534.369
+"FR",2018,"Transport equipment",41638.87
+"FR",2018,"Wood and wood products",28302.404
+"FR",2019,"Basic metals",177079.421
+"FR",2019,"Chemical and petrochem.",263007.508
+"FR",2019,"Coke and ref. pet. products",93642.348
+"FR",2019,"Construction",64616.086
+"FR",2019,"Food, bev. and tobacco",209688.987
+"FR",2019,"Machinery",71812.761
+"FR",2019,"Mining and quarrying",17661.237
+"FR",2019,"Non-metallic minerals",158578.936
+"FR",2019,"Other manufacturing",78152.097
+"FR",2019,"Paper, pulp and printing",100759.074
+"FR",2019,"Textile and leather",10586.446
+"FR",2019,"Transport equipment",41200.81
+"FR",2019,"Wood and wood products",24463.245
+"FR",2020,"Basic metals",150496.389
+"FR",2020,"Chemical and petrochem.",245073.108
+"FR",2020,"Coke and ref. pet. products",76575.111
+"FR",2020,"Construction",59816.526
+"FR",2020,"Food, bev. and tobacco",204044.91
+"FR",2020,"Machinery",60030.956
+"FR",2020,"Mining and quarrying",18085.737
+"FR",2020,"Non-metallic minerals",148151.429
+"FR",2020,"Other manufacturing",64799.165
+"FR",2020,"Paper, pulp and printing",96801.927
+"FR",2020,"Textile and leather",8369.179
+"FR",2020,"Transport equipment",32947.98
+"FR",2020,"Wood and wood products",22392.455
+"FR",2021,"Basic metals",172939.892
+"FR",2021,"Chemical and petrochem.",239186.908
+"FR",2021,"Coke and ref. pet. products",70255.726
+"FR",2021,"Construction",67730.124
+"FR",2021,"Food, bev. and tobacco",219574.191
+"FR",2021,"Machinery",72458.354
+"FR",2021,"Mining and quarrying",17881.415
+"FR",2021,"Non-metallic minerals",158597.836
+"FR",2021,"Other manufacturing",77741.354
+"FR",2021,"Paper, pulp and printing",99990.209
+"FR",2021,"Textile and leather",10357.647
+"FR",2021,"Transport equipment",39725.812
+"FR",2021,"Wood and wood products",27808.472

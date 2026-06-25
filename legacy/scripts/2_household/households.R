@@ -459,7 +459,7 @@ join_energy_consumption_activity <- function(df) {
         .,
         c(
           "space_heating",
-          "space_cooling",
+          "space_cooling"
         )
       ), na.rm = TRUE),
       # where the detailed end use is not available, use the total from the energy balance  (which is not temperature corrected)

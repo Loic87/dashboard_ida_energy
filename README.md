@@ -1,324 +1,100 @@
 # Energy Decomposition Analysis Dashboard
 
-An interactive Shiny dashboard for **Index Decomposition Analysis (IDA)** of energy consumption across European countries using the LMDI (Logarithmic Mean Divisia Index) methodology.
+An interactive dashboard that explains **why** energy consumption across European
+countries has changed over time — by decomposing it into interpretable drivers
+with **Index Decomposition Analysis (IDA)** and the **Logarithmic Mean Divisia
+Index (LMDI)** method.
 
-## Overview
+Built with Python (pandas + Plotly Dash) on open [Eurostat](https://ec.europa.eu/eurostat) data.
 
-This dashboard analyzes energy consumption changes over time by decomposing them into different effects:
+## The methodology
 
-### Sectors Analyzed
+A change in a sector's energy use between a base year and a later year is split
+into additive effects that sum exactly to the observed change
+(ΔE = sum of effects). The dashboard shows each effect as an indexed trend, a
+waterfall, and an intensity counterfactual.
 
-- **Industry**: Energy consumption decomposed by Gross Value Added (GVA) and employment
-- **Transport**: Energy consumption decomposed by Vehicle Kilometers (VKM) traveled
-- **Residential**: Household energy consumption analysis
-- **Economy-wide**: Full economy energy consumption patterns
+| Sector | Activity | Structure | Intensity / efficiency | Extra |
+| ------ | -------- | --------- | ---------------------- | ----- |
+| **Industry** | Gross value added (GVA) | sub-sector mix | energy per unit GVA | — |
+| **Transport** | vehicle-km (VKM) | modal split (road/rail/water) | energy per VKM | — |
+| **Economy-wide** | employment | sector mix | energy per employee | — |
+| **Residential** | population | dwellings per capita | energy per dwelling | weather (HDD/CDD) |
 
-### Data Source
+Industry, transport and economy-wide share one **additive-LMDI engine**
+([`ida/decomp.py`](ida/decomp.py)) parameterised by activity and grouping
+variable; residential is a dedicated four-factor decomposition with weather
+normalisation.
 
-All data is retrieved from [Eurostat](https://ec.europa.eu/eurostat) using their API, covering 40+ European countries.
-
-## Features
-
-- Interactive selection of countries and time periods
-- Multiple decomposition methodologies (LMDI)
-- Visualization of:
-  - Energy consumption by sector and product
-  - Economic activity indicators (GVA, employment, VKM)
-  - Decomposition effects (activity, structure, intensity)
-  - Waterfall charts showing contribution of each effect
-- Support for 40+ European countries
-
-## Prerequisites
-
-- **R** >= 4.3.0
-- Internet connection (for downloading Eurostat data)
-- No RStudio required - runs in any R environment or directly from terminal
-
-## Installation
-
-### 1. Clone the Repository
+## Quickstart
 
 ```bash
-git clone https://github.com/Loic87/dashboard_ida_energy.git
-cd dashboard_ida_energy
+python3 -m venv .venv && .venv/bin/pip install -r requirements.txt
+.venv/bin/python -m ida.download      # fetch Eurostat data -> data/*.feather
+.venv/bin/python app.py               # http://127.0.0.1:8050
 ```
 
-### 2. Install R Dependencies
+The dashboard has a sidebar (country + year-range) and one tab per sector, each
+with an overview (energy / activity by sub-group) and an LMDI decomposition
+(indexed indicators, waterfall, intensity counterfactual).
 
-The project uses `renv` for reproducible dependency management.
+## Project layout
 
-```r
-# renv will automatically bootstrap when you open the project
-# To manually restore dependencies:
-renv::restore()
+```text
+ida/            analysis engine
+  decomp.py       generic additive-LMDI core (activity / structure / intensity)
+  industry.py     transport.py  economy.py  residential.py   # sector pipelines
+  mappings.py     Eurostat code -> label groupings
+  data.py         load cached feather files
+  download.py     fetch Eurostat data (python -m ida.download)
+  charts.py  colors.py  countries.py                          # presentation
+app.py          Dash dashboard
+tests/          correctness tests (see below)
+  fixtures/       trimmed Eurostat inputs for the tests (committed, ~5 MB)
+  make_fixtures.py  regenerates tests/fixtures/ from the full cache
+reference/      golden expected-value fixtures + their generators
+data/           Eurostat cache (git-ignored; rebuilt by ida.download)
+legacy/         original R/Shiny implementation (archived, not required)
 ```
 
-**Key packages used:**
+## Data
 
-- **Dashboard**: `shiny`, `shinydashboard`, `shinyjs`, `plotly`, `ggplot2`
-- **Data**: `eurostat` (v4.0.0), `arrow`, `dplyr`, `tidyr`
-- **Utilities**: `here`, `futile.logger`, `RColorBrewer`, `waterfalls`
+`data/*.feather` holds one file per dataset per country, fetched from Eurostat
+with `python -m ida.download` (see [`ida/download.py`](ida/download.py) for the
+datasets and filters). It is **not committed** (~1.1 GB; git-ignored) and is
+fully reproducible. `--countries` / `--datasets` flags fetch a subset.
 
-## Configuration
+## Tests
 
-The dashboard uses interactive country and year selectors in the UI - no configuration file needed.
-
-**Dashboard Controls:**
-
-- **Country Selector**: Choose from 40+ European countries (dropdown)
-- **Year Range Slider**: Adjust start and end years (1990-2023)
-- **Tabs**: Navigate between Industry and Transport sectors
-
-**Country Codes**: Belgium (BE), France (FR), Germany (DE), Czech Republic (CZ), Denmark (DK), etc.
-
-## Running the Dashboard
-
-### Quick Start
-
-#### Recommended Method
-
-```r
-# From project root directory
-R -e "shiny::runApp('scripts', port=8080)"
+```bash
+.venv/bin/python -m pytest tests/ -q     # 49 tests
 ```
 
-The dashboard will be available at `http://127.0.0.1:8080`
+Every pipeline stage of every sector is checked against committed golden
+fixtures in [`reference/`](reference/) to `1e-6`, locking the decomposition
+results so refactors can't silently change the numbers. The fixtures were
+generated by the scripts in `reference/` and validated against the original R
+implementation (archived in `legacy/`).
 
-#### From R Console
+The suite is **self-contained**: it reads trimmed inputs from
+[`tests/fixtures/`](tests/fixtures/) (~5 MB, committed) rather than the full
+~1.1 GB cache, so it runs anywhere — including CI — without downloading data.
+Regenerate the fixtures with `python -m tests.make_fixtures` when the set of
+tested countries or datasets changes.
 
-```r
-library(shiny)
-library(here)
+## Data sources & method
 
-# Run from project root
-shiny::runApp('scripts', port=8080)
-```
+- Data: [Eurostat](https://ec.europa.eu/eurostat) — energy balances (`nrg_bal_c`),
+  national accounts (`nama_10_a64`, `nama_10_a10_e`), transport
+  (`road_/rail_/iww_tf_*`), household energy (`nrg_d_hhq`), degree-days
+  (`nrg_chdd_a`), demographics (`demo_gind`, `ilc_lvph01`).
+- Method: LMDI decomposition — Ang, B.W. (2004, 2015).
 
-#### Using the Dashboard
-
-1. Select a country from the dropdown (40+ European countries available)
-2. Adjust the year range slider (1990-2023)
-3. Navigate between tabs:
-   - **Industry**: Energy and GVA decomposition by industrial sector
-   - **Transport**: Energy and VKM decomposition by transport mode
-   - **Other sectors**: Not yet implemented - see [`todos/`](./todos/) folder
-
-### Downloading Data
-
-Data is automatically downloaded from Eurostat on first run and cached locally.
-
-To manually download/refresh data:
-
-```r
-source(here::here("scripts", "0_support", "data_download.R"))
-```
-
-**Data files** are stored in `data/` as Apache Arrow `.feather` files (one per country per dataset):
-
-- `nama_10_a64_BE.feather` - Industry GVA (NACE Rev.2 A64 classification, 96 sectors)
-- `nrg_bal_c_BE.feather` - Energy balance
-- `nrg_d_hhq_BE.feather` - Household energy consumption
-- `demo_gind_BE.feather` - Population data
-- `ilc_lvph01_BE.feather` - Household size
-- `nrg_chdd_a_BE.feather` - Heating/cooling degree days
-- `road_tf_vehmov_BE.feather` - Road transport VKM
-- `rail_tf_trainmv_BE.feather` - Rail transport VKM
-- `iww_tf_vetf_BE.feather` - Inland waterway transport VKM
-
-**Note**: Data is downloaded per country and covers 1990-2023 (varies by dataset and country availability)
-
-## Project Structure
-
-``` text
-dashboard_ida_energy/
-├── renv.lock                    # Locked R package versions
-├── README.md                    # This file
-├── LICENSE                      # MIT License
-├── DESCRIPTION                  # R package metadata
-├── eurostat_ida_energy.Rproj    # R project file (optional, not required)
-│
-├── data/                        # Cached Eurostat data (*.feather files)
-│   ├── nama_10_a64_BE.feather   # Industry GVA by NACE sector
-│   ├── nrg_bal_c_BE.feather     # Energy balance
-│   ├── nrg_d_hhq_BE.feather     # Household energy
-│   └── ...                      # (per-country files)
-│
-├── todos/                       # Future integration plans
-│   ├── README.md                # Overview and implementation order
-│   ├── TODO_FULL_ECONOMY.md     # Full economy overview (Priority: HIGH)
-│   ├── TODO_RESIDENTIAL.md      # Residential sector (Priority: MEDIUM-HIGH)
-│   ├── TODO_ECONOMY_EMPLOYMENT.md  # Employment-based decomposition
-│   └── TODO_INDUSTRY_PRIMARY.md    # Primary energy in industry
-│
-├── tests/                       # Test and validation scripts
-│   ├── README.md                # Test documentation
-│   ├── test_countries.R         # Multi-country validation
-│   ├── test_residential.R       # Residential data checks
-│   ├── test_code_modernization.R  # RStudio dependency tests
-│   └── ...
-│
-├── docs/                        # Documentation
-│   ├── QUICKSTART.md            # Quick start guide
-│   ├── SETUP_GUIDE.md           # Detailed setup instructions
-│   └── history/                 # Development phase summaries
-│       ├── PHASE1_COMPLETE.md
-│       ├── PHASE2_COMPLETE.md
-│       └── PHASE3_SUMMARY.md
-│
-└── scripts/                     # Dashboard and analysis code
-    ├── app.R                    # Main Shiny app entry point
-    ├── ui.R                     # Dashboard UI definition
-    ├── server.R                 # Dashboard server logic
-    │
-    ├── 0_support/               # Core utilities
-    │   ├── data_download.R      # Eurostat API data fetching
-    │   ├── data_load.R          # Per-country data loading functions
-    │   ├── mapping_countries.R  # Country code mappings
-    │   ├── mapping_sectors.R    # NACE sector classifications
-    │   ├── mapping_products.R   # Energy product classifications
-    │   ├── mapping_colors.R     # Chart color schemes
-    │   └── outputs.R            # Chart generation utilities
-    │
-    ├── 1_industry/              # Industry sector analysis
-    │   ├── 1a_industry_gva_final.R      # ✓ Integrated in dashboard
-    │   ├── 1b_industry_gva_primary.R    # TODO: Batch charts only
-    │   └── 1c_economy_emp_final.R       # TODO: Batch charts only
-    │
-    ├── 2_household/             # Residential sector (not yet integrated)
-    │   └── households.R                 # TODO: See TODO_RESIDENTIAL.md
-    │
-    ├── 3_transport/             # Transport sector analysis
-    │   └── transport_*.R                # ✓ Integrated in dashboard
-    │
-    └── 4_all_sectors/           # Economy-wide analysis
-        └── full_energy.R                # TODO: Batch charts only
-```
-
-## Methodology
-
-### LMDI Decomposition
-
-The Logarithmic Mean Divisia Index (LMDI) method decomposes energy consumption changes into:
-
-1. **Activity Effect**: Changes due to overall economic activity (GVA, employment, VKM)
-2. **Structure Effect**: Changes in the composition of sectors/modes
-3. **Intensity Effect**: Changes in energy efficiency (energy per unit of activity)
-
-Formula:
-
-``` text
-ΔE = ΔE_activity + ΔE_structure + ΔE_intensity
-```
-
-### Data Coverage
-
-**Eurostat Datasets Used:**
-
-- `nama_10_a64` - GVA by 96 NACE Rev.2 sectors (A64 detailed classification)
-  - Chain-linked volumes (CLV10_MEUR - 2010 reference year)
-  - Annual data 1975-2024
-- `nrg_bal_c` - Complete energy balances (annual data)
-  - Final energy consumption by sector and product
-  - 72 energy products, 60+ balance items
-- `nrg_d_hhq` - Disaggregated household energy consumption (2010-2023)
-- `demo_gind` - Population and demographic indicators (1960-2025)
-- `ilc_lvph01` - Average household size from EU-SILC survey (2003-2024)
-- `nrg_chdd_a` - Heating and cooling degree days (1979-2024)
-- `road_tf_vehmov` - Road vehicle kilometers
-- `rail_tf_trainmv` - Rail vehicle kilometers
-- `iww_tf_vetf` - Inland waterway transport
-
-**NACE Rev.2 Sectors:** Industry analysis uses A64 detailed classification (96 sectors) including:
-
-- C10-C12 (Food, beverages, tobacco)
-- C13-C15 (Textile and leather)
-- C16 (Wood products)
-- C17-C18 (Paper, pulp, printing)
-- C19 (Coke and refined petroleum)
-- C20-C21 (Chemicals and pharmaceuticals)
-- And 90 more detailed sectors...
-
-## Troubleshooting
-
-### Common Issues
-
-1. **Package installation errors**
-
-   ```r
-   # Reset renv and restore
-   renv::restore()
-   ```
-
-2. **Data download failures**
-   - Check internet connection
-   - Verify Eurostat API is accessible: <https://ec.europa.eu/eurostat>
-   - Some countries may have limited data availability
-   - Try reducing the year range if specific years fail
-
-3. **Missing data warnings**
-   - Not all countries have complete data for all years
-   - Dashboard shows warnings for missing VKM data (transport) or missing sectors
-   - Example: Belgium road VKM missing 2007-2012, 2016-2021
-   - Adjust year range in the UI to match available data
-
-4. **"Column 'C17' doesn't exist" errors**
-   - Fixed in latest version (Nov 2025)
-   - Ensure you have `nama_10_a64` data (not `nama_10_a10_e`)
-   - Re-run data download if needed
-
-5. **Residential sector not working**
-   - Residential sector UI integration is not yet complete
-   - See `TODO_RESIDENTIAL.md` for implementation status
-   - Industry and Transport sectors are fully functional
-
-## Development Roadmap
-
-- [x] **Phase 1**: Environment & dependency management (renv setup)
-- [x] **Phase 2**: Data & API updates (Eurostat 2023 data, latest eurostat package v4.0.0)
-- [x] **Phase 3**: Code modernization
-  - Removed all RStudio dependencies (rstudioapi)
-  - Migrated from deprecated `feather` to `arrow` package
-  - Portable path resolution with `here` package
-  - Per-country data loading architecture
-- [x] **Phase 4**: Data compatibility fixes
-  - Fixed NACE sector mappings (nama_10_a64 A64 classification)
-  - Updated unit filters (CLV10_MEUR / CLV15_MEUR compatibility)
-  - Validated across 6+ countries
-- [ ] **Phase 5**: Enhanced documentation (IN PROGRESS)
-  - Updated README with current status
-  - Data structure documentation
-  - API usage examples
-- [ ] **Phase 6**: Residential sector integration (see TODO_RESIDENTIAL.md)
-- [ ] **Phase 7**: Production deployment & optimization
-
-## Contributing
-
-Contributions are welcome! Please:
-
-1. Fork the repository
-2. Create a feature branch
-3. Make your changes
-4. Submit a pull request
+Data source: Eurostat (© European Union). Eurostat data is reused under the
+European Commission's open reuse policy (Commission Decision 2011/833/EU);
+reuse is free with attribution. Eurostat is not responsible for any derived
+analysis presented here.
 
 ## License
 
-MIT License - see LICENSE file for details
-
-## Citation
-
-If you use this tool in your research, please cite:
-
-``` text
-[Your Name] (2025). Energy Decomposition Analysis Dashboard for European Countries.
-GitHub repository: https://github.com/Loic87/dashboard_ida_energy
-```
-
-## Contact
-
-For questions or issues, please open an issue on GitHub: <https://github.com/Loic87/dashboard_ida_energy/issues>
-
-## Acknowledgments
-
-- Data provided by [Eurostat](https://ec.europa.eu/eurostat)
-- LMDI methodology based on Ang, B.W. (2004, 2015)
-- Built with R Shiny framework
+MIT — see [LICENSE](LICENSE).

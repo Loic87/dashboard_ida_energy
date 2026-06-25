@@ -1,0 +1,287 @@
+"geo","time","sector","GVA"
+"IT",2000,"Basic metals",9347.8
+"IT",2000,"Chemical and petrochem.",18581.6
+"IT",2000,"Coke and ref. pet. products",4756
+"IT",2000,"Construction",81336.5
+"IT",2000,"Food, bev. and tobacco",24718.9
+"IT",2000,"Machinery",71568.4
+"IT",2000,"Mining and quarrying",6873
+"IT",2000,"Non-metallic minerals",23742.9
+"IT",2000,"Other manufacturing",15170.8
+"IT",2000,"Paper, pulp and printing",9768.2
+"IT",2000,"Textile and leather",33257.1
+"IT",2000,"Transport equipment",25304.3
+"IT",2000,"Wood and wood products",8329.3
+"IT",2001,"Basic metals",8621.8
+"IT",2001,"Chemical and petrochem.",18209.3
+"IT",2001,"Coke and ref. pet. products",5855.1
+"IT",2001,"Construction",85588.6
+"IT",2001,"Food, bev. and tobacco",23436.9
+"IT",2001,"Machinery",73365.5
+"IT",2001,"Mining and quarrying",5929.2
+"IT",2001,"Non-metallic minerals",23932.2
+"IT",2001,"Other manufacturing",15055
+"IT",2001,"Paper, pulp and printing",9978.5
+"IT",2001,"Textile and leather",33028.2
+"IT",2001,"Transport equipment",23992.6
+"IT",2001,"Wood and wood products",8616.1
+"IT",2002,"Basic metals",8151.3
+"IT",2002,"Chemical and petrochem.",19466.3
+"IT",2002,"Coke and ref. pet. products",6074.4
+"IT",2002,"Construction",88013.3
+"IT",2002,"Food, bev. and tobacco",23754.8
+"IT",2002,"Machinery",73157.2
+"IT",2002,"Mining and quarrying",6158.4
+"IT",2002,"Non-metallic minerals",25488.2
+"IT",2002,"Other manufacturing",15124
+"IT",2002,"Paper, pulp and printing",10000.6
+"IT",2002,"Textile and leather",30289.4
+"IT",2002,"Transport equipment",23302.1
+"IT",2002,"Wood and wood products",7958.8
+"IT",2003,"Basic metals",8538
+"IT",2003,"Chemical and petrochem.",19025.2
+"IT",2003,"Coke and ref. pet. products",5330.5
+"IT",2003,"Construction",90513.9
+"IT",2003,"Food, bev. and tobacco",23359.4
+"IT",2003,"Machinery",74221.3
+"IT",2003,"Mining and quarrying",5625.9
+"IT",2003,"Non-metallic minerals",24396.8
+"IT",2003,"Other manufacturing",14005.8
+"IT",2003,"Paper, pulp and printing",9776.7
+"IT",2003,"Textile and leather",28332.9
+"IT",2003,"Transport equipment",21388
+"IT",2003,"Wood and wood products",7786
+"IT",2004,"Basic metals",8130.3
+"IT",2004,"Chemical and petrochem.",19511.3
+"IT",2004,"Coke and ref. pet. products",3423.3
+"IT",2004,"Construction",92818.9
+"IT",2004,"Food, bev. and tobacco",23540.3
+"IT",2004,"Machinery",77948.7
+"IT",2004,"Mining and quarrying",5476.1
+"IT",2004,"Non-metallic minerals",24966.8
+"IT",2004,"Other manufacturing",14154.6
+"IT",2004,"Paper, pulp and printing",9915.6
+"IT",2004,"Textile and leather",27062.3
+"IT",2004,"Transport equipment",21940.9
+"IT",2004,"Wood and wood products",7883.6
+"IT",2005,"Basic metals",8590.2
+"IT",2005,"Chemical and petrochem.",19122.4
+"IT",2005,"Coke and ref. pet. products",3373.3
+"IT",2005,"Construction",94428.2
+"IT",2005,"Food, bev. and tobacco",24152.2
+"IT",2005,"Machinery",80175.4
+"IT",2005,"Mining and quarrying",5514.4
+"IT",2005,"Non-metallic minerals",24694.7
+"IT",2005,"Other manufacturing",14462.6
+"IT",2005,"Paper, pulp and printing",9735.5
+"IT",2005,"Textile and leather",26193.2
+"IT",2005,"Transport equipment",20881.9
+"IT",2005,"Wood and wood products",7328.3
+"IT",2006,"Basic metals",8559.1
+"IT",2006,"Chemical and petrochem.",19228.9
+"IT",2006,"Coke and ref. pet. products",3608.1
+"IT",2006,"Construction",96155.5
+"IT",2006,"Food, bev. and tobacco",24890.3
+"IT",2006,"Machinery",86470.9
+"IT",2006,"Mining and quarrying",5279.4
+"IT",2006,"Non-metallic minerals",24782.6
+"IT",2006,"Other manufacturing",15397.1
+"IT",2006,"Paper, pulp and printing",10155.3
+"IT",2006,"Textile and leather",26477.8
+"IT",2006,"Transport equipment",23187.8
+"IT",2006,"Wood and wood products",7517.8
+"IT",2007,"Basic metals",8855.1
+"IT",2007,"Chemical and petrochem.",19271.5
+"IT",2007,"Coke and ref. pet. products",3869.3
+"IT",2007,"Construction",95952.2
+"IT",2007,"Food, bev. and tobacco",24815.5
+"IT",2007,"Machinery",91322
+"IT",2007,"Mining and quarrying",5399.1
+"IT",2007,"Non-metallic minerals",24864
+"IT",2007,"Other manufacturing",15653.9
+"IT",2007,"Paper, pulp and printing",10363.5
+"IT",2007,"Textile and leather",26943.8
+"IT",2007,"Transport equipment",24507.3
+"IT",2007,"Wood and wood products",7498.4
+"IT",2008,"Basic metals",8272
+"IT",2008,"Chemical and petrochem.",19508.9
+"IT",2008,"Coke and ref. pet. products",3465.3
+"IT",2008,"Construction",93267.3
+"IT",2008,"Food, bev. and tobacco",23487.6
+"IT",2008,"Machinery",90837.2
+"IT",2008,"Mining and quarrying",5168.5
+"IT",2008,"Non-metallic minerals",23583.7
+"IT",2008,"Other manufacturing",14334.3
+"IT",2008,"Paper, pulp and printing",10086.6
+"IT",2008,"Textile and leather",25862.3
+"IT",2008,"Transport equipment",23566.7
+"IT",2008,"Wood and wood products",6661.2
+"IT",2009,"Basic metals",5846.6
+"IT",2009,"Chemical and petrochem.",15335.4
+"IT",2009,"Coke and ref. pet. products",2098.6
+"IT",2009,"Construction",85231
+"IT",2009,"Food, bev. and tobacco",22581.8
+"IT",2009,"Machinery",70500.4
+"IT",2009,"Mining and quarrying",4743
+"IT",2009,"Non-metallic minerals",19732.7
+"IT",2009,"Other manufacturing",11999.1
+"IT",2009,"Paper, pulp and printing",9115.3
+"IT",2009,"Textile and leather",21151.5
+"IT",2009,"Transport equipment",16900.2
+"IT",2009,"Wood and wood products",5747.6
+"IT",2010,"Basic metals",7733.6
+"IT",2010,"Chemical and petrochem.",18152.4
+"IT",2010,"Coke and ref. pet. products",2112.7
+"IT",2010,"Construction",80291.7
+"IT",2010,"Food, bev. and tobacco",24650.6
+"IT",2010,"Machinery",78431.5
+"IT",2010,"Mining and quarrying",4441.9
+"IT",2010,"Non-metallic minerals",21662.4
+"IT",2010,"Other manufacturing",12400.2
+"IT",2010,"Paper, pulp and printing",9698.8
+"IT",2010,"Textile and leather",23249.8
+"IT",2010,"Transport equipment",17201.9
+"IT",2010,"Wood and wood products",5861
+"IT",2011,"Basic metals",7844
+"IT",2011,"Chemical and petrochem.",17480.5
+"IT",2011,"Coke and ref. pet. products",2547.7
+"IT",2011,"Construction",77242.1
+"IT",2011,"Food, bev. and tobacco",25931.9
+"IT",2011,"Machinery",80037.1
+"IT",2011,"Mining and quarrying",5129.1
+"IT",2011,"Non-metallic minerals",21491.8
+"IT",2011,"Other manufacturing",12621
+"IT",2011,"Paper, pulp and printing",10017.3
+"IT",2011,"Textile and leather",24122.2
+"IT",2011,"Transport equipment",17785.6
+"IT",2011,"Wood and wood products",5888.3
+"IT",2012,"Basic metals",8970.9
+"IT",2012,"Chemical and petrochem.",17827.2
+"IT",2012,"Coke and ref. pet. products",2240.3
+"IT",2012,"Construction",70641.4
+"IT",2012,"Food, bev. and tobacco",25523
+"IT",2012,"Machinery",76487.1
+"IT",2012,"Mining and quarrying",5222.8
+"IT",2012,"Non-metallic minerals",20311.8
+"IT",2012,"Other manufacturing",10983.4
+"IT",2012,"Paper, pulp and printing",9971.4
+"IT",2012,"Textile and leather",23066.2
+"IT",2012,"Transport equipment",15700.3
+"IT",2012,"Wood and wood products",5152.4
+"IT",2013,"Basic metals",9430.6
+"IT",2013,"Chemical and petrochem.",18219.4
+"IT",2013,"Coke and ref. pet. products",1764.2
+"IT",2013,"Construction",65597.4
+"IT",2013,"Food, bev. and tobacco",24957.4
+"IT",2013,"Machinery",75388
+"IT",2013,"Mining and quarrying",5303.2
+"IT",2013,"Non-metallic minerals",19472.8
+"IT",2013,"Other manufacturing",11035.1
+"IT",2013,"Paper, pulp and printing",9541.6
+"IT",2013,"Textile and leather",23484.9
+"IT",2013,"Transport equipment",15980.8
+"IT",2013,"Wood and wood products",4741.2
+"IT",2014,"Basic metals",10252.2
+"IT",2014,"Chemical and petrochem.",17782.9
+"IT",2014,"Coke and ref. pet. products",665.1
+"IT",2014,"Construction",60196.7
+"IT",2014,"Food, bev. and tobacco",24466.8
+"IT",2014,"Machinery",75435.7
+"IT",2014,"Mining and quarrying",5689.5
+"IT",2014,"Non-metallic minerals",19385.1
+"IT",2014,"Other manufacturing",11440.2
+"IT",2014,"Paper, pulp and printing",9553.3
+"IT",2014,"Textile and leather",23520.9
+"IT",2014,"Transport equipment",17576.6
+"IT",2014,"Wood and wood products",4560.6
+"IT",2015,"Basic metals",10436.3
+"IT",2015,"Chemical and petrochem.",19079.9
+"IT",2015,"Coke and ref. pet. products",4113.4
+"IT",2015,"Construction",58940.7
+"IT",2015,"Food, bev. and tobacco",26010.1
+"IT",2015,"Machinery",74612.7
+"IT",2015,"Mining and quarrying",5268.2
+"IT",2015,"Non-metallic minerals",19250.9
+"IT",2015,"Other manufacturing",11805.2
+"IT",2015,"Paper, pulp and printing",9166.6
+"IT",2015,"Textile and leather",23403.8
+"IT",2015,"Transport equipment",18643.3
+"IT",2015,"Wood and wood products",4458
+"IT",2016,"Basic metals",11541.8
+"IT",2016,"Chemical and petrochem.",19337.5
+"IT",2016,"Coke and ref. pet. products",2535.8
+"IT",2016,"Construction",59246.6
+"IT",2016,"Food, bev. and tobacco",25886.5
+"IT",2016,"Machinery",74819.2
+"IT",2016,"Mining and quarrying",7756.7
+"IT",2016,"Non-metallic minerals",19594.9
+"IT",2016,"Other manufacturing",11919.4
+"IT",2016,"Paper, pulp and printing",9820.7
+"IT",2016,"Textile and leather",22933.1
+"IT",2016,"Transport equipment",22249.7
+"IT",2016,"Wood and wood products",4513.3
+"IT",2017,"Basic metals",11619.6
+"IT",2017,"Chemical and petrochem.",19938.1
+"IT",2017,"Coke and ref. pet. products",1470.3
+"IT",2017,"Construction",59786.1
+"IT",2017,"Food, bev. and tobacco",27175.5
+"IT",2017,"Machinery",78057.4
+"IT",2017,"Mining and quarrying",8075
+"IT",2017,"Non-metallic minerals",20528.6
+"IT",2017,"Other manufacturing",12278.3
+"IT",2017,"Paper, pulp and printing",9950.8
+"IT",2017,"Textile and leather",24287.6
+"IT",2017,"Transport equipment",23956.1
+"IT",2017,"Wood and wood products",4359.1
+"IT",2018,"Basic metals",9492.9
+"IT",2018,"Chemical and petrochem.",20138
+"IT",2018,"Coke and ref. pet. products",644.8
+"IT",2018,"Construction",60451.7
+"IT",2018,"Food, bev. and tobacco",27486.3
+"IT",2018,"Machinery",80872.1
+"IT",2018,"Mining and quarrying",7832.1
+"IT",2018,"Non-metallic minerals",21345.2
+"IT",2018,"Other manufacturing",12688
+"IT",2018,"Paper, pulp and printing",9929.9
+"IT",2018,"Textile and leather",24478.2
+"IT",2018,"Transport equipment",24789.5
+"IT",2018,"Wood and wood products",4336.2
+"IT",2019,"Basic metals",9428.8
+"IT",2019,"Chemical and petrochem.",20416.6
+"IT",2019,"Coke and ref. pet. products",676.6
+"IT",2019,"Construction",62252.6
+"IT",2019,"Food, bev. and tobacco",28013.6
+"IT",2019,"Machinery",80918.5
+"IT",2019,"Mining and quarrying",7130.6
+"IT",2019,"Non-metallic minerals",21405.6
+"IT",2019,"Other manufacturing",12452.3
+"IT",2019,"Paper, pulp and printing",10026.9
+"IT",2019,"Textile and leather",24549.4
+"IT",2019,"Transport equipment",23752
+"IT",2019,"Wood and wood products",4178.2
+"IT",2020,"Basic metals",8610.7
+"IT",2020,"Chemical and petrochem.",19786.8
+"IT",2020,"Coke and ref. pet. products",375.1
+"IT",2020,"Construction",58460.7
+"IT",2020,"Food, bev. and tobacco",25246.3
+"IT",2020,"Machinery",72473.1
+"IT",2020,"Mining and quarrying",7591.6
+"IT",2020,"Non-metallic minerals",19228.2
+"IT",2020,"Other manufacturing",10513.9
+"IT",2020,"Paper, pulp and printing",8437.5
+"IT",2020,"Textile and leather",18098.2
+"IT",2020,"Transport equipment",18621.9
+"IT",2020,"Wood and wood products",3493.8
+"IT",2021,"Basic metals",7211
+"IT",2021,"Chemical and petrochem.",19906.6
+"IT",2021,"Coke and ref. pet. products",2922.4
+"IT",2021,"Construction",71237.8
+"IT",2021,"Food, bev. and tobacco",29972.6
+"IT",2021,"Machinery",83768.3
+"IT",2021,"Mining and quarrying",12005.1
+"IT",2021,"Non-metallic minerals",24158.7
+"IT",2021,"Other manufacturing",12732.4
+"IT",2021,"Paper, pulp and printing",9190.3
+"IT",2021,"Textile and leather",22367.5
+"IT",2021,"Transport equipment",21639.7
+"IT",2021,"Wood and wood products",4176.6

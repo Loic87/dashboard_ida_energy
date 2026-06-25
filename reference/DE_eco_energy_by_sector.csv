@@ -1,0 +1,111 @@
+"geo","time","sector","energy_consumption"
+"DE",2000,"Agricult., forest. and fish.",12141.1
+"DE",2000,"Comm. and pub. services",1081017.33
+"DE",2000,"Construction",31709.8
+"DE",2000,"Manufacturing",2523296.035
+"DE",2000,"Other industries",201874.964
+"DE",2001,"Agricult., forest. and fish.",11363.99
+"DE",2001,"Comm. and pub. services",1147223.291
+"DE",2001,"Construction",29013.9
+"DE",2001,"Manufacturing",2466456.212
+"DE",2001,"Other industries",200054.273
+"DE",2002,"Agricult., forest. and fish.",11120.8
+"DE",2002,"Comm. and pub. services",1135034.016
+"DE",2002,"Construction",26797.5
+"DE",2002,"Manufacturing",2495131.211
+"DE",2002,"Other industries",193099.073
+"DE",2003,"Agricult., forest. and fish.",7819.099
+"DE",2003,"Comm. and pub. services",1465777.622
+"DE",2003,"Construction",NA
+"DE",2003,"Manufacturing",2561736.09
+"DE",2003,"Other industries",191619.921
+"DE",2004,"Agricult., forest. and fish.",8360.337
+"DE",2004,"Comm. and pub. services",1442124.998
+"DE",2004,"Construction",NA
+"DE",2004,"Manufacturing",2610613.114
+"DE",2004,"Other industries",197428.055
+"DE",2005,"Agricult., forest. and fish.",8383.273
+"DE",2005,"Comm. and pub. services",1411467.346
+"DE",2005,"Construction",NA
+"DE",2005,"Manufacturing",2636559.712
+"DE",2005,"Other industries",198583.984
+"DE",2006,"Agricult., forest. and fish.",9671.852
+"DE",2006,"Comm. and pub. services",1527275.634
+"DE",2006,"Construction",NA
+"DE",2006,"Manufacturing",2681926.34
+"DE",2006,"Other industries",195522.785
+"DE",2007,"Agricult., forest. and fish.",14938.222
+"DE",2007,"Comm. and pub. services",1312982.33
+"DE",2007,"Construction",NA
+"DE",2007,"Manufacturing",2770815.182
+"DE",2007,"Other industries",193495.255
+"DE",2008,"Agricult., forest. and fish.",14474.019
+"DE",2008,"Comm. and pub. services",1454168.473
+"DE",2008,"Construction",NA
+"DE",2008,"Manufacturing",2729345.023
+"DE",2008,"Other industries",196566.996
+"DE",2009,"Agricult., forest. and fish.",16917.044
+"DE",2009,"Comm. and pub. services",1409529.6
+"DE",2009,"Construction",NA
+"DE",2009,"Manufacturing",2441426.397
+"DE",2009,"Other industries",186077.197
+"DE",2010,"Agricult., forest. and fish.",53893.033
+"DE",2010,"Comm. and pub. services",1457289.744
+"DE",2010,"Construction",36138.854
+"DE",2010,"Manufacturing",2659169.868
+"DE",2010,"Other industries",190824.747
+"DE",2011,"Agricult., forest. and fish.",55554.778
+"DE",2011,"Comm. and pub. services",1286837.958
+"DE",2011,"Construction",37300.438
+"DE",2011,"Manufacturing",2690772.796
+"DE",2011,"Other industries",183978.312
+"DE",2012,"Agricult., forest. and fish.",55155.381
+"DE",2012,"Comm. and pub. services",1340940.573
+"DE",2012,"Construction",37637.936
+"DE",2012,"Manufacturing",2659937.906
+"DE",2012,"Other industries",180688.798
+"DE",2013,"Agricult., forest. and fish.",52614.048
+"DE",2013,"Comm. and pub. services",1404651.641
+"DE",2013,"Construction",31841.32
+"DE",2013,"Manufacturing",2651218.396
+"DE",2013,"Other industries",186247.623
+"DE",2014,"Agricult., forest. and fish.",63392.167
+"DE",2014,"Comm. and pub. services",1288112.319
+"DE",2014,"Construction",36359.037
+"DE",2014,"Manufacturing",2614042.994
+"DE",2014,"Other industries",182233.725
+"DE",2015,"Agricult., forest. and fish.",60755.801
+"DE",2015,"Comm. and pub. services",1351912.376
+"DE",2015,"Construction",35077.5
+"DE",2015,"Manufacturing",2638340.651
+"DE",2015,"Other industries",188582.488
+"DE",2016,"Agricult., forest. and fish.",62712.813
+"DE",2016,"Comm. and pub. services",1334145.453
+"DE",2016,"Construction",35349.18
+"DE",2016,"Manufacturing",2692282.569
+"DE",2016,"Other industries",179839.327
+"DE",2017,"Agricult., forest. and fish.",59365.878
+"DE",2017,"Comm. and pub. services",1332985.048
+"DE",2017,"Construction",36776.045
+"DE",2017,"Manufacturing",2665534.432
+"DE",2017,"Other industries",174251.788
+"DE",2018,"Agricult., forest. and fish.",139537.941
+"DE",2018,"Comm. and pub. services",1209684.245
+"DE",2018,"Construction",73211.412
+"DE",2018,"Manufacturing",2651596.004
+"DE",2018,"Other industries",171569.785
+"DE",2019,"Agricult., forest. and fish.",150550.849
+"DE",2019,"Comm. and pub. services",1152783.64
+"DE",2019,"Construction",102209.422
+"DE",2019,"Manufacturing",2553403.216
+"DE",2019,"Other industries",155333.445
+"DE",2020,"Agricult., forest. and fish.",151169.562
+"DE",2020,"Comm. and pub. services",1123823.757
+"DE",2020,"Construction",104072.6
+"DE",2020,"Manufacturing",2509145.005
+"DE",2020,"Other industries",141491.8
+"DE",2021,"Agricult., forest. and fish.",155488.589
+"DE",2021,"Comm. and pub. services",1256593.678
+"DE",2021,"Construction",103104.001
+"DE",2021,"Manufacturing",2559313.883
+"DE",2021,"Other industries",146438.526

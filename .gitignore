@@ -79,3 +79,15 @@ renv/staging/
 *~
 *.bak
 *.swp
+
+# ---- Python project ----
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+
+# Keep the committed parity/golden reference fixtures (overrides *.csv above)
+!reference/
+!reference/*.csv

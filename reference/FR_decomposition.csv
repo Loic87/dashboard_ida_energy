@@ -1,0 +1,1541 @@
+"geo","time","sector","measure","value","value_indexed","value_delta"
+"FR",2000,"Basic metals","GVA",6969.1,1,0
+"FR",2000,"Basic metals","energy_consumption",219705.167,1,0
+"FR",2000,"Basic metals","intensity",31.5256155027191,1,0
+"FR",2000,"Basic metals","share_GVA",0.0243313937858603,1,0
+"FR",2000,"Basic metals","share_energy_consumption",0.129586023425826,1,0
+"FR",2000,"Chemical and petrochem.","GVA",20539.6,1,0
+"FR",2000,"Chemical and petrochem.","energy_consumption",228645.469,1,0
+"FR",2000,"Chemical and petrochem.","intensity",11.1319338740774,1,0
+"FR",2000,"Chemical and petrochem.","share_GVA",0.0717104211166514,1,0
+"FR",2000,"Chemical and petrochem.","share_energy_consumption",0.134859172893476,1,0
+"FR",2000,"Coke and ref. pet. products","GVA",3154.1,1,0
+"FR",2000,"Coke and ref. pet. products","energy_consumption",246659.846,1,0
+"FR",2000,"Coke and ref. pet. products","intensity",78.2029250816398,1,0
+"FR",2000,"Coke and ref. pet. products","share_GVA",0.0110119885121439,1,0
+"FR",2000,"Coke and ref. pet. products","share_energy_consumption",0.145484373528487,1,0
+"FR",2000,"Construction","GVA",99390.9,1,0
+"FR",2000,"Construction","energy_consumption",47676.656,1,0
+"FR",2000,"Construction","intensity",0.479688341689229,1,0
+"FR",2000,"Construction","share_GVA",0.347005944330123,1,0
+"FR",2000,"Construction","share_energy_consumption",0.0281205414767558,1,0
+"FR",2000,"Food, bev. and tobacco","GVA",30416.4,1,0
+"FR",2000,"Food, bev. and tobacco","energy_consumption",210758.804,1,0
+"FR",2000,"Food, bev. and tobacco","intensity",6.92911731828882,1,0
+"FR",2000,"Food, bev. and tobacco","share_GVA",0.106193540908904,1,0
+"FR",2000,"Food, bev. and tobacco","share_energy_consumption",0.124309299072348,1,0
+"FR",2000,"Machinery","GVA",50156.5,1,0
+"FR",2000,"Machinery","energy_consumption",103576.927,1,0
+"FR",2000,"Machinery","intensity",2.06507485570165,1,0
+"FR",2000,"Machinery","share_GVA",0.175112647604497,1,0
+"FR",2000,"Machinery","share_energy_consumption",0.0610915176546444,1,0
+"FR",2000,"Mining and quarrying","GVA",3876.8,1,0
+"FR",2000,"Mining and quarrying","energy_consumption",29783.969,1,0
+"FR",2000,"Mining and quarrying","intensity",7.68261684894759,1,0
+"FR",2000,"Mining and quarrying","share_GVA",0.0135351691651753,1,0
+"FR",2000,"Mining and quarrying","share_energy_consumption",0.0175671157726941,1,0
+"FR",2000,"Non-metallic minerals","GVA",16867.6,1,0
+"FR",2000,"Non-metallic minerals","energy_consumption",155643.844,1,0
+"FR",2000,"Non-metallic minerals","intensity",9.22738528302782,1,0
+"FR",2000,"Non-metallic minerals","share_GVA",0.0588902753328804,1,0
+"FR",2000,"Non-metallic minerals","share_energy_consumption",0.0918015133193006,1,0
+"FR",2000,"Other manufacturing","GVA",7574.9,1,0
+"FR",2000,"Other manufacturing","energy_consumption",125038.462,1,0
+"FR",2000,"Other manufacturing","intensity",16.5069455702386,1,0
+"FR",2000,"Other manufacturing","share_GVA",0.0264464385341741,1,0
+"FR",2000,"Other manufacturing","share_energy_consumption",0.0737499135186989,1,0
+"FR",2000,"Paper, pulp and printing","GVA",8633.2,1,0
+"FR",2000,"Paper, pulp and printing","energy_consumption",149574.869,1,0
+"FR",2000,"Paper, pulp and printing","intensity",17.3255419774823,1,0
+"FR",2000,"Paper, pulp and printing","share_GVA",0.0301413078922801,1,0
+"FR",2000,"Paper, pulp and printing","share_energy_consumption",0.0882219236935329,1,0
+"FR",2000,"Textile and leather","GVA",8164.9,1,0
+"FR",2000,"Textile and leather","energy_consumption",69584.45,1,0
+"FR",2000,"Textile and leather","intensity",8.52238851669953,1,0
+"FR",2000,"Textile and leather","share_GVA",0.0285063203458367,1,0
+"FR",2000,"Textile and leather","share_energy_consumption",0.0410421488529364,1,0
+"FR",2000,"Total","GVA",286424.2,1,0
+"FR",2000,"Total","energy_consumption",1695438.761,1,0
+"FR",2000,"Total","intensity",5.91932790944341,1,0
+"FR",2000,"Total","share_GVA",1,1,0
+"FR",2000,"Total","share_energy_consumption",1,1,0
+"FR",2000,"Transport equipment","GVA",28150.8,1,0
+"FR",2000,"Transport equipment","energy_consumption",64874.098,1,0
+"FR",2000,"Transport equipment","intensity",2.30452058200833,1,0
+"FR",2000,"Transport equipment","share_GVA",0.0982835947521194,1,0
+"FR",2000,"Transport equipment","share_energy_consumption",0.0382638992880734,1,0
+"FR",2000,"Wood and wood products","GVA",2529.4,1,0
+"FR",2000,"Wood and wood products","energy_consumption",43916.2,1,0
+"FR",2000,"Wood and wood products","intensity",17.3622993595319,1,0
+"FR",2000,"Wood and wood products","share_GVA",0.00883095771935472,1,0
+"FR",2000,"Wood and wood products","share_energy_consumption",0.0259025575032256,1,0
+"FR",2001,"Basic metals","GVA",6777.7,0.972535908510424,-191.400000000001
+"FR",2001,"Basic metals","energy_consumption",214112.495,0.97454464964859,-5592.67200000002
+"FR",2001,"Basic metals","intensity",31.5907306313351,1.00206546732166,0.0651151286159646
+"FR",2001,"Basic metals","share_GVA",0.0231846469657999,0.952869661715526,-0.00114674682006034
+"FR",2001,"Basic metals","share_energy_consumption",0.122929060311806,0.948629003822846,-0.00665696311402074
+"FR",2001,"Chemical and petrochem.","GVA",21449.4,1.04429492297805,909.800000000003
+"FR",2001,"Chemical and petrochem.","energy_consumption",254619.506,1.11359961390707,25974.037
+"FR",2001,"Chemical and petrochem.","intensity",11.8707052877936,1.06636505588993,0.738771413716202
+"FR",2001,"Chemical and petrochem.","share_GVA",0.0733724960721527,1.02317759301396,0.00166207495550122
+"FR",2001,"Chemical and petrochem.","share_energy_consumption",0.146185474180926,1.08398613935143,0.0113263012874499
+"FR",2001,"Coke and ref. pet. products","GVA",4089,1.29640785009987,934.9
+"FR",2001,"Coke and ref. pet. products","energy_consumption",243993.583,0.989190526779134,-2666.26299999998
+"FR",2001,"Coke and ref. pet. products","intensity",59.6707221814625,0.763024172294954,-18.5322029001773
+"FR",2001,"Coke and ref. pet. products","share_GVA",0.0139873440021181,1.27019238956643,0.00297535548997424
+"FR",2001,"Coke and ref. pet. products","share_energy_consumption",0.140084780574345,0.962885409455435,-0.00539959295414241
+"FR",2001,"Construction","GVA",103626.2,1.04261255306069,4235.3
+"FR",2001,"Construction","energy_consumption",55658.289,1.16741176226789,7981.63299999999
+"FR",2001,"Construction","intensity",0.537106339902457,1.11969854845967,0.0574179982132279
+"FR",2001,"Construction","share_GVA",0.354476719743774,1.02152924333349,0.0074707754136511
+"FR",2001,"Construction","share_energy_consumption",0.031955263355055,1.13636728444468,0.00383472187829922
+"FR",2001,"Food, bev. and tobacco","GVA",29317.1,0.963858313278363,-1099.3
+"FR",2001,"Food, bev. and tobacco","energy_consumption",217085.828,1.03002021210938,6327.024
+"FR",2001,"Food, bev. and tobacco","intensity",7.40475108383844,1.06864276410709,0.475633765549626
+"FR",2001,"Food, bev. and tobacco","share_GVA",0.100285733148569,0.944367541474081,-0.00590780776033507
+"FR",2001,"Food, bev. and tobacco","share_energy_consumption",0.124636149062904,1.00262932856186,0.000326849990555975
+"FR",2001,"Machinery","GVA",50921,1.01524229162721,764.5
+"FR",2001,"Machinery","energy_consumption",103121.983,0.995607670422584,-454.944000000003
+"FR",2001,"Machinery","intensity",2.02513664303529,0.980660162242499,-0.0399382126663639
+"FR",2001,"Machinery","share_GVA",0.174186731213465,0.994712452791395,-0.000925916391032594
+"FR",2001,"Machinery","share_energy_consumption",0.0592057388695601,0.969131904763853,-0.00188577878508434
+"FR",2001,"Mining and quarrying","GVA",3446.2,0.88892901361948,-430.6
+"FR",2001,"Mining and quarrying","energy_consumption",18728.192,0.628801084234274,-11055.777
+"FR",2001,"Mining and quarrying","intensity",5.43444721722477,0.707369288886145,-2.24816963172282
+"FR",2001,"Mining and quarrying","share_GVA",0.0117885020543163,0.870953433271231,-0.00174666711085897
+"FR",2001,"Mining and quarrying","share_energy_consumption",0.0107524740389349,0.612079648023285,-0.00681464173375919
+"FR",2001,"Non-metallic minerals","GVA",17379.4,1.03034219450307,511.800000000003
+"FR",2001,"Non-metallic minerals","energy_consumption",178024.291,1.14379268993125,22380.447
+"FR",2001,"Non-metallic minerals","intensity",10.2434083455125,1.11010953063307,1.01602306248468
+"FR",2001,"Non-metallic minerals","share_GVA",0.0594501458426049,1.00950701124353,0.000559870509724544
+"FR",2001,"Non-metallic minerals","share_energy_consumption",0.102209629593572,1.11337630391854,0.0104081162742709
+"FR",2001,"Other manufacturing","GVA",8323.2,1.0987867826638,748.300000000001
+"FR",2001,"Other manufacturing","energy_consumption",128431.364,1.02713486671005,3392.902
+"FR",2001,"Other manufacturing","intensity",15.4305272010765,0.934789972827996,-1.07641836916205
+"FR",2001,"Other manufacturing","share_GVA",0.0284713772556687,1.07656753928806,0.00202493872149461
+"FR",2001,"Other manufacturing","share_energy_consumption",0.0737366910375009,0.999820711909111,-1.32224811979637e-05
+"FR",2001,"Paper, pulp and printing","GVA",8943.6,1.03595422323125,310.4
+"FR",2001,"Paper, pulp and printing","energy_consumption",142581.043,0.953241971417003,-6993.826
+"FR",2001,"Paper, pulp and printing","intensity",15.9422428328637,0.920158391211288,-1.38329914461855
+"FR",2001,"Paper, pulp and printing","share_GVA",0.0305935949663349,1.01500555568694,0.000452287074054883
+"FR",2001,"Paper, pulp and printing","share_energy_consumption",0.0818604894322826,0.92789281853172,-0.00636143426125037
+"FR",2001,"Textile and leather","GVA",8384.6,1.02690786170069,219.700000000001
+"FR",2001,"Textile and leather","energy_consumption",76063.943,1.09311696794327,6479.493
+"FR",2001,"Textile and leather","intensity",9.07186305846433,1.06447424224888,0.549474541764797
+"FR",2001,"Textile and leather","share_GVA",0.0286814097628172,1.00614212619715,0.000175089416980502
+"FR",2001,"Textile and leather","share_energy_consumption",0.0436708237723387,1.06404817956344,0.00262867491940232
+"FR",2001,"Total","GVA",292335.7,1.02063896835533,5911.5
+"FR",2001,"Total","energy_consumption",1741756.542,1.02731905278176,46317.781
+"FR",2001,"Total","intensity",5.9580699244054,1.00654500233045,0.0387420149619944
+"FR",2001,"Total","share_GVA",1,1,0
+"FR",2001,"Total","share_energy_consumption",1,1,0
+"FR",2001,"Transport equipment","GVA",26916.8,0.956164656066612,-1234
+"FR",2001,"Transport equipment","energy_consumption",64050.025,0.987297349398214,-824.072999999997
+"FR",2001,"Transport equipment","intensity",2.37955570498722,1.03255997085238,0.0750351229788939
+"FR",2001,"Transport equipment","share_GVA",0.0920749672380075,0.936829462437036,-0.00620862751411187
+"FR",2001,"Transport equipment","share_energy_consumption",0.0367732363596887,0.96104257652462,-0.00149066292838476
+"FR",2001,"Wood and wood products","GVA",2761.5,1.09176089191113,232.1
+"FR",2001,"Wood and wood products","energy_consumption",45286,1.03119122328435,1369.8
+"FR",2001,"Wood and wood products","intensity",16.3990584827087,0.944521122641834,-0.963240876823232
+"FR",2001,"Wood and wood products","share_GVA",0.0094463317343725,1.06968372339379,0.000615374015017786
+"FR",2001,"Wood and wood products","share_energy_consumption",0.0260001894110871,1.00376919954137,9.76319078614916e-05
+"FR",2002,"Basic metals","GVA",7019,1.00716017850225,49.8999999999996
+"FR",2002,"Basic metals","energy_consumption",216744.102,0.986522551834204,-2961.065
+"FR",2002,"Basic metals","intensity",30.8796270123949,0.979509091891687,-0.645988490324218
+"FR",2002,"Basic metals","share_GVA",0.0240956906853454,0.990312799069825,-0.000235703100514843
+"FR",2002,"Basic metals","share_energy_consumption",0.129187407802495,0.996923930430204,-0.000398615623331044
+"FR",2002,"Chemical and petrochem.","GVA",21165.6,1.03047771134784,626
+"FR",2002,"Chemical and petrochem.","energy_consumption",237329.531,1.03798046835557,8684.06199999998
+"FR",2002,"Chemical and petrochem.","intensity",11.2129838511547,1.0072808532636,0.0810499770773099
+"FR",2002,"Chemical and petrochem.","share_GVA",0.0726598875580207,1.01324028539485,0.000949466441369243
+"FR",2002,"Chemical and petrochem.","share_energy_consumption",0.14145707598019,1.04892439235057,0.00659790308671337
+"FR",2002,"Coke and ref. pet. products","GVA",5578.5,1.76865032814432,2424.4
+"FR",2002,"Coke and ref. pet. products","energy_consumption",220096.894,0.892309378965557,-26562.952
+"FR",2002,"Coke and ref. pet. products","intensity",39.4544938603567,0.504514298143814,-38.748431221283
+"FR",2002,"Coke and ref. pet. products","share_GVA",0.019150564252486,1.73906504092036,0.00813857574034216
+"FR",2002,"Coke and ref. pet. products","share_energy_consumption",0.131185794394722,0.901717423067667,-0.0142985791337658
+"FR",2002,"Construction","GVA",103146.6,1.03778716160131,3755.70000000001
+"FR",2002,"Construction","energy_consumption",73772.184,1.54734392445645,26095.528
+"FR",2002,"Construction","intensity",0.715216827311807,1.49100314757111,0.235528485622577
+"FR",2002,"Construction","share_GVA",0.354094396473152,1.02042746603869,0.00708845214302872
+"FR",2002,"Construction","share_energy_consumption",0.0439709183823084,1.56365831072827,0.0158503769055525
+"FR",2002,"Food, bev. and tobacco","GVA",30166.4,0.991780749858629,-250
+"FR",2002,"Food, bev. and tobacco","energy_consumption",222336.817,1.05493489610047,11578.013
+"FR",2002,"Food, bev. and tobacco","intensity",7.37034637875252,1.06367752777098,0.441229060463702
+"FR",2002,"Food, bev. and tobacco","share_GVA",0.103558946216043,0.97519063146109,-0.00263459469286084
+"FR",2002,"Food, bev. and tobacco","share_energy_consumption",0.132520870382382,1.06605757872752,0.00821157131003405
+"FR",2002,"Machinery","GVA",50069.1,0.998257454168453,-87.4000000000015
+"FR",2002,"Machinery","energy_consumption",97826.292,0.944479575069842,-5750.635
+"FR",2002,"Machinery","intensity",1.95382565294763,0.946128246902591,-0.111249202754027
+"FR",2002,"Machinery","share_GVA",0.171883394570969,0.981558996007976,-0.00322925303352847
+"FR",2002,"Machinery","share_energy_consumption",0.0583080460404408,0.954437674474894,-0.00278347161420369
+"FR",2002,"Mining and quarrying","GVA",3303.8,0.852197688815518,-573
+"FR",2002,"Mining and quarrying","energy_consumption",17239.995,0.578834708026993,-12543.974
+"FR",2002,"Mining and quarrying","intensity",5.21823203583752,0.679225859942807,-2.46438481311007
+"FR",2002,"Mining and quarrying","share_GVA",0.0113416929600006,0.837942460976528,-0.00219347620517469
+"FR",2002,"Mining and quarrying","share_energy_consumption",0.0102756672224372,0.584937638904244,-0.0072914485502569
+"FR",2002,"Non-metallic minerals","GVA",17726.6,1.05092603571344,859
+"FR",2002,"Non-metallic minerals","energy_consumption",183503.183,1.17899415925502,27859.339
+"FR",2002,"Non-metallic minerals","intensity",10.3518544447328,1.12186216649837,1.12446916170496
+"FR",2002,"Non-metallic minerals","share_GVA",0.0608540633285146,1.03334655823111,0.00196378799563426
+"FR",2002,"Non-metallic minerals","share_energy_consumption",0.10937460496746,1.19142485796544,0.0175730916481597
+"FR",2002,"Other manufacturing","GVA",8077.7,1.06637711388929,502.8
+"FR",2002,"Other manufacturing","energy_consumption",83017.34,0.663934430031617,-42021.122
+"FR",2002,"Other manufacturing","intensity",10.2773487502631,0.622607538537764,-6.22959681997548
+"FR",2002,"Other manufacturing","share_GVA",0.0277301268911547,1.04853917684689,0.00128368835698056
+"FR",2002,"Other manufacturing","share_energy_consumption",0.0494813693119936,0.670934607936155,-0.0242685442067053
+"FR",2002,"Paper, pulp and printing","GVA",8615.6,0.997961358476579,-17.6000000000004
+"FR",2002,"Paper, pulp and printing","energy_consumption",146197.14,0.977417804056375,-3377.72899999999
+"FR",2002,"Paper, pulp and printing","intensity",16.9688866706904,0.979414479082072,-0.3566553067919
+"FR",2002,"Paper, pulp and printing","share_GVA",0.0295766964907625,0.981267853288405,-0.000564611401517538
+"FR",2002,"Paper, pulp and printing","share_energy_consumption",0.0871388396291333,0.987723186946568,-0.00108308406439966
+"FR",2002,"Textile and leather","GVA",8085.1,0.990226457151955,-79.7999999999993
+"FR",2002,"Textile and leather","energy_consumption",74089.84,1.06474708070553,4505.39
+"FR",2002,"Textile and leather","intensity",9.163750602961,1.07525614268872,0.641362086261472
+"FR",2002,"Textile and leather","share_GVA",0.0277555305257282,0.973662338351637,-0.000750789820108483
+"FR",2002,"Textile and leather","share_energy_consumption",0.0441602529701206,1.07597321788284,0.00311810411718427
+"FR",2002,"Total","GVA",291296.9,1.01701217983676,4872.70000000001
+"FR",2002,"Total","energy_consumption",1677749.447,0.98956652731617,-17689.314
+"FR",2002,"Total","intensity",5.75958565642133,0.973013447562649,-0.159742253022071
+"FR",2002,"Total","share_GVA",1,1,0
+"FR",2002,"Total","share_energy_consumption",1,1,0
+"FR",2002,"Transport equipment","GVA",25261.2,0.897352828338804,-2889.6
+"FR",2002,"Transport equipment","energy_consumption",60683.329,0.93540150646873,-4190.769
+"FR",2002,"Transport equipment","intensity",2.40223461276582,1.04240102324117,0.0977140307574964
+"FR",2002,"Transport equipment","share_GVA",0.0867197694173882,0.882342263081685,-0.0115638253347312
+"FR",2002,"Transport equipment","share_energy_consumption",0.0361694823434503,0.945263891459281,-0.00209441694462313
+"FR",2002,"Wood and wood products","GVA",3081.7,1.21835217838222,552.3
+"FR",2002,"Wood and wood products","energy_consumption",44912.8,1.02269322026951,996.600000000006
+"FR",2002,"Wood and wood products","intensity",14.5740338125061,0.839406895982642,-2.78826554702582
+"FR",2002,"Wood and wood products","share_GVA",0.0105792406304358,1.19797206222032,0.0017482829110811
+"FR",2002,"Wood and wood products","share_energy_consumption",0.0267696705728671,1.03347596350413,0.00086711306964157
+"FR",2003,"Basic metals","GVA",6926.2,0.993844255355785,-42.9000000000005
+"FR",2003,"Basic metals","energy_consumption",204345.274,0.930088612799898,-15359.893
+"FR",2003,"Basic metals","intensity",29.5032303427565,0.935849463120293,-2.02238515996266
+"FR",2003,"Basic metals","share_GVA",0.0234838821676157,0.96516797904372,-0.000847511618244576
+"FR",2003,"Basic metals","share_energy_consumption",0.116777196281895,0.901155797474852,-0.012808827143931
+"FR",2003,"Chemical and petrochem.","GVA",21620.4,1.05262030419288,1080.8
+"FR",2003,"Chemical and petrochem.","energy_consumption",250351.786,1.09493438507631,21706.317
+"FR",2003,"Chemical and petrochem.","intensity",11.5794243399752,1.04019880740936,0.447490465897815
+"FR",2003,"Chemical and petrochem.","share_GVA",0.0733058424557071,1.02224811002658,0.00159542133905563
+"FR",2003,"Chemical and petrochem.","share_energy_consumption",0.143068538268446,1.06087361503733,0.00820936537496977
+"FR",2003,"Coke and ref. pet. products","GVA",4177.9,1.32459338638597,1023.8
+"FR",2003,"Coke and ref. pet. products","energy_consumption",224889.202,0.911738191874165,-21770.644
+"FR",2003,"Coke and ref. pet. products","intensity",53.8282874171234,0.688315524782858,-24.3746376645163
+"FR",2003,"Coke and ref. pet. products","share_GVA",0.0141655325153882,1.28637370986781,0.0031535440032443
+"FR",2003,"Coke and ref. pet. products","share_energy_consumption",0.128517435072332,0.883376213921466,-0.0169669384561558
+"FR",2003,"Construction","GVA",103281.6,1.03914543484363,3890.70000000001
+"FR",2003,"Construction","energy_consumption",71493.448,1.49954829046735,23816.792
+"FR",2003,"Construction","intensity",0.692218633328686,1.44305911394684,0.212530291639457
+"FR",2003,"Construction","share_GVA",0.350185227755886,1.00916204312263,0.00317928342576307
+"FR",2003,"Construction","share_energy_consumption",0.0408563616204086,1.4529009569101,0.0127358201436528
+"FR",2003,"Food, bev. and tobacco","GVA",32037.9,1.05331005641693,1621.5
+"FR",2003,"Food, bev. and tobacco","energy_consumption",220242.971,1.04500009878591,9484.16699999999
+"FR",2003,"Food, bev. and tobacco","intensity",6.87445091594643,0.992110625375312,-0.0546664023423915
+"FR",2003,"Food, bev. and tobacco","share_GVA",0.108627280254375,1.02291796021341,0.00243373934547175
+"FR",2003,"Food, bev. and tobacco","share_energy_consumption",0.125862253384802,1.01249266405686,0.00155295431245411
+"FR",2003,"Machinery","GVA",50130.4,0.999479628761975,-26.1000000000058
+"FR",2003,"Machinery","energy_consumption",97689.366,0.943157601113229,-5887.561
+"FR",2003,"Machinery","intensity",1.94870509710675,0.943648648728828,-0.116369758594908
+"FR",2003,"Machinery","share_GVA",0.169971471602819,0.970640749985745,-0.00514117600167857
+"FR",2003,"Machinery","share_energy_consumption",0.0558265432066509,0.91381824105669,-0.00526497444799353
+"FR",2003,"Mining and quarrying","GVA",2982.9,0.769423235658275,-893.9
+"FR",2003,"Mining and quarrying","energy_consumption",18703.879,0.627984772613751,-11080.09
+"FR",2003,"Mining and quarrying","intensity",6.27036742767106,0.816175991977267,-1.41224942127653
+"FR",2003,"Mining and quarrying","share_GVA",0.0101137813112213,0.747222379550533,-0.00342138785395401
+"FR",2003,"Mining and quarrying","share_energy_consumption",0.0106887059654525,0.608449679717302,-0.0068784098072416
+"FR",2003,"Non-metallic minerals","GVA",18777.6,1.1132348407598,1910
+"FR",2003,"Non-metallic minerals","energy_consumption",179808.927,1.15525884210364,24165.083
+"FR",2003,"Non-metallic minerals","intensity",9.57571398900818,1.03774944854866,0.348328705980363
+"FR",2003,"Non-metallic minerals","share_GVA",0.0636670823526061,1.08111368121009,0.00477680701972573
+"FR",2003,"Non-metallic minerals","share_energy_consumption",0.102755409755726,1.11932152358236,0.0109538964364249
+"FR",2003,"Other manufacturing","GVA",8028.7,1.0599083816288,453.8
+"FR",2003,"Other manufacturing","energy_consumption",153471.817,1.22739687089241,28433.355
+"FR",2003,"Other manufacturing","intensity",19.1154006252569,1.15802166693524,2.60845505501834
+"FR",2003,"Other manufacturing","share_GVA",0.0272220040944726,1.02932589805226,0.000775565560298466
+"FR",2003,"Other manufacturing","share_energy_consumption",0.0877045411754819,1.18921551214084,0.013954627656783
+"FR",2003,"Paper, pulp and printing","GVA",8540.1,0.989216049668721,-93.1000000000004
+"FR",2003,"Paper, pulp and printing","energy_consumption",146231.755,0.977649226622421,-3343.114
+"FR",2003,"Paper, pulp and printing","intensity",17.1229558201895,0.988307081097023,-0.202586157292817
+"FR",2003,"Paper, pulp and printing","share_GVA",0.0289559501746491,0.960673315110705,-0.00118535771763092
+"FR",2003,"Paper, pulp and printing","share_energy_consumption",0.0835670628540254,0.947236915217609,-0.00465486083950754
+"FR",2003,"Textile and leather","GVA",7714.3,0.944812551286605,-450.599999999999
+"FR",2003,"Textile and leather","energy_consumption",73027.443,1.04947934488237,3442.993
+"FR",2003,"Textile and leather","intensity",9.46650285832804,1.11078048598448,0.944114341628509
+"FR",2003,"Textile and leather","share_GVA",0.0261560036102968,0.91755103054249,-0.00235031673553989
+"FR",2003,"Textile and leather","share_energy_consumption",0.0417329937621945,1.01683257160178,0.000690844909258151
+"FR",2003,"Total","GVA",294934.2,1.0297111766394,8509.99999999994
+"FR",2003,"Total","energy_consumption",1749873.096,1.03210634099688,54434.335
+"FR",2003,"Total","intensity",5.93309658900189,1.00232605454016,0.0137686795584804
+"FR",2003,"Total","share_GVA",1,1,0
+"FR",2003,"Total","share_energy_consumption",1,1,0
+"FR",2003,"Transport equipment","GVA",27206.6,0.96645921252682,-944.200000000004
+"FR",2003,"Transport equipment","energy_consumption",62782.009,0.96775155162851,-2092.089
+"FR",2003,"Transport equipment","intensity",2.30760216271052,1.00133718949019,0.00308158070219289
+"FR",2003,"Transport equipment","share_GVA",0.0922463383358051,0.938573101324378,-0.00603725641631433
+"FR",2003,"Transport equipment","share_energy_consumption",0.0358780354664073,0.937647133040365,-0.0023858638216661
+"FR",2003,"Wood and wood products","GVA",3509.6,1.38752273266387,980.2
+"FR",2003,"Wood and wood products","energy_consumption",46835.219,1.06646793210706,2919.019
+"FR",2003,"Wood and wood products","intensity",13.3448880214269,0.768612943774673,-4.01741133810496
+"FR",2003,"Wood and wood products","share_GVA",0.0118996033691583,1.34748729948939,0.00306864564980356
+"FR",2003,"Wood and wood products","share_energy_consumption",0.0267649231861783,1.03329268481868,0.000862365682952736
+"FR",2004,"Basic metals","GVA",6526.2,0.936448034896902,-442.900000000001
+"FR",2004,"Basic metals","energy_consumption",208118.962,0.947264758684533,-11586.205
+"FR",2004,"Basic metals","intensity",31.8897615764151,1.01155079981434,0.364146073695917
+"FR",2004,"Basic metals","share_GVA",0.0217217721307487,0.892746725564561,-0.0026096216551116
+"FR",2004,"Basic metals","share_energy_consumption",0.122495219537237,0.94528110593155,-0.00709080388858947
+"FR",2004,"Chemical and petrochem.","GVA",21443.5,1.04400767298292,903.900000000001
+"FR",2004,"Chemical and petrochem.","energy_consumption",218633.767,0.956212987540112,-10011.702
+"FR",2004,"Chemical and petrochem.","intensity",10.1958060484529,0.915906091770414,-0.936127825624483
+"FR",2004,"Chemical and petrochem.","share_GVA",0.0713724404225597,0.995286867810441,-0.00033798069409173
+"FR",2004,"Chemical and petrochem.","share_energy_consumption",0.128684051801671,0.954210596436904,-0.00617512109180471
+"FR",2004,"Coke and ref. pet. products","GVA",3593.7,1.13937414793443,439.6
+"FR",2004,"Coke and ref. pet. products","energy_consumption",219572.555,0.890183621536843,-27087.291
+"FR",2004,"Coke and ref. pet. products","intensity",61.0993001641762,0.781291749642251,-17.1036249174636
+"FR",2004,"Coke and ref. pet. products","share_GVA",0.0119612534869099,1.08620286642319,0.000949264974766044
+"FR",2004,"Coke and ref. pet. products","share_energy_consumption",0.129236606172757,0.888319501526748,-0.0162477673557303
+"FR",2004,"Construction","GVA",105474.5,1.06120882294053,6083.60000000001
+"FR",2004,"Construction","energy_consumption",68062.339,1.42758206448036,20385.683
+"FR",2004,"Construction","intensity",0.64529662619875,1.34524142055721,0.16560828450952
+"FR",2004,"Construction","share_GVA",0.351060809445719,1.01168529007024,0.00405486511559611
+"FR",2004,"Construction","share_energy_consumption",0.0400603149174982,1.42459258654787,0.0119397734407424
+"FR",2004,"Food, bev. and tobacco","GVA",32769,1.07734643153036,2352.6
+"FR",2004,"Food, bev. and tobacco","energy_consumption",215697.911,1.02343487866822,4939.10699999999
+"FR",2004,"Food, bev. and tobacco","intensity",6.5823769721383,0.949958944231566,-0.346740346150516
+"FR",2004,"Food, bev. and tobacco","share_GVA",0.109068179178159,1.02706980334822,0.00287463826925567
+"FR",2004,"Food, bev. and tobacco","share_energy_consumption",0.126956057765022,1.02129171922314,0.00264675869267392
+"FR",2004,"Machinery","GVA",53381.7,1.06430273244744,3225.2
+"FR",2004,"Machinery","energy_consumption",96632.901,0.93295779087943,-6944.026
+"FR",2004,"Machinery","intensity",1.81022524573028,0.876590618849608,-0.254849609971375
+"FR",2004,"Machinery","share_GVA",0.177675388947931,1.01463481580852,0.00256274134343379
+"FR",2004,"Machinery","share_energy_consumption",0.0568764532974899,0.931004098130568,-0.00421506435715453
+"FR",2004,"Mining and quarrying","GVA",2833.7,0.730937886917045,-1043.1
+"FR",2004,"Mining and quarrying","energy_consumption",19185.905,0.644168848013507,-10598.064
+"FR",2004,"Mining and quarrying","intensity",6.77061968451142,0.881290817651397,-0.911997164436169
+"FR",2004,"Mining and quarrying","share_GVA",0.00943167320751778,0.696827139167538,-0.00410349595765751
+"FR",2004,"Mining and quarrying","share_energy_consumption",0.0112924916711605,0.64281990380648,-0.00627462410153357
+"FR",2004,"Non-metallic minerals","GVA",19156.2,1.13568023903816,2288.6
+"FR",2004,"Non-metallic minerals","energy_consumption",178766.583,1.14856186024293,23122.739
+"FR",2004,"Non-metallic minerals","intensity",9.33204826635763,1.01134264801128,0.10466298332981
+"FR",2004,"Non-metallic minerals","share_GVA",0.0637594023001207,1.082681341524,0.00486912696724033
+"FR",2004,"Non-metallic minerals","share_energy_consumption",0.105218917200378,1.14615667428498,0.0134174038810777
+"FR",2004,"Other manufacturing","GVA",8283.5,1.09354578938336,708.6
+"FR",2004,"Other manufacturing","energy_consumption",159251.008,1.27361617739668,34212.546
+"FR",2004,"Other manufacturing","intensity",19.2250869801412,1.16466652769507,2.71814140990269
+"FR",2004,"Other manufacturing","share_GVA",0.0275707608478221,1.04251318423065,0.00112432231364798
+"FR",2004,"Other manufacturing","share_energy_consumption",0.0937323874721529,1.27094911709134,0.019982473953454
+"FR",2004,"Paper, pulp and printing","GVA",8743.7,1.01279942547375,110.5
+"FR",2004,"Paper, pulp and printing","energy_consumption",136674.181,0.913750965745456,-12900.688
+"FR",2004,"Paper, pulp and printing","intensity",15.6311608358018,0.90220328207437,-1.6943811416805
+"FR",2004,"Paper, pulp and printing","share_GVA",0.0291024882748961,0.965535018550075,-0.00103881961738391
+"FR",2004,"Paper, pulp and printing","share_energy_consumption",0.080444057791654,0.911837493717573,-0.00777786590187889
+"FR",2004,"Textile and leather","GVA",7353.8,0.900660142806403,-811.1
+"FR",2004,"Textile and leather","energy_consumption",65114.275,0.93575899500535,-4470.175
+"FR",2004,"Textile and leather","intensity",8.85450719355979,1.03897014037901,0.332118676860262
+"FR",2004,"Textile and leather","share_GVA",0.0244763519192025,0.858628950431243,-0.00402996842663416
+"FR",2004,"Textile and leather","share_energy_consumption",0.0383251354633078,0.933799436297446,-0.00271701338962852
+"FR",2004,"Total","GVA",300445.1,1.04895152015786,14020.9
+"FR",2004,"Total","energy_consumption",1698996.604,1.00209847921484,3557.84300000058
+"FR",2004,"Total","intensity",5.65493197925345,0.955333454365967,-0.264395930189957
+"FR",2004,"Total","share_GVA",1,1,-1.11022302462516e-16
+"FR",2004,"Total","share_energy_consumption",1,1,-1.11022302462516e-16
+"FR",2004,"Transport equipment","GVA",27604.7,0.980600906546173,-546.100000000002
+"FR",2004,"Transport equipment","energy_consumption",64235.205,0.990151801416954,-638.892999999996
+"FR",2004,"Transport equipment","intensity",2.32696624125602,1.00973983891614,0.0224456592476918
+"FR",2004,"Transport equipment","share_GVA",0.0918793483401793,0.934839110961577,-0.00640424641194014
+"FR",2004,"Transport equipment","share_energy_consumption",0.0378077300736029,0.988078339558752,-0.000456169214470538
+"FR",2004,"Wood and wood products","GVA",3280.9,1.29710603305132,751.5
+"FR",2004,"Wood and wood products","energy_consumption",49051.012,1.11692295781511,5134.81200000001
+"FR",2004,"Wood and wood products","intensity",14.950474564906,0.861088399371375,-2.41182479462593
+"FR",2004,"Wood and wood products","share_GVA",0.0109201314982338,1.23657386268539,0.00208917377887907
+"FR",2004,"Wood and wood products","share_energy_consumption",0.0288705768360676,1.11458402640251,0.00296801933284208
+"FR",2005,"Basic metals","GVA",6174.2,0.885939360893085,-794.9
+"FR",2005,"Basic metals","energy_consumption",217930.569,0.991922820822871,-1774.59800000003
+"FR",2005,"Basic metals","intensity",35.2969727252114,1.11962834546932,3.77135722249221
+"FR",2005,"Basic metals","share_GVA",0.0201910269587589,0.829834375147571,-0.00414036682710141
+"FR",2005,"Basic metals","share_energy_consumption",0.12895157628648,0.995104046543184,-0.000634447139346683
+"FR",2005,"Chemical and petrochem.","GVA",23253,1.13210578589651,2713.4
+"FR",2005,"Chemical and petrochem.","energy_consumption",210870.297,0.922258804962367,-17775.172
+"FR",2005,"Chemical and petrochem.","intensity",9.06852006192749,0.814640130323186,-2.0634138121499
+"FR",2005,"Chemical and petrochem.","share_GVA",0.0760425560999028,1.06041151224317,0.00433213498325133
+"FR",2005,"Chemical and petrochem.","share_energy_consumption",0.124773946651551,0.92521660910755,-0.0100852262419253
+"FR",2005,"Coke and ref. pet. products","GVA",3572.5,1.13265273770648,418.4
+"FR",2005,"Coke and ref. pet. products","energy_consumption",178041.695,0.721810614444315,-68618.151
+"FR",2005,"Coke and ref. pet. products","intensity",49.8367235829251,0.637274418199808,-28.3662014987147
+"FR",2005,"Coke and ref. pet. products","share_GVA",0.0116828809902766,1.06092382655439,0.000670892478132764
+"FR",2005,"Coke and ref. pet. products","share_energy_consumption",0.105348952743599,0.724125555126857,-0.0401354207848884
+"FR",2005,"Construction","GVA",108235.3,1.08898601381012,8844.40000000001
+"FR",2005,"Construction","energy_consumption",65212.589,1.36780962574221,17535.933
+"FR",2005,"Construction","intensity",0.602507583015892,1.25603966294898,0.122819241326663
+"FR",2005,"Construction","share_GVA",0.353953849922152,1.02002243968887,0.0069479055920294
+"FR",2005,"Construction","share_energy_consumption",0.0385869049204949,1.37219636941879,0.010466363443739
+"FR",2005,"Food, bev. and tobacco","GVA",33009.1,1.08524019936613,2592.7
+"FR",2005,"Food, bev. and tobacco","energy_consumption",180150.742,0.854772083447579,-30608.062
+"FR",2005,"Food, bev. and tobacco","intensity",5.45760841707287,0.787634003925431,-1.47150890121595
+"FR",2005,"Food, bev. and tobacco","share_GVA",0.107947204169668,1.01651384110328,0.00175366326076482
+"FR",2005,"Food, bev. and tobacco","share_energy_consumption",0.106596895775915,0.857513448884271,-0.0177124032964326
+"FR",2005,"Machinery","GVA",52705.6,1.05082292424711,2549.1
+"FR",2005,"Machinery","energy_consumption",88620.578,0.855601537589544,-14956.349
+"FR",2005,"Machinery","intensity",1.68142622415834,0.814220472209974,-0.38364863154331
+"FR",2005,"Machinery","share_GVA",0.172359202889048,0.984276151648008,-0.002753444715449
+"FR",2005,"Machinery","share_energy_consumption",0.0524376331276358,0.858345563193736,-0.00865388452700862
+"FR",2005,"Mining and quarrying","GVA",2631.1,0.678678291374329,-1245.7
+"FR",2005,"Mining and quarrying","energy_consumption",17861.58,0.59970449203731,-11922.389
+"FR",2005,"Mining and quarrying","intensity",6.78863593173958,0.883635884128405,-0.893980917208008
+"FR",2005,"Mining and quarrying","share_GVA",0.0086042906014043,0.635698785615648,-0.00493087856377099
+"FR",2005,"Mining and quarrying","share_energy_consumption",0.0105688656095192,0.601627822476541,-0.00699825016317483
+"FR",2005,"Non-metallic minerals","GVA",19599.1,1.1619376793379,2731.5
+"FR",2005,"Non-metallic minerals","energy_consumption",179638.971,1.154166887577,23995.127
+"FR",2005,"Non-metallic minerals","intensity",9.16567449525744,0.993312212953339,-0.061710787770382
+"FR",2005,"Non-metallic minerals","share_GVA",0.0640934787450051,1.08835420419948,0.00520320341212475
+"FR",2005,"Non-metallic minerals","share_energy_consumption",0.10629407604094,1.15786845115757,0.0144925627216389
+"FR",2005,"Other manufacturing","GVA",8275,1.09242366235858,700.1
+"FR",2005,"Other manufacturing","energy_consumption",313225.034,2.50502948444775,188186.572
+"FR",2005,"Other manufacturing","intensity",37.8519678549849,2.2930933947726,21.3450222847463
+"FR",2005,"Other manufacturing","share_GVA",0.0270611169193952,1.02324238798456,0.000614678385221019
+"FR",2005,"Other manufacturing","share_energy_consumption",0.185338211394686,2.51306344037535,0.111588297875987
+"FR",2005,"Paper, pulp and printing","GVA",8768.5,1.0156720567113,135.299999999999
+"FR",2005,"Paper, pulp and printing","energy_consumption",137129.477,0.916794899549603,-12445.392
+"FR",2005,"Paper, pulp and printing","intensity",15.6388751781947,0.902648540433556,-1.6866667992876
+"FR",2005,"Paper, pulp and printing","share_GVA",0.0286749732577301,0.951351326896948,-0.00146633463454997
+"FR",2005,"Paper, pulp and printing","share_energy_consumption",0.0811408068892371,0.919735180238255,-0.00708111680429581
+"FR",2005,"Textile and leather","GVA",7038.8,0.862080368406227,-1126.1
+"FR",2005,"Textile and leather","energy_consumption",23722.213,0.340912560205621,-45862.237
+"FR",2005,"Textile and leather","intensity",3.3702069955106,0.395453339038312,-5.15218152118893
+"FR",2005,"Textile and leather","share_GVA",0.0230184640208143,0.807486330805096,-0.00548785632502237
+"FR",2005,"Textile and leather","share_energy_consumption",0.0140366575161542,0.342005911202429,-0.0270054913367821
+"FR",2005,"Total","GVA",305789.3,1.0676098597814,19365.1
+"FR",2005,"Total","energy_consumption",1690018.651,0.99680312251632,-5420.1100000001
+"FR",2005,"Total","intensity",5.52674227319268,0.933677329207526,-0.392585636250721
+"FR",2005,"Total","share_GVA",1,1,0
+"FR",2005,"Total","share_energy_consumption",1,1,2.22044604925031e-16
+"FR",2005,"Transport equipment","GVA",29518.7,1.04859186950282,1367.89999999999
+"FR",2005,"Transport equipment","energy_consumption",58229.278,0.89757360479987,-6644.82
+"FR",2005,"Transport equipment","intensity",1.97262338788632,0.855979939292725,-0.331897194122003
+"FR",2005,"Transport equipment","share_GVA",0.0965328087019395,0.982186385687301,-0.00175078605017988
+"FR",2005,"Transport equipment","share_energy_consumption",0.0344548138362527,0.900452240291989,-0.00380908545182068
+"FR",2005,"Wood and wood products","GVA",3008.4,1.18937297382779,479
+"FR",2005,"Wood and wood products","energy_consumption",19385.628,0.44142316502794,-24530.572
+"FR",2005,"Wood and wood products","intensity",6.44383326685281,0.371139394236694,-10.9184660926791
+"FR",2005,"Wood and wood products","share_GVA",0.00983814672390434,1.11405206961213,0.00100718900454962
+"FR",2005,"Wood and wood products","share_energy_consumption",0.0114706592075356,0.442838866629566,-0.01443189829569
+"FR",2006,"Basic metals","GVA",5724.9,0.821469056262645,-1244.2
+"FR",2006,"Basic metals","energy_consumption",216838.943,0.98695422579661,-2866.22400000002
+"FR",2006,"Basic metals","intensity",37.876459501476,1.20145027773396,6.35084399875687
+"FR",2006,"Basic metals","share_GVA",0.018198440533292,0.747940734240537,-0.00613295325256831
+"FR",2006,"Basic metals","share_energy_consumption",0.134302016016931,1.03639275645961,0.00471599259110494
+"FR",2006,"Chemical and petrochem.","GVA",24462.3,1.19098229761047,3922.7
+"FR",2006,"Chemical and petrochem.","energy_consumption",181537.815,0.793970752160411,-47107.654
+"FR",2006,"Chemical and petrochem.","intensity",7.42112618192075,0.666652018047117,-3.71080769215664
+"FR",2006,"Chemical and petrochem.","share_GVA",0.077761307945562,1.08437946304997,0.00605088682891057
+"FR",2006,"Chemical and petrochem.","share_energy_consumption",0.112437803839547,0.833742350832601,-0.0224213690539292
+"FR",2006,"Coke and ref. pet. products","GVA",4599.8,1.45835579087537,1445.7
+"FR",2006,"Coke and ref. pet. products","energy_consumption",185146.558,0.750614909570648,-61513.288
+"FR",2006,"Coke and ref. pet. products","intensity",40.2510017826862,0.514699440470625,-37.9519232989536
+"FR",2006,"Coke and ref. pet. products","share_GVA",0.0146219474165551,1.32782080188607,0.00360995890441124
+"FR",2006,"Coke and ref. pet. products","share_energy_consumption",0.114672925693037,0.78821472651551,-0.0308114478354504
+"FR",2006,"Construction","GVA",112371,1.13059646305648,12980.1
+"FR",2006,"Construction","energy_consumption",59003.337,1.2375728910182,11326.681
+"FR",2006,"Construction","intensity",0.525076194035828,1.09461946101664,0.0453878523465986
+"FR",2006,"Construction","share_GVA",0.357207455355823,1.02939866360328,0.0102015110257002
+"FR",2006,"Construction","share_energy_consumption",0.0365444832057976,1.29956541683256,0.00842394172904174
+"FR",2006,"Food, bev. and tobacco","GVA",32992.8,1.08470430425691,2576.4
+"FR",2006,"Food, bev. and tobacco","energy_consumption",182745.308,0.86708267712508,-28013.496
+"FR",2006,"Food, bev. and tobacco","intensity",5.53894510317402,0.799372394598436,-1.39017221511479
+"FR",2006,"Food, bev. and tobacco","share_GVA",0.104878252690317,0.987614235222507,-0.00131528821858676
+"FR",2006,"Food, bev. and tobacco","share_energy_consumption",0.113185680314052,0.910516599793379,-0.0111236187582954
+"FR",2006,"Machinery","GVA",55609.1,1.10871173227797,5452.59999999999
+"FR",2006,"Machinery","energy_consumption",94794.978,0.915213269457203,-8781.94899999999
+"FR",2006,"Machinery","intensity",1.70466664628631,0.825474505962697,-0.360408209415344
+"FR",2006,"Machinery","share_GVA",0.176771454428878,1.00947279849328,0.00165880682438133
+"FR",2006,"Machinery","share_energy_consumption",0.058712500981342,0.96105815071167,-0.00237901667330248
+"FR",2006,"Mining and quarrying","GVA",2785.3,0.718453363598844,-1091.5
+"FR",2006,"Mining and quarrying","energy_consumption",17231.606,0.578553046439177,-12552.363
+"FR",2006,"Mining and quarrying","intensity",6.1866247800955,0.805275715519118,-1.49599206885208
+"FR",2006,"Mining and quarrying","share_GVA",0.00885397411612048,0.65414580402149,-0.00468119504905481
+"FR",2006,"Mining and quarrying","share_energy_consumption",0.0106726190092591,0.607533937121788,-0.00689449676343498
+"FR",2006,"Non-metallic minerals","GVA",20225.9,1.19909767838934,3358.3
+"FR",2006,"Non-metallic minerals","energy_consumption",181326.36,1.16500823508317,25682.516
+"FR",2006,"Non-metallic minerals","intensity",8.96505767357695,0.971570753642055,-0.262327609450871
+"FR",2006,"Non-metallic minerals","share_GVA",0.0642945446003092,1.09176844966136,0.00540426926742879
+"FR",2006,"Non-metallic minerals","share_energy_consumption",0.112306836438563,1.22336585071252,0.0205053231192623
+"FR",2006,"Other manufacturing","GVA",8297.6,1.09540720009505,722.700000000001
+"FR",2006,"Other manufacturing","energy_consumption",262538.251,2.09965995103171,137499.789
+"FR",2006,"Other manufacturing","intensity",31.640263570189,1.91678487310428,15.1333179999504
+"FR",2006,"Other manufacturing","share_GVA",0.0263765970006539,0.997359132745606,-6.98415335202533e-05
+"FR",2006,"Other manufacturing","share_energy_consumption",0.162606476046414,2.20483615896289,0.0888565625277147
+"FR",2006,"Paper, pulp and printing","GVA",8381.5,0.970845109576982,-251.700000000001
+"FR",2006,"Paper, pulp and printing","energy_consumption",136071.907,0.909724393607859,-13502.962
+"FR",2006,"Paper, pulp and printing","intensity",16.2347917437213,0.93704380300607,-1.09075023376099
+"FR",2006,"Paper, pulp and printing","share_GVA",0.0266433002025864,0.883946386726316,-0.0034980076896937
+"FR",2006,"Paper, pulp and printing","share_energy_consumption",0.0842779031318576,0.955294325984365,-0.00394402056167534
+"FR",2006,"Textile and leather","GVA",6719.1,0.822924959276905,-1445.8
+"FR",2006,"Textile and leather","energy_consumption",24329.562,0.349640788998117,-45254.888
+"FR",2006,"Textile and leather","intensity",3.62095548510961,0.42487566461144,-4.90143303158992
+"FR",2006,"Textile and leather","share_GVA",0.0213588257938553,0.749266321809742,-0.00714749455198143
+"FR",2006,"Textile and leather","share_energy_consumption",0.015068830258082,0.367155002338625,-0.0259733185948543
+"FR",2006,"Total","GVA",314581.9,1.09830768489534,28157.7
+"FR",2006,"Total","energy_consumption",1614562.085,0.952297494984544,-80876.6760000002
+"FR",2006,"Total","intensity",5.13240617149302,0.867058938111036,-0.786921737950387
+"FR",2006,"Total","share_GVA",1,1,-2.22044604925031e-16
+"FR",2006,"Total","share_energy_consumption",1,1,2.22044604925031e-16
+"FR",2006,"Transport equipment","GVA",29356.9,1.04284425309405,1206.1
+"FR",2006,"Transport equipment","energy_consumption",54529.828,0.840548534485982,-10344.27
+"FR",2006,"Transport equipment","intensity",1.85747909350102,0.8060154064158,-0.447041488507309
+"FR",2006,"Transport equipment","share_GVA",0.093320372214676,0.949501007264121,-0.00496322253744336
+"FR",2006,"Transport equipment","share_energy_consumption",0.0337737572971683,0.88265330835468,-0.00449014199090513
+"FR",2006,"Wood and wood products","GVA",3055.7,1.20807306080493,526.3
+"FR",2006,"Wood and wood products","energy_consumption",18467.632,0.420519808180125,-25448.568
+"FR",2006,"Wood and wood products","intensity",6.04366659030664,0.348091371145992,-11.3186327692253
+"FR",2006,"Wood and wood products","share_GVA",0.00971352770137125,1.09994046060058,0.000882569982016529
+"FR",2006,"Wood and wood products","share_energy_consumption",0.0114381677679493,0.441584494755969,-0.0144643897352763
+"FR",2007,"Basic metals","GVA",5807.5,0.833321375787404,-1161.6
+"FR",2007,"Basic metals","energy_consumption",210540.788,0.958287831255238,-9164.37900000004
+"FR",2007,"Basic metals","intensity",36.2532566508825,1.14996189837295,4.72764114816333
+"FR",2007,"Basic metals","share_GVA",0.017902286652986,0.73576905665756,-0.00642910713287425
+"FR",2007,"Basic metals","share_energy_consumption",0.125332211863264,0.967173839816164,-0.00425381156256247
+"FR",2007,"Chemical and petrochem.","GVA",25118.9,1.2229498140178,4579.3
+"FR",2007,"Chemical and petrochem.","energy_consumption",191465.998,0.837392487318434,-37179.471
+"FR",2007,"Chemical and petrochem.","intensity",7.62238784341671,0.684731685405241,-3.50954603066068
+"FR",2007,"Chemical and petrochem.","share_GVA",0.0774318980986122,1.07978585110599,0.00572147698196079
+"FR",2007,"Chemical and petrochem.","share_energy_consumption",0.113977235736133,0.845157457892484,-0.0208819371573429
+"FR",2007,"Coke and ref. pet. products","GVA",4602,1.45905329571035,1447.9
+"FR",2007,"Coke and ref. pet. products","energy_consumption",203509.958,0.825063184382269,-43149.888
+"FR",2007,"Coke and ref. pet. products","intensity",44.2220682312038,0.56547844195135,-33.980856850436
+"FR",2007,"Coke and ref. pet. products","share_GVA",0.0141861942620821,1.28825000556782,0.0031742057499382
+"FR",2007,"Coke and ref. pet. products","share_energy_consumption",0.121146849570735,0.832713827832601,-0.0243375239577528
+"FR",2007,"Construction","GVA",118066.6,1.18790150808575,18675.7
+"FR",2007,"Construction","energy_consumption",52777.185,1.1069816851249,5100.529
+"FR",2007,"Construction","intensity",0.447011983067184,0.931880023377315,-0.032676358622045
+"FR",2007,"Construction","share_GVA",0.363953872982082,1.04884045627713,0.0169479286519588
+"FR",2007,"Construction","share_energy_consumption",0.0314175765883743,1.1172465016132,0.00329703511161846
+"FR",2007,"Food, bev. and tobacco","GVA",33532.3,1.10244144606199,3115.9
+"FR",2007,"Food, bev. and tobacco","energy_consumption",191701.849,0.909579317028199,-19056.955
+"FR",2007,"Food, bev. and tobacco","intensity",5.71693110821506,0.825059072549646,-1.21218621007375
+"FR",2007,"Food, bev. and tobacco","share_GVA",0.103367171198265,0.97338473049822,-0.00282636971063879
+"FR",2007,"Food, bev. and tobacco","share_energy_consumption",0.114117634790307,0.918013661422791,-0.010191664282041
+"FR",2007,"Machinery","GVA",57110.4,1.13864404414184,6953.89999999999
+"FR",2007,"Machinery","energy_consumption",91963.285,0.887874236701384,-11613.642
+"FR",2007,"Machinery","intensity",1.61027212206533,0.779764528931911,-0.45480273363632
+"FR",2007,"Machinery","share_GVA",0.176049376094136,1.00534929088477,0.000936728489638522
+"FR",2007,"Machinery","share_energy_consumption",0.054744555811493,0.896107314291465,-0.00634696184315141
+"FR",2007,"Mining and quarrying","GVA",2869.4,0.740146512587701,-1007.4
+"FR",2007,"Mining and quarrying","energy_consumption",15753.294,0.528918560182493,-14030.675
+"FR",2007,"Mining and quarrying","intensity",5.49010036941521,0.714613324777127,-2.19251647953238
+"FR",2007,"Mining and quarrying","share_GVA",0.00884525550100355,0.653501658757362,-0.00468991366417174
+"FR",2007,"Mining and quarrying","share_energy_consumption",0.00937773245701106,0.533823114639433,-0.00818938331568302
+"FR",2007,"Non-metallic minerals","GVA",20708.7,1.22772060044108,3841.1
+"FR",2007,"Non-metallic minerals","energy_consumption",173685.104,1.11591373957585,18041.26
+"FR",2007,"Non-metallic minerals","intensity",8.38705973817767,0.908931347388758,-0.840325544850145
+"FR",2007,"Non-metallic minerals","share_GVA",0.0638369493948673,1.08399814797988,0.00494667406198687
+"FR",2007,"Non-metallic minerals","share_energy_consumption",0.103392499186528,1.12626138119219,0.0115909858672277
+"FR",2007,"Other manufacturing","GVA",8538.6,1.12722280162114,963.700000000001
+"FR",2007,"Other manufacturing","energy_consumption",337140.244,2.69629231364026,212101.782
+"FR",2007,"Other manufacturing","intensity",39.4842531562551,2.39197815175715,22.9773075860166
+"FR",2007,"Other manufacturing","share_GVA",0.0263212164985254,0.995265069983359,-0.000125222035648704
+"FR",2007,"Other manufacturing","share_energy_consumption",0.200695232928645,2.72129448501333,0.126945319409946
+"FR",2007,"Paper, pulp and printing","GVA",8417.9,0.975061390909512,-215.300000000001
+"FR",2007,"Paper, pulp and printing","energy_consumption",116952.926,0.78190224589132,-32621.943
+"FR",2007,"Paper, pulp and printing","intensity",13.8933612896328,0.801900529731756,-3.43218068784947
+"FR",2007,"Paper, pulp and printing","share_GVA",0.025949144867184,0.860916353063439,-0.00419216302509607
+"FR",2007,"Paper, pulp and printing","share_energy_consumption",0.0696205663458457,0.789152666719159,-0.0186013573476873
+"FR",2007,"Textile and leather","GVA",6976.9,0.854499136547906,-1188
+"FR",2007,"Textile and leather","energy_consumption",19672.418,0.282712847482448,-49912.032
+"FR",2007,"Textile and leather","intensity",2.8196502744772,0.330852116041428,-5.70273824222233
+"FR",2007,"Textile and leather","share_GVA",0.0215070966421383,0.754467654233016,-0.0069992237036984
+"FR",2007,"Textile and leather","share_energy_consumption",0.0117107363568844,0.285334386336512,-0.029331412496052
+"FR",2007,"Total","GVA",324399.9,1.13258551477145,37975.7
+"FR",2007,"Total","energy_consumption",1679861.744,0.990812397735432,-15577.017
+"FR",2007,"Total","intensity",5.17836702169144,0.87482347673798,-0.740960887751969
+"FR",2007,"Total","share_GVA",1,1,0
+"FR",2007,"Total","share_energy_consumption",1,1,0
+"FR",2007,"Transport equipment","GVA",29530,1.04899327905424,1379.2
+"FR",2007,"Transport equipment","energy_consumption",54922.661,0.846603847964098,-9951.437
+"FR",2007,"Transport equipment","intensity",1.85989370132069,0.807063176541407,-0.444626880687635
+"FR",2007,"Transport equipment","share_GVA",0.0910296211558635,0.926193444444608,-0.00725397359625593
+"FR",2007,"Transport equipment","share_energy_consumption",0.0326947507413443,0.854454233615837,-0.00556914854672909
+"FR",2007,"Wood and wood products","GVA",3120.7,1.23377085474816,591.3
+"FR",2007,"Wood and wood products","energy_consumption",19776.034,0.450312959682304,-24140.166
+"FR",2007,"Wood and wood products","intensity",6.33705066171051,0.364989137123216,-11.0252486978214
+"FR",2007,"Wood and wood products","share_GVA",0.00961991665225544,1.08934013251718,0.000788958932900721
+"FR",2007,"Wood and wood products","share_energy_consumption",0.0117724176234351,0.454488620359943,-0.0141301398797905
+"FR",2008,"Basic metals","GVA",5793.5,0.831312508071343,-1175.6
+"FR",2008,"Basic metals","energy_consumption",181016.75,0.823907568819262,-38688.417
+"FR",2008,"Basic metals","intensity",31.2448002071287,0.991092472228932,-0.280815295590468
+"FR",2008,"Basic metals","share_GVA",0.0183455938117385,0.753988611305927,-0.00598579997412181
+"FR",2008,"Basic metals","share_energy_consumption",0.106238988141005,0.819833692958521,-0.0233470352848217
+"FR",2008,"Chemical and petrochem.","GVA",24296.1,1.18289061130694,3756.5
+"FR",2008,"Chemical and petrochem.","energy_consumption",221034.294,0.966711892287706,-7611.17500000002
+"FR",2008,"Chemical and petrochem.","intensity",9.09752157753714,0.817245384355208,-2.03441229654026
+"FR",2008,"Chemical and petrochem.","share_GVA",0.0769355971018173,1.07286494631884,0.00522517598516589
+"FR",2008,"Chemical and petrochem.","share_energy_consumption",0.129725341654965,0.961931909203043,-0.00513383123851138
+"FR",2008,"Coke and ref. pet. products","GVA",2728.6,0.865096223962462,-425.5
+"FR",2008,"Coke and ref. pet. products","energy_consumption",235003.272,0.952742312179989,-11656.574
+"FR",2008,"Coke and ref. pet. products","intensity",86.1259517701385,1.10131368718277,7.92302668849875
+"FR",2008,"Coke and ref. pet. products","share_GVA",0.00864033611369803,0.784629960716867,-0.00237165239844584
+"FR",2008,"Coke and ref. pet. products","share_energy_consumption",0.137923754719413,0.948031402784341,-0.00756061880907447
+"FR",2008,"Construction","GVA",117896.7,1.18619209605708,18505.8
+"FR",2008,"Construction","energy_consumption",57607.033,1.20828593767147,9930.377
+"FR",2008,"Construction","intensity",0.488622947037534,1.01862585468899,0.00893460534830459
+"FR",2008,"Construction","share_GVA",0.373329588322152,1.07585934599145,0.0263236439920287
+"FR",2008,"Construction","share_energy_consumption",0.0338096496358788,1.20231147269428,0.005689108159123
+"FR",2008,"Food, bev. and tobacco","GVA",30739.6,1.01062584658276,323.199999999997
+"FR",2008,"Food, bev. and tobacco","energy_consumption",188990.841,0.896716233975213,-21767.963
+"FR",2008,"Food, bev. and tobacco","intensity",6.14812297492485,0.887288047309778,-0.780994343363965
+"FR",2008,"Food, bev. and tobacco","share_GVA",0.0973394693251602,0.916623256857601,-0.00885407158374348
+"FR",2008,"Food, bev. and tobacco","share_energy_consumption",0.110918993495119,0.892282349935573,-0.0133903055772293
+"FR",2008,"Machinery","GVA",56142.3,1.11934245810613,5985.8
+"FR",2008,"Machinery","energy_consumption",94042.339,0.90794679591141,-9534.58799999999
+"FR",2008,"Machinery","intensity",1.67507100706597,0.811142996797969,-0.39000384863568
+"FR",2008,"Machinery","share_GVA",0.17777920625818,1.01522767595694,0.00266655865368259
+"FR",2008,"Machinery","share_energy_consumption",0.0551935825705265,0.903457381473816,-0.00589793508411798
+"FR",2008,"Mining and quarrying","GVA",2719.6,0.701506397028477,-1157.2
+"FR",2008,"Mining and quarrying","energy_consumption",10732.206,0.360334984232625,-19051.763
+"FR",2008,"Mining and quarrying","intensity",3.94624430063245,0.513658871478542,-3.73637254831514
+"FR",2008,"Mining and quarrying","share_GVA",0.00861183687415274,0.636256316345878,-0.00492333229102255
+"FR",2008,"Mining and quarrying","share_energy_consumption",0.00629874697209413,0.358553279524961,-0.0112683688005999
+"FR",2008,"Non-metallic minerals","GVA",20180.2,1.19638834214707,3312.6
+"FR",2008,"Non-metallic minerals","energy_consumption",177760.609,1.14209855289876,22116.765
+"FR",2008,"Non-metallic minerals","intensity",8.80866438390105,0.954621933919143,-0.418720899126766
+"FR",2008,"Non-metallic minerals","share_GVA",0.0639022615413212,1.08510719605419,0.00501198620844083
+"FR",2008,"Non-metallic minerals","share_energy_consumption",0.104327954354991,1.13645135665815,0.0125264410356902
+"FR",2008,"Other manufacturing","GVA",8072.8,1.06573024066324,497.900000000001
+"FR",2008,"Other manufacturing","energy_consumption",341748.705,2.73314866108958,216710.243
+"FR",2008,"Other manufacturing","intensity",42.3333545981568,2.56457831147649,25.8264090279182
+"FR",2008,"Other manufacturing","share_GVA",0.0255631845556921,0.966602157892047,-0.000883253978482025
+"FR",2008,"Other manufacturing","share_energy_consumption",0.20057280123358,2.71963439228612,0.126822887714882
+"FR",2008,"Paper, pulp and printing","GVA",8427.6,0.976184960385489,-205.6
+"FR",2008,"Paper, pulp and printing","energy_consumption",103900.187,0.694636657178018,-45674.682
+"FR",2008,"Paper, pulp and printing","intensity",12.3285617494898,0.711583035353988,-4.99698022799251
+"FR",2008,"Paper, pulp and printing","share_GVA",0.0266866879102109,0.885385863333623,-0.00345461998206912
+"FR",2008,"Paper, pulp and printing","share_energy_consumption",0.0609791675883098,0.691201971520599,-0.0272427561052232
+"FR",2008,"Textile and leather","GVA",6695.7,0.820059033178606,-1469.2
+"FR",2008,"Textile and leather","energy_consumption",18955.97,0.272416754030534,-50628.48
+"FR",2008,"Textile and leather","intensity",2.83106620666995,0.332191638661217,-5.69132231002958
+"FR",2008,"Textile and leather","share_GVA",0.0212024842470453,0.743781869768468,-0.00730383609879135
+"FR",2008,"Textile and leather","share_energy_consumption",0.011125285765164,0.271069767936091,-0.0299168630877724
+"FR",2008,"Total","GVA",315797.9,1.10255313622243,29373.7
+"FR",2008,"Total","energy_consumption",1703863.649,1.00496914910393,8424.8879999998
+"FR",2008,"Total","intensity",5.39542425392949,0.911492712765903,-0.523903655513915
+"FR",2008,"Total","share_GVA",1,1,0
+"FR",2008,"Total","share_energy_consumption",1,1,0
+"FR",2008,"Transport equipment","GVA",28684.6,1.01896216093326,533.799999999996
+"FR",2008,"Transport equipment","energy_consumption",48920.733,0.754087293822567,-15953.365
+"FR",2008,"Transport equipment","intensity",1.70547028719243,0.74005426573633,-0.599050294815895
+"FR",2008,"Transport equipment","share_GVA",0.0908321429623186,0.924184175308259,-0.00745145178980078
+"FR",2008,"Transport equipment","share_energy_consumption",0.0287116478062735,0.750358649810233,-0.00955225148179993
+"FR",2008,"Wood and wood products","GVA",3420.6,1.35233652249545,891.2
+"FR",2008,"Wood and wood products","energy_consumption",24150.71,0.54992713395057,-19765.49
+"FR",2008,"Wood and wood products","intensity",7.0603724492779,0.406649620714077,-10.301926910254
+"FR",2008,"Wood and wood products","share_GVA",0.0108316109765138,1.22654997574886,0.00200065325715906
+"FR",2008,"Wood and wood products","share_energy_consumption",0.0141740860626812,0.547207975927324,-0.0117284714405444
+"FR",2009,"Basic metals","GVA",7437.3,1.06718227604712,468.2
+"FR",2009,"Basic metals","energy_consumption",152404.308,0.693676485086944,-67300.859
+"FR",2009,"Basic metals","intensity",20.4918865717397,0.650007501676606,-11.0337289309794
+"FR",2009,"Basic metals","share_GVA",0.0254283184206837,1.045082688007,0.00109692463482346
+"FR",2009,"Basic metals","share_energy_consumption",0.104242281280411,0.804425342522207,-0.0253437421454152
+"FR",2009,"Chemical and petrochem.","GVA",24490.4,1.19235038657033,3950.8
+"FR",2009,"Chemical and petrochem.","energy_consumption",172456.893,0.754254583544798,-56188.576
+"FR",2009,"Chemical and petrochem.","intensity",7.04181609936955,0.632577967047363,-4.09011777470784
+"FR",2009,"Chemical and petrochem.","share_GVA",0.0837333023341687,1.16765877302491,0.0120228812175173
+"FR",2009,"Chemical and petrochem.","share_energy_consumption",0.117957951351689,0.874675031893176,-0.0169012215417876
+"FR",2009,"Coke and ref. pet. products","GVA",1972.2,0.625281379791383,-1181.9
+"FR",2009,"Coke and ref. pet. products","energy_consumption",227568.519,0.922600588180048,-19091.327
+"FR",2009,"Coke and ref. pet. products","intensity",115.388154852449,1.47549666117974,37.1852297708093
+"FR",2009,"Coke and ref. pet. products","share_GVA",0.00674300210953874,0.612332831813496,-0.00426898640260513
+"FR",2009,"Coke and ref. pet. products","share_energy_consumption",0.155653484336969,1.06989830290255,0.0101691108084814
+"FR",2009,"Construction","GVA",110906.6,1.11586271982646,11515.7
+"FR",2009,"Construction","energy_consumption",44670.51,0.936947213747541,-3006.146
+"FR",2009,"Construction","intensity",0.402775939394049,0.839661722808746,-0.0769124022951804
+"FR",2009,"Construction","share_GVA",0.379192494555202,1.09275503993804,0.032186550225079
+"FR",2009,"Construction","share_energy_consumption",0.0305539648417249,1.08653543769705,0.00243342336496911
+"FR",2009,"Food, bev. and tobacco","GVA",31005.2,1.01935797793296,588.799999999999
+"FR",2009,"Food, bev. and tobacco","energy_consumption",186407.899,0.884460793391103,-24350.905
+"FR",2009,"Food, bev. and tobacco","intensity",6.01214954265736,0.86766456194771,-0.916967775631456
+"FR",2009,"Food, bev. and tobacco","share_GVA",0.106007569722478,0.99824875237388,-0.000185971186425951
+"FR",2009,"Food, bev. and tobacco","share_energy_consumption",0.127500232082996,1.02566930257399,0.00319093301064849
+"FR",2009,"Machinery","GVA",47568.4,0.948399509535155,-2588.1
+"FR",2009,"Machinery","energy_consumption",84355.471,0.814423380218647,-19221.456
+"FR",2009,"Machinery","intensity",1.77335102715248,0.85873450168466,-0.291723828549174
+"FR",2009,"Machinery","share_GVA",0.162637573038932,0.928759717038027,-0.0124750745655647
+"FR",2009,"Machinery","share_energy_consumption",0.0576978882744152,0.944450072440274,-0.00339362938022924
+"FR",2009,"Mining and quarrying","GVA",2445.5,0.630803755674783,-1431.3
+"FR",2009,"Mining and quarrying","energy_consumption",12909.873,0.433450390711862,-16874.096
+"FR",2009,"Mining and quarrying","intensity",5.2790320997751,0.687139838360968,-2.40358474917249
+"FR",2009,"Mining and quarrying","share_GVA",0.00836122688311377,0.61774084838381,-0.00517394228206152
+"FR",2009,"Mining and quarrying","share_energy_consumption",0.00883016123507732,0.502652874230084,-0.00873695453761675
+"FR",2009,"Non-metallic minerals","GVA",17806.2,1.05564514216605,938.600000000002
+"FR",2009,"Non-metallic minerals","energy_consumption",154536.69,0.9928866187602,-1107.15400000001
+"FR",2009,"Non-metallic minerals","intensity",8.67881355932203,0.940549602419356,-0.548571723705784
+"FR",2009,"Non-metallic minerals","share_GVA",0.060879852024576,1.03378446917508,0.00198957669169558
+"FR",2009,"Non-metallic minerals","share_energy_consumption",0.10570079887193,1.15140584343404,0.0138992855526296
+"FR",2009,"Other manufacturing","GVA",7694.6,1.01580218880777,119.700000000001
+"FR",2009,"Other manufacturing","energy_consumption",247568.831,1.97994142794239,122530.369
+"FR",2009,"Other manufacturing","intensity",32.1743600706989,1.94914073798778,15.6674145004604
+"FR",2009,"Other manufacturing","share_GVA",0.0263080336842393,0.994766597787601,-0.000138404849934815
+"FR",2009,"Other manufacturing","share_energy_consumption",0.169333400453251,2.29604880025137,0.0955834869345518
+"FR",2009,"Paper, pulp and printing","GVA",8578.3,0.993640828429783,-54.9000000000015
+"FR",2009,"Paper, pulp and printing","energy_consumption",92893.038,0.621047095819285,-56681.831
+"FR",2009,"Paper, pulp and printing","intensity",10.8288399799494,0.625021716147378,-6.49670199753287
+"FR",2009,"Paper, pulp and printing","share_GVA",0.0293294265268513,0.973064162698903,-0.00081188136542874
+"FR",2009,"Paper, pulp and printing","share_energy_consumption",0.0635374571969968,0.720200314580699,-0.0246844664965361
+"FR",2009,"Textile and leather","GVA",5387.4,0.659824370169873,-2777.5
+"FR",2009,"Textile and leather","energy_consumption",14866.93,0.213653050358234,-54717.52
+"FR",2009,"Textile and leather","intensity",2.75957419163233,0.323802908800153,-5.7628143250672
+"FR",2009,"Textile and leather","share_GVA",0.0184196580290686,0.646160493729199,-0.0100866623167681
+"FR",2009,"Textile and leather","share_energy_consumption",0.0101687591326892,0.247763809081398,-0.0308733897202471
+"FR",2009,"Total","GVA",292481,1.02114625789301,6056.79999999999
+"FR",2009,"Total","energy_consumption",1462020.076,0.862325499234,-233418.685
+"FR",2009,"Total","intensity",4.99868393502484,0.844468157786998,-0.920643974418568
+"FR",2009,"Total","share_GVA",1,1,0
+"FR",2009,"Total","share_energy_consumption",1,1,2.22044604925031e-16
+"FR",2009,"Transport equipment","GVA",24008.2,0.852842547991531,-4142.6
+"FR",2009,"Transport equipment","energy_consumption",45946.92,0.708247535094823,-18927.178
+"FR",2009,"Transport equipment","intensity",1.91380111795137,0.830455207426935,-0.39071946405696
+"FR",2009,"Transport equipment","share_GVA",0.0820846482335605,0.835181582853026,-0.0161989465185589
+"FR",2009,"Transport equipment","share_energy_consumption",0.0314270103087148,0.821322732221135,-0.00683688897935862
+"FR",2009,"Wood and wood products","GVA",3180.7,1.25749189531114,651.3
+"FR",2009,"Wood and wood products","energy_consumption",25434.194,0.57915288663409,-18482.006
+"FR",2009,"Wood and wood products","intensity",7.99641399691892,0.460561923932551,-9.36588536261299
+"FR",2009,"Wood and wood products","share_GVA",0.0108748944375874,1.23145130836183,0.00204393671823268
+"FR",2009,"Wood and wood products","share_energy_consumption",0.0173966106331361,0.671617489159892,-0.00850594687008949
+"FR",2010,"Basic metals","GVA",6829.8,0.980011766225194,-139.3
+"FR",2010,"Basic metals","energy_consumption",163616.597,0.744709827420672,-56088.57
+"FR",2010,"Basic metals","intensity",23.9562793932472,0.75989886355053,-7.56933610947191
+"FR",2010,"Basic metals","share_GVA",0.0232655739134523,0.956195691796851,-0.00106581987240802
+"FR",2010,"Basic metals","share_energy_consumption",0.109814069148592,0.847422169810224,-0.019771954277234
+"FR",2010,"Chemical and petrochem.","GVA",23851.5,1.1612446201484,3311.9
+"FR",2010,"Chemical and petrochem.","energy_consumption",161265.237,0.705306944000714,-67380.232
+"FR",2010,"Chemical and petrochem.","intensity",6.76121992327527,0.607371549252544,-4.37071395080213
+"FR",2010,"Chemical and petrochem.","share_GVA",0.0812496465777485,1.13302425662205,0.00953922546109702
+"FR",2010,"Chemical and petrochem.","share_energy_consumption",0.108235913788026,0.80258473684634,-0.0266232591054505
+"FR",2010,"Coke and ref. pet. products","GVA",1711.8,0.542722171142323,-1442.3
+"FR",2010,"Coke and ref. pet. products","energy_consumption",193130.675,0.782983846507388,-53529.171
+"FR",2010,"Coke and ref. pet. products","intensity",112.823153989952,1.44269736550354,34.6202289083123
+"FR",2010,"Coke and ref. pet. products","share_GVA",0.00583121166433096,0.52953303192247,-0.00518077684781292
+"FR",2010,"Coke and ref. pet. products","share_energy_consumption",0.129622945887111,0.890975042496435,-0.0158614276413761
+"FR",2010,"Construction","GVA",107679,1.08338892192344,8288.10000000001
+"FR",2010,"Construction","energy_consumption",47166.602,0.989301808415422,-510.054000000004
+"FR",2010,"Construction","intensity",0.438029717958005,0.913154813009374,-0.0416586237312243
+"FR",2010,"Construction","share_GVA",0.36680630961765,1.05706059394962,0.019800365287527
+"FR",2010,"Construction","share_energy_consumption",0.031656669240787,1.12574892154741,0.00353612776403113
+"FR",2010,"Food, bev. and tobacco","GVA",32338.9,1.06320603358714,1922.5
+"FR",2010,"Food, bev. and tobacco","energy_consumption",199875.441,0.948361051621834,-10883.363
+"FR",2010,"Food, bev. and tobacco","intensity",6.1806505787148,0.891982383153118,-0.748466739574019
+"FR",2010,"Food, bev. and tobacco","share_GVA",0.110161800964851,1.03736818663342,0.00396826005594761
+"FR",2010,"Food, bev. and tobacco","share_energy_consumption",0.134149810603135,1.0791615076605,0.0098405115307866
+"FR",2010,"Machinery","GVA",50692.6,1.01068854485461,536.100000000006
+"FR",2010,"Machinery","energy_consumption",93708.97,0.904728231607026,-9867.957
+"FR",2010,"Machinery","intensity",1.84857296725755,0.895160270899456,-0.216501888444105
+"FR",2010,"Machinery","share_GVA",0.172683304366902,0.986126968720834,-0.00242934323759472
+"FR",2010,"Machinery","share_energy_consumption",0.0628943731877235,1.02951073409685,0.00180285553307909
+"FR",2010,"Mining and quarrying","GVA",2374.2,0.612412298803137,-1502.6
+"FR",2010,"Mining and quarrying","energy_consumption",13334.654,0.44771245900773,-16449.315
+"FR",2010,"Mining and quarrying","intensity",5.61648302586134,0.731063794575507,-2.06613382308624
+"FR",2010,"Mining and quarrying","share_GVA",0.00808766370689015,0.597529562297525,-0.00544750545828514
+"FR",2010,"Mining and quarrying","share_energy_consumption",0.00894978042128913,0.509462141485995,-0.00861733535140495
+"FR",2010,"Non-metallic minerals","GVA",17348.6,1.02851620858925,481
+"FR",2010,"Non-metallic minerals","energy_consumption",157553.912,1.01227204334532,1910.068
+"FR",2010,"Non-metallic minerals","intensity",9.08164993140657,0.984206213661707,-0.145735351621248
+"FR",2010,"Non-metallic minerals","share_GVA",0.0590976508235845,1.00352138769146,0.000207375490704167
+"FR",2010,"Non-metallic minerals","share_energy_consumption",0.105744994726906,1.15188727182642,0.013943481407605
+"FR",2010,"Other manufacturing","GVA",7555.5,0.997438910084622,-19.3999999999996
+"FR",2010,"Other manufacturing","energy_consumption",269149.401,2.15253288224227,144110.939
+"FR",2010,"Other manufacturing","intensity",35.622976771888,2.15805986760597,19.1160312016495
+"FR",2010,"Other manufacturing","share_GVA",0.0257376561104408,0.973199324256177,-0.000708782423733345
+"FR",2010,"Other manufacturing","share_energy_consumption",0.180644210151347,2.44941589125451,0.106894296632648
+"FR",2010,"Paper, pulp and printing","GVA",8451.2,0.978918593337349,-182
+"FR",2010,"Paper, pulp and printing","energy_consumption",104616.511,0.69942572371566,-44958.358
+"FR",2010,"Paper, pulp and printing","intensity",12.3788942398713,0.714488138723736,-4.94664773761102
+"FR",2010,"Paper, pulp and printing","share_GVA",0.0287888398280137,0.955129085005207,-0.00135246806426639
+"FR",2010,"Paper, pulp and printing","share_energy_consumption",0.0702151553307179,0.795892363157175,-0.018006768362815
+"FR",2010,"Textile and leather","GVA",5235.8,0.641257088268074,-2929.1
+"FR",2010,"Textile and leather","energy_consumption",13695.803,0.196822752784566,-55888.647
+"FR",2010,"Textile and leather","intensity",2.61579949577906,0.30693267393917,-5.90658902092047
+"FR",2010,"Textile and leather","share_GVA",0.0178356455380909,0.625673370737089,-0.0106706748077458
+"FR",2010,"Textile and leather","share_energy_consumption",0.0091921717311325,0.22396906565663,-0.0318499771218039
+"FR",2010,"Total","GVA",293558.2,1.02490711329559,7134
+"FR",2010,"Total","energy_consumption",1489942.029,0.878794364782132,-205496.732
+"FR",2010,"Total","intensity",5.07545702692004,0.857438057929332,-0.843870882523361
+"FR",2010,"Total","share_GVA",1,1,-1.11022302462516e-16
+"FR",2010,"Total","share_energy_consumption",1,1,-1.11022302462516e-16
+"FR",2010,"Transport equipment","GVA",26391.3,0.937497335777314,-1759.5
+"FR",2010,"Transport equipment","energy_consumption",47613.87,0.733942690039405,-17260.228
+"FR",2010,"Transport equipment","intensity",1.80415023132623,0.78287442751063,-0.500370350682093
+"FR",2010,"Transport equipment","share_GVA",0.0899014232952784,0.914714439597151,-0.008382171456841
+"FR",2010,"Transport equipment","share_energy_consumption",0.0319568607860246,0.835170000460076,-0.00630703850204885
+"FR",2010,"Wood and wood products","GVA",3098,1.22479639440183,568.6
+"FR",2010,"Wood and wood products","energy_consumption",25214.356,0.574147034579495,-18701.844
+"FR",2010,"Wood and wood products","intensity",8.13891413815365,0.468769370324524,-9.22338522137825
+"FR",2010,"Wood and wood products","share_GVA",0.0105532735927663,1.19503160677995,0.00172231587341155
+"FR",2010,"Wood and wood products","share_energy_consumption",0.0169230449972091,0.653334906991393,-0.00897951250601648
+"FR",2011,"Basic metals","GVA",6895.8,0.98948214260091,-73.3000000000002
+"FR",2011,"Basic metals","energy_consumption",176009.501,0.80111680304724,-43695.666
+"FR",2011,"Basic metals","intensity",25.5241597784158,0.809632401188625,-6.0014557243033
+"FR",2011,"Basic metals","share_GVA",0.0230344029587507,0.94669475828124,-0.00129699082710962
+"FR",2011,"Basic metals","share_energy_consumption",0.119479755741767,0.922011128847982,-0.0101062676840591
+"FR",2011,"Chemical and petrochem.","GVA",24812.7,1.20804202613488,4273.1
+"FR",2011,"Chemical and petrochem.","energy_consumption",299280.702,1.30892907394548,70635.233
+"FR",2011,"Chemical and petrochem.","intensity",12.0615935387926,1.08351286265544,0.92965966471524
+"FR",2011,"Chemical and petrochem.","share_GVA",0.0828831651577181,1.15580363170496,0.0111727440410666
+"FR",2011,"Chemical and petrochem.","share_energy_consumption",0.203159403157359,1.50645594807135,0.0683002302638831
+"FR",2011,"Coke and ref. pet. products","GVA",1656.1,0.525062616911322,-1498
+"FR",2011,"Coke and ref. pet. products","energy_consumption",167805.111,0.680309802025904,-78854.735
+"FR",2011,"Coke and ref. pet. products","intensity",101.325470080309,1.29567365893962,23.1225449986694
+"FR",2011,"Coke and ref. pet. products","share_GVA",0.00553195782070056,0.502357754423735,-0.00548003069144331
+"FR",2011,"Coke and ref. pet. products","share_energy_consumption",0.113910405748495,0.782973476709443,-0.0315739677799924
+"FR",2011,"Construction","GVA",106408.9,1.07061008603403,7018
+"FR",2011,"Construction","energy_consumption",62217.027,1.304978834925,14540.371
+"FR",2011,"Construction","intensity",0.584697586386101,1.21891139636015,0.105009244696872
+"FR",2011,"Construction","share_GVA",0.355443238057572,1.02431455099058,0.00843729372744872
+"FR",2011,"Construction","share_energy_consumption",0.0422345109025617,1.50190958938228,0.0141139694258058
+"FR",2011,"Food, bev. and tobacco","GVA",33738.4,1.10921739587854,3322
+"FR",2011,"Food, bev. and tobacco","energy_consumption",224332.954,1.06440608763371,13574.15
+"FR",2011,"Food, bev. and tobacco","intensity",6.64918769117682,0.959600968744872,-0.279929627111998
+"FR",2011,"Food, bev. and tobacco","share_GVA",0.112698149711928,1.06125239583643,0.00650460880302434
+"FR",2011,"Food, bev. and tobacco","share_energy_consumption",0.152282952888714,1.22503267273743,0.0279736538163664
+"FR",2011,"Machinery","GVA",52486.2,1.04644861583244,2329.7
+"FR",2011,"Machinery","energy_consumption",86252.877,0.832742189773597,-17324.05
+"FR",2011,"Machinery","intensity",1.64334390754141,0.795779340881592,-0.421730948160243
+"FR",2011,"Machinery","share_GVA",0.175322410825949,1.00119787590629,0.000209763221451831
+"FR",2011,"Machinery","share_energy_consumption",0.0585506612849536,0.958409015404486,-0.00254085636969088
+"FR",2011,"Mining and quarrying","GVA",2365.8,0.610245563351217,-1511
+"FR",2011,"Mining and quarrying","energy_consumption",26101.514,0.876361172683197,-3682.455
+"FR",2011,"Mining and quarrying","intensity",11.0328489305943,1.43607954783085,3.35023208164672
+"FR",2011,"Mining and quarrying","share_GVA",0.00790260600942781,0.583857202890413,-0.00563256315574748
+"FR",2011,"Mining and quarrying","share_energy_consumption",0.0177183759938636,1.00861041864395,0.000151260221169562
+"FR",2011,"Non-metallic minerals","GVA",19374.1,1.14859849652588,2506.5
+"FR",2011,"Non-metallic minerals","energy_consumption",171645.861,1.10281175656392,16002.017
+"FR",2011,"Non-metallic minerals","intensity",8.85955275341822,0.96013686235838,-0.367832529609593
+"FR",2011,"Non-metallic minerals","share_GVA",0.0647163239019593,1.09893057106877,0.00582604856907892
+"FR",2011,"Non-metallic minerals","share_energy_consumption",0.116517605185219,1.26923403517273,0.024716091865918
+"FR",2011,"Other manufacturing","GVA",7483.8,0.987973438593249,-91.0999999999995
+"FR",2011,"Other manufacturing","energy_consumption",67275.454,0.538038079834987,-57763.008
+"FR",2011,"Other manufacturing","intensity",8.98947780539298,0.544587595999632,-7.51746776484557
+"FR",2011,"Other manufacturing","share_GVA",0.0249985302448879,0.945251293953429,-0.00144790828928621
+"FR",2011,"Other manufacturing","share_energy_consumption",0.0456683006637039,0.619231921568626,-0.028081612854995
+"FR",2011,"Paper, pulp and printing","GVA",8931.1,1.034506324422,297.9
+"FR",2011,"Paper, pulp and printing","energy_consumption",115627.447,0.773040603498707,-33947.422
+"FR",2011,"Paper, pulp and printing","intensity",12.946607584732,0.747255560695215,-4.37893439275027
+"FR",2011,"Paper, pulp and printing","share_GVA",0.0298330224578581,0.989771995444799,-0.000308285434421945
+"FR",2011,"Paper, pulp and printing","share_energy_consumption",0.0784908714933755,0.88969802751115,-0.00973105220015748
+"FR",2011,"Textile and leather","GVA",5938.7,0.727345099143896,-2226.2
+"FR",2011,"Textile and leather","energy_consumption",14681.643,0.210990285904394,-54902.807
+"FR",2011,"Textile and leather","intensity",2.47219812416859,0.290082776597704,-6.05019039253094
+"FR",2011,"Textile and leather","share_GVA",0.0198373515547337,0.69589309718225,-0.00866896879110302
+"FR",2011,"Textile and leather","share_energy_consumption",0.00996627517015588,0.24283024765266,-0.0310758736827805
+"FR",2011,"Total","GVA",299369.6,1.04519660000796,12945.4
+"FR",2011,"Total","energy_consumption",1473132.414,0.868879754247874,-222306.347
+"FR",2011,"Total","intensity",4.92078158236508,0.831307482478662,-0.998546327078329
+"FR",2011,"Total","share_GVA",1,1,0
+"FR",2011,"Total","share_energy_consumption",1,1,-3.33066907387547e-16
+"FR",2011,"Transport equipment","GVA",25907,0.920293561817071,-2243.8
+"FR",2011,"Transport equipment","energy_consumption",40257.002,0.620540450520021,-24617.096
+"FR",2011,"Transport equipment","intensity",1.55390442737484,0.674285332709268,-0.750616154633485
+"FR",2011,"Transport equipment","share_GVA",0.0865385129285004,0.880498043918304,-0.011745081823619
+"FR",2011,"Transport equipment","share_energy_consumption",0.0273274836785989,0.714184497321126,-0.0109364156094745
+"FR",2011,"Wood and wood products","GVA",3371,1.33272712896339,841.6
+"FR",2011,"Wood and wood products","energy_consumption",21645.321,0.492877821851617,-22270.879
+"FR",2011,"Wood and wood products","intensity",6.42103856422427,0.369826509223222,-10.9412607953076
+"FR",2011,"Wood and wood products","share_GVA",0.0112603283700149,1.27509707642872,0.00242937065066014
+"FR",2011,"Wood and wood products","share_energy_consumption",0.0146933980912323,0.567256653687674,-0.0112091594119933
+"FR",2012,"Basic metals","GVA",6569.4,0.942646826706461,-399.700000000001
+"FR",2012,"Basic metals","energy_consumption",172953.531,0.787207389619562,-46751.636
+"FR",2012,"Basic metals","intensity",26.3271426614303,0.835103208664063,-5.19847284128888
+"FR",2012,"Basic metals","share_GVA",0.0225344324646208,0.926146387787955,-0.00179696132123948
+"FR",2012,"Basic metals","share_energy_consumption",0.121727090352469,0.939353543957957,-0.00785893307335749
+"FR",2012,"Chemical and petrochem.","GVA",25402,1.23673294514012,4862.4
+"FR",2012,"Chemical and petrochem.","energy_consumption",290164.089,1.26905680776906,61518.62
+"FR",2012,"Chemical and petrochem.","intensity",11.4228835918432,1.02613649353805,0.290949717765768
+"FR",2012,"Chemical and petrochem.","share_GVA",0.0871342365309309,1.21508471396632,0.0154238154142795
+"FR",2012,"Chemical and petrochem.","share_energy_consumption",0.204221504322712,1.51433157968442,0.0693623314292359
+"FR",2012,"Coke and ref. pet. products","GVA",1418.3,0.449668685203386,-1735.8
+"FR",2012,"Coke and ref. pet. products","energy_consumption",131294.019,0.532287768476106,-115365.827
+"FR",2012,"Coke and ref. pet. products","intensity",92.5714016780653,1.18373323736197,14.3684765964255
+"FR",2012,"Coke and ref. pet. products","share_GVA",0.00486506919422956,0.441797518119859,-0.00614691931791431
+"FR",2012,"Coke and ref. pet. products","share_energy_consumption",0.0924065488639938,0.635164771465298,-0.0530778246644937
+"FR",2012,"Construction","GVA",101019,1.01638077530237,1628.10000000001
+"FR",2012,"Construction","energy_consumption",61876.686,1.2978403099412,14200.03
+"FR",2012,"Construction","intensity",0.61252522792742,1.27692331602307,0.13283688623819
+"FR",2012,"Construction","share_GVA",0.346516551457291,0.998589670059467,-0.000489392872831784
+"FR",2012,"Construction","share_energy_consumption",0.0435496685374602,1.54867816373514,0.0154291270607044
+"FR",2012,"Food, bev. and tobacco","GVA",33339.6,1.09610604805302,2923.2
+"FR",2012,"Food, bev. and tobacco","energy_consumption",228394.618,1.0836777096154,17635.814
+"FR",2012,"Food, bev. and tobacco","intensity",6.85055063648034,0.988661372264386,-0.0785666818084758
+"FR",2012,"Food, bev. and tobacco","share_GVA",0.114361884585726,1.0769194021304,0.00816834367682281
+"FR",2012,"Food, bev. and tobacco","share_energy_consumption",0.160747295187073,1.2931236551621,0.0364379961147253
+"FR",2012,"Machinery","GVA",52422.2,1.04517260973154,2265.7
+"FR",2012,"Machinery","energy_consumption",87439.07,0.844194479722304,-16137.857
+"FR",2012,"Machinery","intensity",1.66797787960063,0.807708192754057,-0.397096976101026
+"FR",2012,"Machinery","share_GVA",0.179819241566482,1.02687752156323,0.0047065939619845
+"FR",2012,"Machinery","share_energy_consumption",0.0615408284102962,1.00735471589021,0.000449310755651799
+"FR",2012,"Mining and quarrying","GVA",2214.8,0.571295914156005,-1662
+"FR",2012,"Mining and quarrying","energy_consumption",23985.194,0.805305498404192,-5798.775
+"FR",2012,"Mining and quarrying","intensity",10.8295078562398,1.40961186392151,3.14689100729225
+"FR",2012,"Mining and quarrying","share_GVA",0.00759723277965144,0.561295739043912,-0.00593793638552385
+"FR",2012,"Mining and quarrying","share_energy_consumption",0.0168811117083206,0.960949533591635,-0.000686004064373451
+"FR",2012,"Non-metallic minerals","GVA",18648.5,1.10558111408855,1780.9
+"FR",2012,"Non-metallic minerals","energy_consumption",166474.934,1.06958893921947,10831.09
+"FR",2012,"Non-metallic minerals","intensity",8.92698790787463,0.967445016552444,-0.300397375153189
+"FR",2012,"Non-metallic minerals","share_GVA",0.0639683021001128,1.08622861310341,0.0050780267672324
+"FR",2012,"Non-metallic minerals","share_energy_consumption",0.117167364061733,1.27631190189868,0.0253658507424328
+"FR",2012,"Other manufacturing","GVA",7184.2,0.948421761343384,-390.7
+"FR",2012,"Other manufacturing","energy_consumption",70061.58,0.560320231705985,-54976.882
+"FR",2012,"Other manufacturing","intensity",9.75217560758331,0.590792255665163,-6.75476996265525
+"FR",2012,"Other manufacturing","share_GVA",0.024643326591824,0.93182023583175,-0.00180311194235011
+"FR",2012,"Other manufacturing","share_energy_consumption",0.0493103102873148,0.668615160813883,-0.024439603231384
+"FR",2012,"Paper, pulp and printing","GVA",9125.5,1.05702404670342,492.299999999999
+"FR",2012,"Paper, pulp and printing","energy_consumption",110808.16,0.740820705649423,-38766.709
+"FR",2012,"Paper, pulp and printing","intensity",12.1426946468687,0.700855111063788,-5.18284733061361
+"FR",2012,"Paper, pulp and printing","share_GVA",0.0313023964830726,1.03852150659627,0.00116108859079254
+"FR",2012,"Paper, pulp and printing","share_energy_consumption",0.0779883175909882,0.884001553422317,-0.0102336061025447
+"FR",2012,"Textile and leather","GVA",5997.2,0.734509914389644,-2167.7
+"FR",2012,"Textile and leather","energy_consumption",13341.125,0.191725665719856,-56243.325
+"FR",2012,"Textile and leather","intensity",2.2245589608484,0.261025293142808,-6.29782955585113
+"FR",2012,"Textile and leather","share_GVA",0.020571665354039,0.721652781013649,-0.00793465499179769
+"FR",2012,"Textile and leather","share_energy_consumption",0.00938966853633408,0.228781114019626,-0.0316524803166023
+"FR",2012,"Total","GVA",291527.2,1.01781623200833,5103
+"FR",2012,"Total","energy_consumption",1420830.24,0.838030999811499,-274608.521
+"FR",2012,"Total","intensity",4.87374845297454,0.823361795044198,-1.04557945646886
+"FR",2012,"Total","share_GVA",1,1,-2.22044604925031e-16
+"FR",2012,"Total","share_energy_consumption",1,1,2.22044604925031e-16
+"FR",2012,"Transport equipment","GVA",24951.3,0.886344260198644,-3199.5
+"FR",2012,"Transport equipment","energy_consumption",41056.098,0.632858093842014,-23818
+"FR",2012,"Transport equipment","intensity",1.64544925514903,0.714009355349331,-0.659071326859296
+"FR",2012,"Transport equipment","share_GVA",0.0855882401367694,0.870829362241289,-0.01269535461535
+"FR",2012,"Transport equipment","share_energy_consumption",0.0288958503585903,0.755172653498933,-0.00936804892948308
+"FR",2012,"Wood and wood products","GVA",3235.2,1.27903850715585,705.8
+"FR",2012,"Wood and wood products","energy_consumption",22981.136,0.523295184920371,-20935.064
+"FR",2012,"Wood and wood products","intensity",7.1034668644906,0.409131689149848,-10.2588324950413
+"FR",2012,"Wood and wood products","share_GVA",0.0110974207552503,1.25664974376768,0.00226646303589556
+"FR",2012,"Wood and wood products","share_energy_consumption",0.0161744417827143,0.624434161788857,-0.00972811572051125
+"FR",2013,"Basic metals","GVA",7632.3,1.09516293352083,663.2
+"FR",2013,"Basic metals","energy_consumption",169947.565,0.77352557211365,-49757.602
+"FR",2013,"Basic metals","intensity",22.2668874389109,0.706310950122144,-9.2587280638082
+"FR",2013,"Basic metals","share_GVA",0.0259704597631922,1.06736424521165,0.00163906597733193
+"FR",2013,"Basic metals","share_energy_consumption",0.121297696710449,0.936039964062009,-0.0082883267153772
+"FR",2013,"Chemical and petrochem.","GVA",26914.4,1.31036631677345,6374.8
+"FR",2013,"Chemical and petrochem.","energy_consumption",298800.741,1.30682992454139,70155.272
+"FR",2013,"Chemical and petrochem.","intensity",11.101891218084,0.997301218608264,-0.0300426559933946
+"FR",2013,"Chemical and petrochem.","share_GVA",0.0915817436749682,1.27710508805955,0.0198713225583168
+"FR",2013,"Chemical and petrochem.","share_energy_consumption",0.213264848241135,1.58138926455964,0.0784056753476591
+"FR",2013,"Coke and ref. pet. products","GVA",1342.8,0.425731587457595,-1811.3
+"FR",2013,"Coke and ref. pet. products","energy_consumption",111297.308,0.451217779484059,-135362.538
+"FR",2013,"Coke and ref. pet. products","intensity",82.8845010425976,1.05986446102969,4.68157596095779
+"FR",2013,"Coke and ref. pet. products","share_GVA",0.00456915128729406,0.414925177433237,-0.00644283722484981
+"FR",2013,"Coke and ref. pet. products","share_energy_consumption",0.0794368963772646,0.546016692038132,-0.0660474771512228
+"FR",2013,"Construction","GVA",101909.2,1.02533732967505,2518.3
+"FR",2013,"Construction","energy_consumption",62437.765,1.30960873178689,14761.109
+"FR",2013,"Construction","intensity",0.612680356631197,1.27724671079901,0.132992014941968
+"FR",2013,"Construction","share_GVA",0.346766869501868,0.999311035352099,-0.000239074828255026
+"FR",2013,"Construction","share_energy_consumption",0.0445640811755573,1.58475188724206,0.0164435396988015
+"FR",2013,"Food, bev. and tobacco","GVA",33250.8,1.09318657040281,2834.4
+"FR",2013,"Food, bev. and tobacco","energy_consumption",219549.931,1.04171179012764,8791.12700000001
+"FR",2013,"Food, bev. and tobacco","intensity",6.60284657812744,0.952913087602051,-0.326270740161374
+"FR",2013,"Food, bev. and tobacco","share_GVA",0.113142638980904,1.06543804842105,0.00694909807200003
+"FR",2013,"Food, bev. and tobacco","share_energy_consumption",0.156700691435256,1.26057095168766,0.0323913923629077
+"FR",2013,"Machinery","GVA",53843.8,1.07351589524787,3687.3
+"FR",2013,"Machinery","energy_consumption",91582.324,0.884196187824727,-11994.603
+"FR",2013,"Machinery","intensity",1.7008889417166,0.823645175389384,-0.364185913985059
+"FR",2013,"Machinery","share_GVA",0.183214527913914,1.04626667702333,0.00810188030941719
+"FR",2013,"Machinery","share_energy_consumption",0.0653656023879488,1.06996199959324,0.00427408473330439
+"FR",2013,"Mining and quarrying","GVA",2017,0.520274453157243,-1859.8
+"FR",2013,"Mining and quarrying","energy_consumption",22373.095,0.751179099065004,-7410.874
+"FR",2013,"Mining and quarrying","intensity",11.0922632622707,1.44381315382013,3.40964641332311
+"FR",2013,"Mining and quarrying","share_GVA",0.00686325450288362,0.507068247107109,-0.00667191466229167
+"FR",2013,"Mining and quarrying","share_energy_consumption",0.0159684835248099,0.908998593248357,-0.00159863224788413
+"FR",2013,"Non-metallic minerals","GVA",17795.1,1.05498707581399,927.5
+"FR",2013,"Non-metallic minerals","energy_consumption",164653.923,1.0578890804059,9010.079
+"FR",2013,"Non-metallic minerals","intensity",9.25276750341386,1.00275074895081,0.0253822203860441
+"FR",2013,"Non-metallic minerals","share_GVA",0.0605514626694419,1.02820817744817,0.00166118733656152
+"FR",2013,"Non-metallic minerals","share_energy_consumption",0.117519433798535,1.28014702099499,0.025717920479234
+"FR",2013,"Other manufacturing","GVA",6882.1,0.90854004673329,-692.799999999999
+"FR",2013,"Other manufacturing","energy_consumption",68638.731,0.548940941068197,-56399.731
+"FR",2013,"Other manufacturing","intensity",9.97351549672338,0.604201150011985,-6.53343007351517
+"FR",2013,"Other manufacturing","share_GVA",0.0234177510234484,0.885478435714053,-0.00302868751072576
+"FR",2013,"Other manufacturing","share_energy_consumption",0.0489899338977178,0.664271069081277,-0.0247599796209811
+"FR",2013,"Paper, pulp and printing","GVA",9047.4,1.04797757494324,414.199999999999
+"FR",2013,"Paper, pulp and printing","energy_consumption",110929.917,0.741634726084901,-38644.952
+"FR",2013,"Paper, pulp and printing","intensity",12.2609718814245,0.70768186630813,-5.06457009605778
+"FR",2013,"Paper, pulp and printing","share_GVA",0.0307856265688593,1.02137659981053,0.000644318676579277
+"FR",2013,"Paper, pulp and printing","share_energy_consumption",0.0791746761913376,0.897448988602608,-0.00904724750219534
+"FR",2013,"Textile and leather","GVA",5679.8,0.69563619885118,-2485.1
+"FR",2013,"Textile and leather","energy_consumption",13625.863,0.195817643165966,-55958.587
+"FR",2013,"Textile and leather","intensity",2.39900401422585,0.281494326329412,-6.12338450247368
+"FR",2013,"Textile and leather","share_GVA",0.0193266796854132,0.677978758778518,-0.00917964066042351
+"FR",2013,"Textile and leather","share_energy_consumption",0.00972526907103453,0.236958086816615,-0.0313168797819018
+"FR",2013,"Total","GVA",293883.9,1.02604423788213,7459.70000000001
+"FR",2013,"Total","energy_consumption",1401078.253,0.826380925828084,-294360.508
+"FR",2013,"Total","intensity",4.76745494734485,0.805404772345707,-1.15187296209855
+"FR",2013,"Total","share_GVA",1,1,-1.11022302462516e-16
+"FR",2013,"Total","share_energy_consumption",1,1,-2.22044604925031e-16
+"FR",2013,"Transport equipment","GVA",24218.3,0.860305923810336,-3932.5
+"FR",2013,"Transport equipment","energy_consumption",41452.745,0.638972198118269,-23421.353
+"FR",2013,"Transport equipment","intensity",1.71162901607462,0.742726721313543,-0.592891565933705
+"FR",2013,"Transport equipment","share_GVA",0.0824077127055956,0.838468646913411,-0.0158758820465238
+"FR",2013,"Transport equipment","share_energy_consumption",0.0295863167608526,0.773217505568609,-0.00867758252722082
+"FR",2013,"Wood and wood products","GVA",3350.9,1.32478058037479,821.5
+"FR",2013,"Wood and wood products","energy_consumption",25788.345,0.587217131719047,-18127.855
+"FR",2013,"Wood and wood products","intensity",7.69594586528992,0.443256144012103,-9.66635349424198
+"FR",2013,"Wood and wood products","share_GVA",0.0114021217222175,1.29115347220241,0.0025711640028628
+"FR",2013,"Wood and wood products","share_energy_consumption",0.0184060704281019,0.710588922572988,-0.00749648707512364
+"FR",2014,"Basic metals","GVA",6880.6,0.987301086223472,-88.5
+"FR",2014,"Basic metals","energy_consumption",164973.999,0.750888116345484,-54731.168
+"FR",2014,"Basic metals","intensity",23.9766879341918,0.760546227309146,-7.54892756852736
+"FR",2014,"Basic metals","share_GVA",0.0233957539729361,0.96154598371311,-0.000935639812924213
+"FR",2014,"Basic metals","share_energy_consumption",0.12372823960116,0.95479617577725,-0.00585778382466619
+"FR",2014,"Chemical and petrochem.","GVA",27782,1.35260667198972,7242.4
+"FR",2014,"Chemical and petrochem.","energy_consumption",279876.155,1.22406167165289,51230.686
+"FR",2014,"Chemical and petrochem.","intensity",10.0740103304298,0.904964981321783,-1.05792354364762
+"FR",2014,"Chemical and petrochem.","share_GVA",0.0944657205586881,1.3173220724087,0.0227552994420367
+"FR",2014,"Chemical and petrochem.","share_energy_consumption",0.209903282786347,1.55646277730138,0.0750441098928703
+"FR",2014,"Coke and ref. pet. products","GVA",2674.2,0.847848831679401,-479.9
+"FR",2014,"Coke and ref. pet. products","energy_consumption",109073.162,0.442200722042128,-137586.684
+"FR",2014,"Coke and ref. pet. products","intensity",40.787211876449,0.521556090566552,-37.4157132051907
+"FR",2014,"Coke and ref. pet. products","share_GVA",0.00909294614923489,0.82573153243007,-0.00191904236290898
+"FR",2014,"Coke and ref. pet. products","share_energy_consumption",0.0818033775249163,0.562282914246445,-0.0636809960035712
+"FR",2014,"Construction","GVA",99519.1,1.00128985651604,128.200000000012
+"FR",2014,"Construction","energy_consumption",59865.203,1.25565020751455,12188.547
+"FR",2014,"Construction","intensity",0.601544859228028,1.25403268528411,0.121856517538798
+"FR",2014,"Construction","share_GVA",0.338389730431651,0.975169837752767,-0.00861621389847139
+"FR",2014,"Construction","share_energy_consumption",0.0448980822763234,1.59662936481631,0.0167775407995676
+"FR",2014,"Food, bev. and tobacco","GVA",34160.1,1.123081627017,3743.7
+"FR",2014,"Food, bev. and tobacco","energy_consumption",210544.911,0.998985128991337,-213.893000000011
+"FR",2014,"Food, bev. and tobacco","intensity",6.1634746678142,0.889503581003923,-0.765642650474613
+"FR",2014,"Food, bev. and tobacco","share_GVA",0.116152849357744,1.09378450293303,0.0099593084488403
+"FR",2014,"Food, bev. and tobacco","share_energy_consumption",0.157905799416385,1.27026538315918,0.0335965003440374
+"FR",2014,"Machinery","GVA",54046.3,1.07755325830152,3889.8
+"FR",2014,"Machinery","energy_consumption",82852.29,0.799910678948797,-20724.637
+"FR",2014,"Machinery","intensity",1.53298727202417,0.742339808066331,-0.532087583677482
+"FR",2014,"Machinery","share_GVA",0.183770883054893,1.04944380413887,0.00865823545039551
+"FR",2014,"Machinery","share_energy_consumption",0.0621380826721962,1.0171311019554,0.00104656501755172
+"FR",2014,"Mining and quarrying","GVA",2126.8,0.548596780850186,-1750
+"FR",2014,"Mining and quarrying","energy_consumption",21220.529,0.712481570203085,-8563.44
+"FR",2014,"Mining and quarrying","intensity",9.97767961256347,1.29873450788194,2.29506276361589
+"FR",2014,"Mining and quarrying","share_GVA",0.00723164979066367,0.534285881647495,-0.00630351937451162
+"FR",2014,"Mining and quarrying","share_energy_consumption",0.0159151060924174,0.905960107415897,-0.00165200968027664
+"FR",2014,"Non-metallic minerals","GVA",17730.2,1.05113946263843,862.599999999999
+"FR",2014,"Non-metallic minerals","energy_consumption",160509.885,1.03126394770872,4866.041
+"FR",2014,"Non-metallic minerals","intensity",9.05290887863645,0.981091457759731,-0.174476404391365
+"FR",2014,"Non-metallic minerals","share_GVA",0.0602870966326993,1.02371904855128,0.00139682129981893
+"FR",2014,"Non-metallic minerals","share_energy_consumption",0.120380215246129,1.31130970387631,0.0285787019268284
+"FR",2014,"Other manufacturing","GVA",6922.3,0.913847047485775,-652.6
+"FR",2014,"Other manufacturing","energy_consumption",65957.548,0.52749807495233,-59080.914
+"FR",2014,"Other manufacturing","intensity",9.52827066148534,0.577227968732415,-6.97867490875321
+"FR",2014,"Other manufacturing","share_GVA",0.0235375443604999,0.890008094287803,-0.00290889417367428
+"FR",2014,"Other manufacturing","share_energy_consumption",0.0494672575794748,0.6707432621861,-0.0242826559392241
+"FR",2014,"Paper, pulp and printing","GVA",9380.9,1.08660751517398,747.699999999999
+"FR",2014,"Paper, pulp and printing","energy_consumption",105692.298,0.706618021507343,-43882.571
+"FR",2014,"Paper, pulp and printing","intensity",11.266754575787,0.650297381197667,-6.05878740169531
+"FR",2014,"Paper, pulp and printing","share_GVA",0.0318973968032898,1.05826186830663,0.00175608891100976
+"FR",2014,"Paper, pulp and printing","share_energy_consumption",0.07926777583261,0.898504277779885,-0.00895414786092297
+"FR",2014,"Textile and leather","GVA",5242.5,0.642077673945792,-2922.4
+"FR",2014,"Textile and leather","energy_consumption",12501.765,0.179663200614505,-57082.685
+"FR",2014,"Textile and leather","intensity",2.38469527896996,0.279815367991869,-6.13769323772957
+"FR",2014,"Textile and leather","share_GVA",0.0178258059185416,0.625328197476214,-0.0106805144272951
+"FR",2014,"Textile and leather","share_energy_consumption",0.00937615251332665,0.228451793470259,-0.0316659963396097
+"FR",2014,"Total","GVA",294096.1,1.02678509706931,7671.89999999997
+"FR",2014,"Total","energy_consumption",1333357.684,0.786438127209951,-362081.077
+"FR",2014,"Total","intensity",4.53374826799811,0.765922810386158,-1.38557964144529
+"FR",2014,"Total","share_GVA",1,1,2.22044604925031e-16
+"FR",2014,"Total","share_energy_consumption",1,1,0
+"FR",2014,"Transport equipment","GVA",24353.3,0.865101524645836,-3797.5
+"FR",2014,"Transport equipment","energy_consumption",37538.21,0.578631705985338,-27335.888
+"FR",2014,"Transport equipment","intensity",1.54140137065613,0.668859884650214,-0.763119211352193
+"FR",2014,"Transport equipment","share_GVA",0.0828072864618062,0.842534165245523,-0.0154763082903132
+"FR",2014,"Transport equipment","share_energy_consumption",0.0281531433391432,0.735762529772242,-0.0101107559489302
+"FR",2014,"Wood and wood products","GVA",3277.8,1.29588044595556,748.4
+"FR",2014,"Wood and wood products","energy_consumption",22751.729,0.518071440607339,-21164.471
+"FR",2014,"Wood and wood products","intensity",6.94115839892611,0.399783361361951,-10.4211409606058
+"FR",2014,"Wood and wood products","share_GVA",0.0111453365073525,1.26207562775727,0.00231437878799781
+"FR",2014,"Wood and wood products","share_energy_consumption",0.0170634851195713,0.6587567701547,-0.0088390723836543
+"FR",2015,"Basic metals","GVA",7449.6,1.06894720982623,480.5
+"FR",2015,"Basic metals","energy_consumption",167272.984,0.761352071433076,-52432.183
+"FR",2015,"Basic metals","intensity",22.4539551116838,0.712244781065326,-9.0716603910353
+"FR",2015,"Basic metals","share_GVA",0.0253103659158088,1.0402349383913,0.000978972129948515
+"FR",2015,"Basic metals","share_energy_consumption",0.126413513869147,0.97551811937114,-0.00317250955667975
+"FR",2015,"Chemical and petrochem.","GVA",28630.3,1.39390737891682,8090.7
+"FR",2015,"Chemical and petrochem.","energy_consumption",263602.515,1.1528875518631,34957.046
+"FR",2015,"Chemical and petrochem.","intensity",9.20711676091414,0.827090500632103,-1.92481711316326
+"FR",2015,"Chemical and petrochem.","share_GVA",0.0972727890463086,1.35646657112883,0.0255623679296571
+"FR",2015,"Chemical and petrochem.","share_energy_consumption",0.19921280405863,1.47719135290846,0.0643536311651543
+"FR",2015,"Coke and ref. pet. products","GVA",2888,0.915633619733046,-266.1
+"FR",2015,"Coke and ref. pet. products","energy_consumption",111543.633,0.452216421962738,-135116.213
+"FR",2015,"Coke and ref. pet. products","intensity",38.6231416204986,0.493883592975302,-39.5797834611412
+"FR",2015,"Coke and ref. pet. products","share_GVA",0.0098121156524989,0.891039401437645,-0.00119987285964498
+"FR",2015,"Coke and ref. pet. products","share_energy_consumption",0.0842970709320311,0.579423541426082,-0.0611873025964564
+"FR",2015,"Construction","GVA",99085.8,0.996930302472359,-305.099999999991
+"FR",2015,"Construction","energy_consumption",60503.644,1.26904126833056,12826.988
+"FR",2015,"Construction","intensity",0.610618716304455,1.27294883622594,0.130930374615226
+"FR",2015,"Construction","share_GVA",0.33664865966772,0.970152428707245,-0.010357284662403
+"FR",2015,"Construction","share_energy_consumption",0.0457245279962717,1.6260187604875,0.0176039865195159
+"FR",2015,"Food, bev. and tobacco","GVA",34772.8,1.14322536526348,4356.4
+"FR",2015,"Food, bev. and tobacco","energy_consumption",222848.697,1.05736364398803,12089.893
+"FR",2015,"Food, bev. and tobacco","intensity",6.40870729420697,0.924895192247897,-0.520410024081852
+"FR",2015,"Food, bev. and tobacco","share_GVA",0.11814222131621,1.11251795829613,0.0119486804073061
+"FR",2015,"Food, bev. and tobacco","share_energy_consumption",0.168413847683442,1.35479685703501,0.0441045486110936
+"FR",2015,"Machinery","GVA",52991.8,1.05652906402959,2835.3
+"FR",2015,"Machinery","energy_consumption",81116.842,0.783155518796189,-22460.085
+"FR",2015,"Machinery","intensity",1.5307432848101,0.741253170839659,-0.534331570891551
+"FR",2015,"Machinery","share_GVA",0.180042129582441,1.02815034804955,0.00492948197794438
+"FR",2015,"Machinery","share_energy_consumption",0.0613025772959749,1.00345481090392,0.000211059641330481
+"FR",2015,"Mining and quarrying","GVA",1917.8,0.494686339248865,-1959
+"FR",2015,"Mining and quarrying","energy_consumption",19775.213,0.66395492823673,-10008.756
+"FR",2015,"Mining and quarrying","intensity",10.3114052560225,1.34217356647625,2.62878840707494
+"FR",2015,"Mining and quarrying","share_GVA",0.00651581558115041,0.481398902491369,-0.00701935358402488
+"FR",2015,"Mining and quarrying","share_energy_consumption",0.0149447573843773,0.850723452714253,-0.00262235838831676
+"FR",2015,"Non-metallic minerals","GVA",18080.2,1.07188930256824,1212.6
+"FR",2015,"Non-metallic minerals","energy_consumption",152632.069,0.980649571980502,-3011.77500000002
+"FR",2015,"Non-metallic minerals","intensity",8.44194583024524,0.914879521262946,-0.785439452782578
+"FR",2015,"Non-metallic minerals","share_GVA",0.0614283287466449,1.04309800556065,0.00253805341376454
+"FR",2015,"Non-metallic minerals","share_energy_consumption",0.115348908771832,1.25650334728829,0.023547395452531
+"FR",2015,"Other manufacturing","GVA",6662.7,0.879575967999578,-912.2
+"FR",2015,"Other manufacturing","energy_consumption",66263.428,0.529944362239516,-58775.034
+"FR",2015,"Other manufacturing","intensity",9.94543173188047,0.602499819822011,-6.56151383835808
+"FR",2015,"Other manufacturing","share_GVA",0.0226368362042605,0.855950270014965,-0.00380960232991361
+"FR",2015,"Other manufacturing","share_energy_consumption",0.0500773799461556,0.679016117536988,-0.0236725335725433
+"FR",2015,"Paper, pulp and printing","GVA",9257.3,1.07229069174813,624.099999999999
+"FR",2015,"Paper, pulp and printing","energy_consumption",102218.023,0.68339035617006,-47356.846
+"FR",2015,"Paper, pulp and printing","intensity",11.0418829464315,0.637318183799527,-6.28365903105081
+"FR",2015,"Paper, pulp and printing","share_GVA",0.0314521115754425,1.04348861329598,0.00131080368316247
+"FR",2015,"Paper, pulp and printing","share_energy_consumption",0.077249410868328,0.875626008073441,-0.010972512825205
+"FR",2015,"Textile and leather","GVA",5467.4,0.669622408112775,-2697.5
+"FR",2015,"Textile and leather","energy_consumption",12213.455,0.17551988986045,-57370.995
+"FR",2015,"Textile and leather","intensity",2.23386893221641,0.262117706537219,-6.28851958448312
+"FR",2015,"Textile and leather","share_GVA",0.0185757483097204,0.651636131368787,-0.00993057203611632
+"FR",2015,"Textile and leather","share_energy_consumption",0.009230096373678,0.224893107004499,-0.0318120524792584
+"FR",2015,"Total","GVA",294330,1.02760171801126,7905.79999999999
+"FR",2015,"Total","energy_consumption",1323220.745,0.780459179911364,-372218.016
+"FR",2015,"Total","intensity",4.49570463425407,0.75949579125053,-1.42362327518934
+"FR",2015,"Total","share_GVA",1,1,0
+"FR",2015,"Total","share_energy_consumption",1,1,0
+"FR",2015,"Transport equipment","GVA",24030.3,0.853627605609787,-4120.5
+"FR",2015,"Transport equipment","energy_consumption",38281.79,0.590093599451664,-26592.308
+"FR",2015,"Transport equipment","intensity",1.59306334086549,0.691277549570497,-0.711457241142836
+"FR",2015,"Transport equipment","share_GVA",0.081644072979309,0.830698889120032,-0.0166395217728105
+"FR",2015,"Transport equipment","share_energy_consumption",0.0289307661965351,0.756085154278895,-0.00933313309153832
+"FR",2015,"Wood and wood products","GVA",3096,1.22400569304974,566.6
+"FR",2015,"Wood and wood products","energy_consumption",24948.452,0.568092230202067,-18967.748
+"FR",2015,"Wood and wood products","intensity",8.05828552971576,0.464125480320771,-9.30401382981614
+"FR",2015,"Wood and wood products","share_GVA",0.010518805422485,1.19112850007548,0.00168784770313025
+"FR",2015,"Wood and wood products","share_energy_consumption",0.0188543386235983,0.727894866028207,-0.00704821887962727
+"FR",2016,"Basic metals","GVA",8240.6,1.18244823578367,1271.5
+"FR",2016,"Basic metals","energy_consumption",164173.347,0.747243905283302,-55531.82
+"FR",2016,"Basic metals","intensity",19.9224992112225,0.631946399571616,-11.6031162914967
+"FR",2016,"Basic metals","share_GVA",0.0279938975029155,1.1505258494145,0.00366250371705527
+"FR",2016,"Basic metals","share_energy_consumption",0.122337775224035,0.944066126807727,-0.00724824820179105
+"FR",2016,"Chemical and petrochem.","GVA",29711.4,1.44654228904166,9171.8
+"FR",2016,"Chemical and petrochem.","energy_consumption",266057.779,1.16362585343863,37412.31
+"FR",2016,"Chemical and petrochem.","intensity",8.95473720524782,0.804418828439185,-2.17719666882958
+"FR",2016,"Chemical and petrochem.","share_GVA",0.100931714470806,1.40749019318434,0.0292212933541546
+"FR",2016,"Chemical and petrochem.","share_energy_consumption",0.198259445632841,1.47012206421764,0.0634002727393649
+"FR",2016,"Coke and ref. pet. products","GVA",3115.3,0.987698551092229,-38.7999999999997
+"FR",2016,"Coke and ref. pet. products","energy_consumption",107719.89,0.436714332498205,-138939.956
+"FR",2016,"Coke and ref. pet. products","intensity",34.5776939620582,0.442153460704455,-43.6252311195815
+"FR",2016,"Coke and ref. pet. products","share_GVA",0.0105828931013316,0.961033794183573,-0.000429095410812324
+"FR",2016,"Coke and ref. pet. products","share_energy_consumption",0.0802701043183204,0.551743822181718,-0.0652142692101671
+"FR",2016,"Construction","GVA",97514.4,0.981120001931766,-1876.5
+"FR",2016,"Construction","energy_consumption",61410.531,1.28806288343713,13733.875
+"FR",2016,"Construction","intensity",0.629758589500628,1.31284947906577,0.150070247811399
+"FR",2016,"Construction","share_GVA",0.331263271929023,0.954632845176499,-0.0157426724010999
+"FR",2016,"Construction","share_energy_consumption",0.0457615555457163,1.62733550431603,0.0176410140689605
+"FR",2016,"Food, bev. and tobacco","GVA",35548.7,1.16873463000224,5132.3
+"FR",2016,"Food, bev. and tobacco","energy_consumption",227654.967,1.08016824293613,16896.163
+"FR",2016,"Food, bev. and tobacco","intensity",6.40403072404898,0.924220276534514,-0.525086594239836
+"FR",2016,"Food, bev. and tobacco","share_GVA",0.120761432925017,1.13718246789237,0.0145678920161132
+"FR",2016,"Food, bev. and tobacco","share_energy_consumption",0.169642653271126,1.36468192272883,0.0453333541987776
+"FR",2016,"Machinery","GVA",51832.2,1.03340942848883,1675.7
+"FR",2016,"Machinery","energy_consumption",82917.997,0.800545057684517,-20658.93
+"FR",2016,"Machinery","intensity",1.59973910040477,0.774663976943936,-0.465335755296886
+"FR",2016,"Machinery","share_GVA",0.176077627132808,1.00551062154283,0.000964979528311011
+"FR",2016,"Machinery","share_energy_consumption",0.0617883686017148,1.01140667270716,0.000696850947070393
+"FR",2016,"Mining and quarrying","GVA",1853.8,0.478177878662815,-2023
+"FR",2016,"Mining and quarrying","energy_consumption",19813.882,0.665253244119345,-9970.087
+"FR",2016,"Mining and quarrying","intensity",10.6882522386449,1.39122547027828,3.00563538969736
+"FR",2016,"Mining and quarrying","share_GVA",0.00629748891960595,0.465268578674938,-0.00723768024556934
+"FR",2016,"Mining and quarrying","share_energy_consumption",0.0147647976162145,0.840479325534166,-0.00280231815647955
+"FR",2016,"Non-metallic minerals","GVA",17905.2,1.06151438260333,1037.6
+"FR",2016,"Non-metallic minerals","energy_consumption",157264.828,1.01041470037196,1620.984
+"FR",2016,"Non-metallic minerals","intensity",8.78319303889373,0.951861526260196,-0.444192244134086
+"FR",2016,"Non-metallic minerals","share_GVA",0.0608252231110845,1.03285683021971,0.00193494777820415
+"FR",2016,"Non-metallic minerals","share_energy_consumption",0.117189723728484,1.2765554672381,0.0253882104091836
+"FR",2016,"Other manufacturing","GVA",6362.8,0.839984686266485,-1212.1
+"FR",2016,"Other manufacturing","energy_consumption",69910.937,0.559115458409909,-55127.525
+"FR",2016,"Other manufacturing","intensity",10.9874484503678,0.665625775744832,-5.51949711987079
+"FR",2016,"Other manufacturing","share_GVA",0.0216148788961424,0.817307739498141,-0.00483155963803174
+"FR",2016,"Other manufacturing","share_energy_consumption",0.0520958404801706,0.706385106024049,-0.0216540730385283
+"FR",2016,"Paper, pulp and printing","GVA",9210.6,1.06688134179678,577.4
+"FR",2016,"Paper, pulp and printing","energy_consumption",104857.683,0.701038106876096,-44717.186
+"FR",2016,"Paper, pulp and printing","intensity",11.3844573643411,0.657090980422851,-5.94108461314119
+"FR",2016,"Paper, pulp and printing","share_GVA",0.0312890556925896,1.0380788983813,0.00114774780030955
+"FR",2016,"Paper, pulp and printing","share_energy_consumption",0.0781372609365584,0.885689833833064,-0.0100846627569745
+"FR",2016,"Textile and leather","GVA",5438.2,0.666046124263616,-2726.7
+"FR",2016,"Textile and leather","energy_consumption",12817.345,0.184198409271037,-56767.105
+"FR",2016,"Textile and leather","intensity",2.35690945533449,0.276555035095636,-6.16547906136504
+"FR",2016,"Textile and leather","share_GVA",0.0184739476980263,0.648064972044852,-0.0100323726478104
+"FR",2016,"Textile and leather","share_energy_consumption",0.00955115736039001,0.232715820865375,-0.0314909914925464
+"FR",2016,"Total","GVA",294371.3,1.02774590973807,7947.09999999998
+"FR",2016,"Total","energy_consumption",1341967.734,0.791516488161733,-353471.027
+"FR",2016,"Total","intensity",4.5587587308953,0.770148030424616,-1.36056917854811
+"FR",2016,"Total","share_GVA",1,1,-1.11022302462516e-16
+"FR",2016,"Total","share_energy_consumption",1,1,0
+"FR",2016,"Transport equipment","GVA",24439.6,0.868167156883641,-3711.2
+"FR",2016,"Transport equipment","energy_consumption",41750.861,0.643567499003994,-23123.237
+"FR",2016,"Transport equipment","intensity",1.70832832779587,0.741294454531238,-0.596192254212454
+"FR",2016,"Transport equipment","share_GVA",0.0830230392704724,0.844729371975703,-0.015260555481647
+"FR",2016,"Transport equipment","share_energy_consumption",0.0311116727639593,0.813081608064356,-0.00715222652411411
+"FR",2016,"Wood and wood products","GVA",3198.5,1.26452913734482,669.1
+"FR",2016,"Wood and wood products","energy_consumption",25617.687,0.583331139761637,-18298.513
+"FR",2016,"Wood and wood products","intensity",8.00928153822104,0.46130304358702,-9.35301782131086
+"FR",2016,"Wood and wood products","share_GVA",0.0108655293501778,1.23039082458338,0.0020345716308231
+"FR",2016,"Wood and wood products","share_energy_consumption",0.0190896445204695,0.736979138762354,-0.00681291298275604
+"FR",2017,"Basic metals","GVA",8461.8,1.21418834569744,1492.7
+"FR",2017,"Basic metals","energy_consumption",172283.815,0.78415914087264,-47421.352
+"FR",2017,"Basic metals","intensity",20.3601851851852,0.645829902462303,-11.165430317534
+"FR",2017,"Basic metals","share_GVA",0.0281191680091876,1.15567436278675,0.00378777422332735
+"FR",2017,"Basic metals","share_energy_consumption",0.13067828194996,1.00842882970908,0.00109225852413347
+"FR",2017,"Chemical and petrochem.","GVA",30849.7,1.50196206352607,10310.1
+"FR",2017,"Chemical and petrochem.","energy_consumption",248021.046,1.084740699585,19375.577
+"FR",2017,"Chemical and petrochem.","intensity",8.03965827868666,0.72221577756659,-3.09227559539073
+"FR",2017,"Chemical and petrochem.","share_GVA",0.102515764652088,1.42957973270475,0.0308053435354362
+"FR",2017,"Chemical and petrochem.","share_energy_consumption",0.188125414907442,1.39497678111996,0.0532662420139657
+"FR",2017,"Coke and ref. pet. products","GVA",3039.8,0.963761453346438,-114.3
+"FR",2017,"Coke and ref. pet. products","energy_consumption",103116.34,0.418050775885103,-143543.506
+"FR",2017,"Coke and ref. pet. products","intensity",33.9220804000263,0.433769969149024,-44.2808446816135
+"FR",2017,"Coke and ref. pet. products","share_GVA",0.0101014733170636,0.917316005726287,-0.0009105151950803
+"FR",2017,"Coke and ref. pet. products","share_energy_consumption",0.0782143473672667,0.537613390842636,-0.0672700261612207
+"FR",2017,"Construction","GVA",99661.6,1.00272358938293,270.700000000012
+"FR",2017,"Construction","energy_consumption",60700.027,1.2731603281908,13023.371
+"FR",2017,"Construction","intensity",0.609061333552743,1.26970218081166,0.129372991863513
+"FR",2017,"Construction","share_GVA",0.331182641336885,0.954400484338146,-0.0158233029932379
+"FR",2017,"Construction","share_energy_consumption",0.0460413257198662,1.63728446544756,0.0179207842431104
+"FR",2017,"Food, bev. and tobacco","GVA",36483.8,1.19947791323102,6067.4
+"FR",2017,"Food, bev. and tobacco","energy_consumption",220725.622,1.04729016207551,9966.818
+"FR",2017,"Food, bev. and tobacco","intensity",6.04996250390584,0.873121672790484,-0.879154814382974
+"FR",2017,"Food, bev. and tobacco","share_GVA",0.121238282849228,1.14167285327862,0.0150447419403246
+"FR",2017,"Food, bev. and tobacco","share_energy_consumption",0.167421676059915,1.3468153815466,0.0431123769875667
+"FR",2017,"Machinery","GVA",52500.3,1.04672973592655,2343.8
+"FR",2017,"Machinery","energy_consumption",80010.556,0.772474703753279,-23566.371
+"FR",2017,"Machinery","intensity",1.52400188189401,0.737988687279908,-0.541072973807646
+"FR",2017,"Machinery","share_GVA",0.174462260539454,0.996285893258196,-0.000650387065042946
+"FR",2017,"Machinery","share_energy_consumption",0.060688474979156,0.993402640972732,-0.000403042675488394
+"FR",2017,"Mining and quarrying","GVA",1927.3,0.497136813867107,-1949.5
+"FR",2017,"Mining and quarrying","energy_consumption",19253.008,0.646421838540055,-10530.961
+"FR",2017,"Mining and quarrying","intensity",9.98962693924143,1.30028961949467,2.30701009029384
+"FR",2017,"Mining and quarrying","share_GVA",0.00640455606420706,0.473178870987839,-0.00713061310096823
+"FR",2017,"Mining and quarrying","share_energy_consumption",0.0146035192441544,0.831298628250276,-0.0029635965285397
+"FR",2017,"Non-metallic minerals","GVA",18086.8,1.07228058526406,1219.2
+"FR",2017,"Non-metallic minerals","energy_consumption",146758.718,0.942913733228023,-8885.12600000002
+"FR",2017,"Non-metallic minerals","intensity",8.11413395404383,0.879353544385795,-1.11325132898398
+"FR",2017,"Non-metallic minerals","share_GVA",0.0601037330058114,1.0206053998911,0.001213457672931
+"FR",2017,"Non-metallic minerals","share_energy_consumption",0.111317346492581,1.21258727081547,0.0195158331732799
+"FR",2017,"Other manufacturing","GVA",6239.2,0.823667639176755,-1335.7
+"FR",2017,"Other manufacturing","energy_consumption",85306.546,0.682242444728727,-39731.916
+"FR",2017,"Other manufacturing","intensity",13.6726737402231,0.828298226467437,-2.83427183001545
+"FR",2017,"Other manufacturing","share_GVA",0.0207333088755257,0.783973571667659,-0.00571312965864843
+"FR",2017,"Other manufacturing","share_energy_consumption",0.0647055143883668,0.877363935782257,-0.00904439913033213
+"FR",2017,"Paper, pulp and printing","GVA",9205.7,1.06631376546356,572.5
+"FR",2017,"Paper, pulp and printing","energy_consumption",102739.519,0.686876877692602,-46835.35
+"FR",2017,"Paper, pulp and printing","intensity",11.1604244109628,0.64416018993621,-6.1651175665195
+"FR",2017,"Paper, pulp and printing","share_GVA",0.0305912010378618,1.0149261321768,0.000449893145581696
+"FR",2017,"Paper, pulp and printing","share_energy_consumption",0.0779285264334625,0.883323817605385,-0.0102933972600705
+"FR",2017,"Textile and leather","GVA",5635.8,0.690247277982584,-2529.1
+"FR",2017,"Textile and leather","energy_consumption",13630.639,0.19588627919025,-55953.811
+"FR",2017,"Textile and leather","intensity",2.41858103552291,0.283791454799757,-6.10380748117662
+"FR",2017,"Textile and leather","share_GVA",0.0187281674190101,0.65698298453821,-0.0097781529268266
+"FR",2017,"Textile and leather","share_energy_consumption",0.0103389194533457,0.251909798641209,-0.0307032293995906
+"FR",2017,"Total","GVA",300926.4,1.05063189493067,14502.2
+"FR",2017,"Total","energy_consumption",1318381.39,0.777604842077809,-377057.371
+"FR",2017,"Total","intensity",4.38107587104355,0.740130625987825,-1.53825203839985
+"FR",2017,"Total","share_GVA",1,1,-1.11022302462516e-16
+"FR",2017,"Total","share_energy_consumption",1,1,-3.33066907387547e-16
+"FR",2017,"Transport equipment","GVA",25509.5,0.906173181579209,-2641.3
+"FR",2017,"Transport equipment","energy_consumption",41884.577,0.645628660609663,-22989.521
+"FR",2017,"Transport equipment","intensity",1.6419207354123,0.712478225723377,-0.662599846596029
+"FR",2017,"Transport equipment","share_GVA",0.0847698972240388,0.86250301932725,-0.0135136975280806
+"FR",2017,"Transport equipment","share_energy_consumption",0.0317696967794729,0.830278601255237,-0.00649420250860055
+"FR",2017,"Wood and wood products","GVA",3325.1,1.31458053293271,795.7
+"FR",2017,"Wood and wood products","energy_consumption",23950.977,0.545379085622162,-19965.223
+"FR",2017,"Wood and wood products","intensity",7.20308471925656,0.414869284885476,-10.1592146402753
+"FR",2017,"Wood and wood products","share_GVA",0.0110495456696388,1.25122846477021,0.0022185879502841
+"FR",2017,"Wood and wood products","share_energy_consumption",0.0181669562250116,0.701357625506646,-0.00773560127821393
+"FR",2018,"Basic metals","GVA",6829.3,0.97994002094962,-139.8
+"FR",2018,"Basic metals","energy_consumption",183073.907,0.833270830630943,-36631.26
+"FR",2018,"Basic metals","intensity",26.8071262061998,0.850328400531548,-4.71848929651939
+"FR",2018,"Basic metals","share_GVA",0.0224844099245757,0.924090503094897,-0.0018469838612846
+"FR",2018,"Basic metals","share_energy_consumption",0.13639224387336,1.05252279734804,0.00680622044753343
+"FR",2018,"Chemical and petrochem.","GVA",31315.5,1.52464020720949,10775.9
+"FR",2018,"Chemical and petrochem.","energy_consumption",255508.636,1.11748829800778,26863.167
+"FR",2018,"Chemical and petrochem.","intensity",8.15917472178314,0.732952136985216,-2.97275915229425
+"FR",2018,"Chemical and petrochem.","share_GVA",0.103101421667382,1.43774670489895,0.0313910005507302
+"FR",2018,"Chemical and petrochem.","share_energy_consumption",0.190356980763302,1.41152416019682,0.0554978078698257
+"FR",2018,"Coke and ref. pet. products","GVA",3599.3,1.1411496147871,445.2
+"FR",2018,"Coke and ref. pet. products","energy_consumption",100275.515,0.406533599311499,-146384.331
+"FR",2018,"Coke and ref. pet. products","intensity",27.85972689134,0.356249166668074,-50.3431981902998
+"FR",2018,"Coke and ref. pet. products","share_GVA",0.0118501364183043,1.07611231207116,0.000838147906160377
+"FR",2018,"Coke and ref. pet. products","share_energy_consumption",0.0747064544616221,0.513501571679063,-0.0707779190668653
+"FR",2018,"Construction","GVA",99817.8,1.00429516183071,426.900000000009
+"FR",2018,"Construction","energy_consumption",62805.246,1.31731650810409,15128.59
+"FR",2018,"Construction","intensity",0.629198860323509,1.31168261898502,0.14951051863428
+"FR",2018,"Construction","share_GVA",0.328634608666966,0.947057576495924,-0.0183713356631571
+"FR",2018,"Construction","share_energy_consumption",0.0467906572232511,1.66393158758795,0.0186701157464953
+"FR",2018,"Food, bev. and tobacco","GVA",36277.1,1.19268223721413,5860.7
+"FR",2018,"Food, bev. and tobacco","energy_consumption",223514.039,1.06052053227632,12755.235
+"FR",2018,"Food, bev. and tobacco","intensity",6.16129842242076,0.889189508475853,-0.767818895868062
+"FR",2018,"Food, bev. and tobacco","share_GVA",0.119436719323331,1.12470794646341,0.0132431784144273
+"FR",2018,"Food, bev. and tobacco","share_energy_consumption",0.16652062446238,1.33956691659459,0.0422113253900319
+"FR",2018,"Machinery","GVA",52949.6,1.0556876975068,2793.1
+"FR",2018,"Machinery","energy_consumption",73025.129,0.705032782059657,-30551.798
+"FR",2018,"Machinery","intensity",1.37914411062595,0.667842188295572,-0.6859307450757
+"FR",2018,"Machinery","share_GVA",0.174328336980703,0.995521108072297,-0.000784310623794526
+"FR",2018,"Machinery","share_energy_consumption",0.0544045919304686,0.890542484768874,-0.00668692572417585
+"FR",2018,"Mining and quarrying","GVA",1959.4,0.505416838629798,-1917.4
+"FR",2018,"Mining and quarrying","energy_consumption",18343.414,0.615882121016175,-11440.555
+"FR",2018,"Mining and quarrying","intensity",9.36175053587833,1.21856272673038,1.67913368693074
+"FR",2018,"Mining and quarrying","share_GVA",0.00645102028117283,0.476611721837263,-0.00708414888400246
+"FR",2018,"Mining and quarrying","share_energy_consumption",0.0136660621754142,0.777934315014673,-0.00390105359727985
+"FR",2018,"Non-metallic minerals","GVA",18805.6,1.11489482795418,1938
+"FR",2018,"Non-metallic minerals","energy_consumption",155801.197,1.00101098119885,157.352999999974
+"FR",2018,"Non-metallic minerals","intensity",8.28482989109627,0.897852385803678,-0.942555391931549
+"FR",2018,"Non-metallic minerals","share_GVA",0.0619145182196712,1.05135385884505,0.00302424288679078
+"FR",2018,"Non-metallic minerals","share_energy_consumption",0.116073749695992,1.26439908776088,0.0242722363766917
+"FR",2018,"Other manufacturing","GVA",6325.5,0.835060528851866,-1249.4
+"FR",2018,"Other manufacturing","energy_consumption",83175.061,0.665195809910074,-41863.401
+"FR",2018,"Other manufacturing","intensity",13.1491678128211,0.796583944429344,-3.35777775741743
+"FR",2018,"Other manufacturing","share_GVA",0.0208257266451764,0.787468097765428,-0.0056207118889977
+"FR",2018,"Other manufacturing","share_energy_consumption",0.0619664123085196,0.840223525046011,-0.0117835012101793
+"FR",2018,"Paper, pulp and printing","GVA",8905.2,1.03150627808924,272
+"FR",2018,"Paper, pulp and printing","energy_consumption",105262.607,0.703745272877357,-44312.262
+"FR",2018,"Paper, pulp and printing","intensity",11.8203529398554,0.682250111149082,-5.50518903762691
+"FR",2018,"Paper, pulp and printing","share_GVA",0.0293189883678168,0.972717855263544,-0.000822319524463253
+"FR",2018,"Paper, pulp and printing","share_energy_consumption",0.0784218974727492,0.888916203473105,-0.0098000262207837
+"FR",2018,"Textile and leather","GVA",5956.3,0.729500667491335,-2208.6
+"FR",2018,"Textile and leather","energy_consumption",11534.369,0.165760726714086,-58050.081
+"FR",2018,"Textile and leather","intensity",1.9364990010577,0.227224914384407,-6.58588951564183
+"FR",2018,"Textile and leather","share_GVA",0.0196101929676175,0.687924387634321,-0.00889612737821921
+"FR",2018,"Textile and leather","share_energy_consumption",0.00859324245247752,0.209376036407575,-0.0324489064004588
+"FR",2018,"Total","GVA",303734.9,1.06043728148669,17310.7
+"FR",2018,"Total","energy_consumption",1342260.394,0.791689104245978,-353178.367
+"FR",2018,"Total","intensity",4.41918394626367,0.746568531743869,-1.50014396317974
+"FR",2018,"Total","share_GVA",1,1,0
+"FR",2018,"Total","share_energy_consumption",1,1,-1.11022302462516e-16
+"FR",2018,"Transport equipment","GVA",27972.5,0.993666254600224,-178.300000000003
+"FR",2018,"Transport equipment","energy_consumption",41638.87,0.641841216813527,-23235.228
+"FR",2018,"Transport equipment","intensity",1.48856448297435,0.645932388105255,-0.815956099033976
+"FR",2018,"Transport equipment","share_GVA",0.0920951132056277,0.937034440365153,-0.00618848154649175
+"FR",2018,"Transport equipment","share_energy_consumption",0.0310214546939839,0.810723822484372,-0.00724244459408951
+"FR",2018,"Wood and wood products","GVA",3021.8,1.19467067288685,492.4
+"FR",2018,"Wood and wood products","energy_consumption",28302.404,0.644463865270675,-15613.796
+"FR",2018,"Wood and wood products","intensity",9.36607452511748,0.539448971082019,-7.99622483441442
+"FR",2018,"Wood and wood products","share_GVA",0.00994880733165665,1.12658305563529,0.00111784961230193
+"FR",2018,"Wood and wood products","share_energy_consumption",0.0210856284864798,0.814036547698198,-0.00481692901674577
+"FR",2019,"Basic metals","GVA",7027.4,1.00836549913188,58.2999999999993
+"FR",2019,"Basic metals","energy_consumption",177079.421,0.805986602035627,-42625.746
+"FR",2019,"Basic metals","intensity",25.1984263027578,0.799300058093532,-6.32718919996137
+"FR",2019,"Basic metals","share_GVA",0.0226308226690806,0.93010794483266,-0.00170057111677963
+"FR",2019,"Basic metals","share_energy_consumption",0.135046377112235,1.0421369029009,0.00546035368640829
+"FR",2019,"Chemical and petrochem.","GVA",33423.7,1.6272809597071,12884.1
+"FR",2019,"Chemical and petrochem.","energy_consumption",263007.508,1.15028523919711,34362.039
+"FR",2019,"Chemical and petrochem.","intensity",7.8688926719663,0.706875621161419,-3.26304120211109
+"FR",2019,"Chemical and petrochem.","share_GVA",0.107636654757741,1.50099041508414,0.0359262336410898
+"FR",2019,"Chemical and petrochem.","share_energy_consumption",0.200577858839493,1.48731342878639,0.0657186859460164
+"FR",2019,"Coke and ref. pet. products","GVA",3500.5,1.1098253067436,346.4
+"FR",2019,"Coke and ref. pet. products","energy_consumption",93642.348,0.379641638144865,-153017.498
+"FR",2019,"Coke and ref. pet. products","intensity",26.751134980717,0.342073329773666,-51.4517901009227
+"FR",2019,"Coke and ref. pet. products","share_GVA",0.0112729024608129,1.02369362703033,0.00026091394866906
+"FR",2019,"Coke and ref. pet. products","share_energy_consumption",0.0714146215876949,0.490874860685372,-0.0740697519407926
+"FR",2019,"Construction","GVA",102680.6,1.03309860359449,3289.70000000001
+"FR",2019,"Construction","energy_consumption",64616.086,1.35529819876629,16939.43
+"FR",2019,"Construction","intensity",0.629292057116924,1.31187690511898,0.149603715427695
+"FR",2019,"Construction","share_GVA",0.330669443913083,0.952921554561331,-0.0163365004170394
+"FR",2019,"Construction","share_energy_consumption",0.0492782745064012,1.75239422566362,0.0211577330296454
+"FR",2019,"Food, bev. and tobacco","GVA",36486.1,1.19955353033232,6069.7
+"FR",2019,"Food, bev. and tobacco","energy_consumption",209688.987,0.994923974801072,-1069.81700000001
+"FR",2019,"Food, bev. and tobacco","intensity",5.74709237216365,0.829411901714333,-1.18202494612517
+"FR",2019,"Food, bev. and tobacco","share_GVA",0.117498713462496,1.10645819375484,0.0113051725535922
+"FR",2019,"Food, bev. and tobacco","share_energy_consumption",0.159915465358815,1.28643204130484,0.0356061662864668
+"FR",2019,"Machinery","GVA",54569.3,1.08798062065734,4412.8
+"FR",2019,"Machinery","energy_consumption",71812.761,0.693327781388996,-31764.166
+"FR",2019,"Machinery","intensity",1.31599197717398,0.637261149899984,-0.749082878527675
+"FR",2019,"Machinery","share_GVA",0.175733294173644,1.00354427037474,0.000620646569146427
+"FR",2019,"Machinery","share_energy_consumption",0.0547666868838292,0.896469575259695,-0.00632483077081519
+"FR",2019,"Mining and quarrying","GVA",1922.9,0.496001857201816,-1953.9
+"FR",2019,"Mining and quarrying","energy_consumption",17661.237,0.592977954012778,-12122.732
+"FR",2019,"Mining and quarrying","intensity",9.18468823131728,1.19551559213518,1.5020713823697
+"FR",2019,"Mining and quarrying","share_GVA",0.0061924479765454,0.457507985380633,-0.00734272118862988
+"FR",2019,"Mining and quarrying","share_energy_consumption",0.0134690189221398,0.766717718287921,-0.00409809685055432
+"FR",2019,"Non-metallic minerals","GVA",18919.1,1.12162370461714,2051.5
+"FR",2019,"Non-metallic minerals","energy_consumption",158578.936,1.01885774550775,2935.09199999998
+"FR",2019,"Non-metallic minerals","intensity",8.38194924705721,0.908377507816256,-0.845436035970611
+"FR",2019,"Non-metallic minerals","share_GVA",0.0609264873436269,1.03457637104321,0.00203621201074652
+"FR",2019,"Non-metallic minerals","share_energy_consumption",0.120937321074214,1.31737829477358,0.0291358077549135
+"FR",2019,"Other manufacturing","GVA",6533.1,0.862466831245297,-1041.8
+"FR",2019,"Other manufacturing","energy_consumption",78152.097,0.625024458474225,-46886.365
+"FR",2019,"Other manufacturing","intensity",11.9624828947973,0.724693908021676,-4.54446267544129
+"FR",2019,"Other manufacturing","share_GVA",0.0210389941627587,0.795532227735395,-0.00540744437141539
+"FR",2019,"Other manufacturing","share_energy_consumption",0.0596012653755737,0.80815369851874,-0.0141486481431252
+"FR",2019,"Paper, pulp and printing","GVA",9151.1,1.05998934346476,517.9
+"FR",2019,"Paper, pulp and printing","energy_consumption",100759.074,0.673636384732518,-48815.795
+"FR",2019,"Paper, pulp and printing","intensity",11.0105969774126,0.635512412351824,-6.31494500006973
+"FR",2019,"Paper, pulp and printing","share_GVA",0.0294699207853579,0.977725349234293,-0.000671387106922178
+"FR",2019,"Paper, pulp and printing","share_energy_consumption",0.0768420623245857,0.871008691575591,-0.0113798613689472
+"FR",2019,"Textile and leather","GVA",5972.3,0.731460275079915,-2192.6
+"FR",2019,"Textile and leather","energy_consumption",10586.446,0.152138099819715,-58998.004
+"FR",2019,"Textile and leather","intensity",1.77259112904576,0.207992292955477,-6.74979738765377
+"FR",2019,"Textile and leather","share_GVA",0.019233011103189,0.674692870558369,-0.0092733092426477
+"FR",2019,"Textile and leather","share_energy_consumption",0.00807355914493479,0.196713850774828,-0.0329685897080016
+"FR",2019,"Total","GVA",310523.4,1.08413814195868,24099.2000000001
+"FR",2019,"Total","energy_consumption",1311248.956,0.77339800537921,-384189.805
+"FR",2019,"Total","intensity",4.22270577998309,0.713375883982772,-1.69662212946032
+"FR",2019,"Total","share_GVA",1,1,-2.22044604925031e-16
+"FR",2019,"Total","share_energy_consumption",1,1,0
+"FR",2019,"Transport equipment","GVA",27203.4,0.966345539025534,-947.400000000001
+"FR",2019,"Transport equipment","energy_consumption",41200.81,0.635088752987363,-23673.288
+"FR",2019,"Transport equipment","intensity",1.51454634347177,0.65720668988423,-0.789974238536554
+"FR",2019,"Transport equipment","share_GVA",0.0876049920875528,0.891349083318543,-0.0106786026645666
+"FR",2019,"Transport equipment","share_energy_consumption",0.0314210431295093,0.821166784204426,-0.00684285615856416
+"FR",2019,"Wood and wood products","GVA",3133.9,1.23898948367202,604.5
+"FR",2019,"Wood and wood products","energy_consumption",24463.245,0.557043756062683,-19452.955
+"FR",2019,"Wood and wood products","intensity",7.80600689237053,0.449595225305514,-9.55629246716137
+"FR",2019,"Wood and wood products","share_GVA",0.0100923151041113,1.14283358893137,0.0012613573847566
+"FR",2019,"Wood and wood products","share_energy_consumption",0.0186564457405753,0.72025496857799,-0.00724611176265027
+"FR",2020,"Basic metals","GVA",6622,0.950194429696804,-347.1
+"FR",2020,"Basic metals","energy_consumption",150496.389,0.684992488137523,-69208.778
+"FR",2020,"Basic metals","intensity",22.726727423739,0.720897183491273,-8.7988880789801
+"FR",2020,"Basic metals","share_GVA",0.0230796603783712,0.948554800497434,-0.00125173340748907
+"FR",2020,"Basic metals","share_energy_consumption",0.126724744098963,0.977919846205475,-0.00286127932686314
+"FR",2020,"Chemical and petrochem.","GVA",32736.2,1.59380903230832,12196.6
+"FR",2020,"Chemical and petrochem.","energy_consumption",245073.108,1.07184764724115,16427.639
+"FR",2020,"Chemical and petrochem.","intensity",7.48630286960613,0.672506947516034,-3.64563100447127
+"FR",2020,"Chemical and petrochem.","share_GVA",0.114095496538574,1.59105879957077,0.0423850754219223
+"FR",2020,"Chemical and petrochem.","share_energy_consumption",0.206362605130928,1.53020814753129,0.0715034322374521
+"FR",2020,"Coke and ref. pet. products","GVA",8783.4,2.78475634887924,5629.3
+"FR",2020,"Coke and ref. pet. products","energy_consumption",76575.111,0.310448223502094,-170084.735
+"FR",2020,"Coke and ref. pet. products","intensity",8.71816278434319,0.111481287627565,-69.4847622972966
+"FR",2020,"Coke and ref. pet. products","share_GVA",0.0306127890316197,2.77995105042657,0.0196008005194758
+"FR",2020,"Coke and ref. pet. products","share_energy_consumption",0.0644796955614975,0.443207019404539,-0.08100467796699
+"FR",2020,"Construction","GVA",94462.6,0.950414977628737,-4928.29999999999
+"FR",2020,"Construction","energy_consumption",59816.526,1.25462922567388,12139.87
+"FR",2020,"Construction","intensity",0.633229722662726,1.32008570488246,0.153541380973497
+"FR",2020,"Construction","share_GVA",0.329230553678334,0.948774967857962,-0.0177753906517889
+"FR",2020,"Construction","share_energy_consumption",0.0503682114940245,1.79115368513293,0.0222476700172687
+"FR",2020,"Food, bev. and tobacco","GVA",35433.3,1.16494062413698,5016.9
+"FR",2020,"Food, bev. and tobacco","energy_consumption",204044.91,0.968144182484543,-6713.894
+"FR",2020,"Food, bev. and tobacco","intensity",5.75856355462235,0.831067405861798,-1.17055376366647
+"FR",2020,"Food, bev. and tobacco","share_GVA",0.123495700707481,1.16293043485027,0.0173021597985775
+"FR",2020,"Food, bev. and tobacco","share_energy_consumption",0.171815012813669,1.38215736148326,0.0475057137413215
+"FR",2020,"Machinery","GVA",47904.2,0.955094554045836,-2252.3
+"FR",2020,"Machinery","energy_consumption",60030.956,0.579578461523579,-43545.971
+"FR",2020,"Machinery","intensity",1.25314598719945,0.606828359630416,-0.811928868502201
+"FR",2020,"Machinery","share_GVA",0.166960535593109,0.953446469327562,-0.00815211201138782
+"FR",2020,"Machinery","share_energy_consumption",0.0505487712207907,0.827427000693406,-0.0105427464338538
+"FR",2020,"Mining and quarrying","GVA",1802.1,0.464842137845646,-2074.7
+"FR",2020,"Mining and quarrying","energy_consumption",18085.737,0.607230587703069,-11698.232
+"FR",2020,"Mining and quarrying","intensity",10.0359230897287,1.30631571078589,2.35330624078107
+"FR",2020,"Mining and quarrying","share_GVA",0.00628086015823962,0.464040019122899,-0.00725430900693567
+"FR",2020,"Mining and quarrying","share_energy_consumption",0.0152290058811056,0.866904167887206,-0.00233810989158851
+"FR",2020,"Non-metallic minerals","GVA",15686.1,0.929954468922668,-1181.5
+"FR",2020,"Non-metallic minerals","energy_consumption",148151.429,0.95186179673126,-7492.41500000001
+"FR",2020,"Non-metallic minerals","intensity",9.44475867169022,1.02355741978849,0.217373388662404
+"FR",2020,"Non-metallic minerals","share_GVA",0.0546707732801523,0.928349765239216,-0.00421950205272809
+"FR",2020,"Non-metallic minerals","share_energy_consumption",0.124750182065303,1.35891204354553,0.0329486687460028
+"FR",2020,"Other manufacturing","GVA",5706.2,0.753303673975894,-1868.7
+"FR",2020,"Other manufacturing","energy_consumption",64799.165,0.518233861513748,-60239.297
+"FR",2020,"Other manufacturing","intensity",11.3559225053451,0.687948140194961,-5.15102306489349
+"FR",2020,"Other manufacturing","share_GVA",0.0198878221158354,0.752003794013182,-0.00655861641833878
+"FR",2020,"Other manufacturing","share_energy_consumption",0.0545638181554741,0.739849249336947,-0.0191860953632248
+"FR",2020,"Paper, pulp and printing","GVA",7890.7,0.913994810730668,-742.500000000001
+"FR",2020,"Paper, pulp and printing","energy_consumption",96801.927,0.6471804230696,-52772.942
+"FR",2020,"Paper, pulp and printing","intensity",12.2678503808281,0.708078881270923,-5.05769159665421
+"FR",2020,"Paper, pulp and printing","share_GVA",0.0275014612122642,0.912417646591508,-0.00263984668001584
+"FR",2020,"Paper, pulp and printing","share_energy_consumption",0.0815115864830585,0.923937985825554,-0.0067103372104744
+"FR",2020,"Textile and leather","GVA",6093.4,0.746292055015983,-2071.5
+"FR",2020,"Textile and leather","energy_consumption",8369.179,0.120273696206552,-61215.271
+"FR",2020,"Textile and leather","intensity",1.37348262054026,0.161161699897738,-7.14890589615927
+"FR",2020,"Textile and leather","share_GVA",0.0212373304967634,0.745004274108814,-0.00726898984907332
+"FR",2020,"Textile and leather","share_energy_consumption",0.00704722601080759,0.171707042827106,-0.0339949228421288
+"FR",2020,"Total","GVA",286919.3,1.00172855505924,495.099999999977
+"FR",2020,"Total","energy_consumption",1187584.872,0.700458724501227,-507853.889
+"FR",2020,"Total","intensity",4.13909023199206,0.699250032320183,-1.78023767745134
+"FR",2020,"Total","share_GVA",1,1,2.22044604925031e-16
+"FR",2020,"Total","share_energy_consumption",1,1,0
+"FR",2020,"Transport equipment","GVA",20820.1,0.739591770038507,-7330.7
+"FR",2020,"Transport equipment","energy_consumption",32947.98,0.507875731852179,-31926.118
+"FR",2020,"Transport equipment","intensity",1.58250824923992,0.686697381483486,-0.722012332768409
+"FR",2020,"Transport equipment","share_GVA",0.0725643064095026,0.73831555095758,-0.0257192883426168
+"FR",2020,"Transport equipment","share_energy_consumption",0.0277436844951659,0.72506161189415,-0.0105202147929075
+"FR",2020,"Wood and wood products","GVA",2979,1.17774966395193,449.6
+"FR",2020,"Wood and wood products","energy_consumption",22392.455,0.509890541531371,-21523.745
+"FR",2020,"Wood and wood products","intensity",7.51676905001678,0.432936265776922,-9.84553030951512
+"FR",2020,"Wood and wood products","share_GVA",0.0103827103997535,1.17571737174076,0.0015517526803988
+"FR",2020,"Wood and wood products","share_energy_consumption",0.0188554565892113,0.727938026461798,-0.00704710091401431
+"FR",2021,"Basic metals","GVA",4373.2,0.627512878276965,-2595.9
+"FR",2021,"Basic metals","energy_consumption",172939.892,0.787145310970315,-46765.275
+"FR",2021,"Basic metals","intensity",39.5453882740328,1.25438909418349,8.0197727713136
+"FR",2021,"Basic metals","share_GVA",0.01443430858104,0.593238049084891,-0.00989708520482027
+"FR",2021,"Basic metals","share_energy_consumption",0.135719185074767,1.04732888228838,0.00613316164894015
+"FR",2021,"Chemical and petrochem.","GVA",32067.4,1.56124754133479,11527.8
+"FR",2021,"Chemical and petrochem.","energy_consumption",239186.908,1.04610386134527,10541.439
+"FR",2021,"Chemical and petrochem.","intensity",7.45888060771999,0.670043560453522,-3.6730532663574
+"FR",2021,"Chemical and petrochem.","share_GVA",0.105842574543044,1.47597201208553,0.034132153426393
+"FR",2021,"Chemical and petrochem.","share_energy_consumption",0.18770829482369,1.3918837762112,0.0528491219302141
+"FR",2021,"Coke and ref. pet. products","GVA",5372.5,1.70333851177832,2218.4
+"FR",2021,"Coke and ref. pet. products","energy_consumption",70255.726,0.284828386700606,-176404.12
+"FR",2021,"Coke and ref. pet. products","intensity",13.0769150302466,0.167217722567219,-65.1260100513932
+"FR",2021,"Coke and ref. pet. products","share_GVA",0.0177326266467661,1.61030195656405,0.0067206381346222
+"FR",2021,"Coke and ref. pet. products","share_energy_consumption",0.0551350516603543,0.378975764359725,-0.0903493218681332
+"FR",2021,"Construction","GVA",99820.9,1.00432635180887,430
+"FR",2021,"Construction","energy_consumption",67730.124,1.42061397930258,20053.468
+"FR",2021,"Construction","intensity",0.678516462985207,1.41449437898741,0.198828121295977
+"FR",2021,"Construction","share_GVA",0.329471708002638,0.949469925187207,-0.0175342363274851
+"FR",2021,"Construction","share_energy_consumption",0.0531530182422739,1.89018473510582,0.0250324767655181
+"FR",2021,"Food, bev. and tobacco","GVA",39328.1,1.29298996593943,8911.7
+"FR",2021,"Food, bev. and tobacco","energy_consumption",219574.191,1.04182689801181,8815.38699999999
+"FR",2021,"Food, bev. and tobacco","intensity",5.5831375276202,0.805750180168545,-1.34597979066862
+"FR",2021,"Food, bev. and tobacco","share_GVA",0.129807447934236,1.22236669785396,0.023613907025332
+"FR",2021,"Food, bev. and tobacco","share_energy_consumption",0.172316692934971,1.38619310237349,0.0480073938626236
+"FR",2021,"Machinery","GVA",52685.1,1.05041420354291,2528.60000000001
+"FR",2021,"Machinery","energy_consumption",72458.354,0.699560762214928,-31118.573
+"FR",2021,"Machinery","intensity",1.37531017308499,0.665985627246281,-0.689764682616664
+"FR",2021,"Machinery","share_GVA",0.173893942884604,0.993040452893811,-0.00121870471989302
+"FR",2021,"Machinery","share_energy_consumption",0.0568636226321857,0.930794074451393,-0.00422789502245875
+"FR",2021,"Mining and quarrying","GVA",2002,0.516405282707388,-1874.8
+"FR",2021,"Mining and quarrying","energy_consumption",17881.415,0.600370454320578,-11902.554
+"FR",2021,"Mining and quarrying","intensity",8.93177572427572,1.16259549316185,1.24915887532814
+"FR",2021,"Mining and quarrying","share_GVA",0.00660785826837146,0.488199163803054,-0.00692731089680383
+"FR",2021,"Mining and quarrying","share_energy_consumption",0.0140329165452683,0.798817331589555,-0.00353419922742582
+"FR",2021,"Non-metallic minerals","GVA",18173.1,1.07739690293818,1305.5
+"FR",2021,"Non-metallic minerals","energy_consumption",158597.836,1.01897917658729,2953.992
+"FR",2021,"Non-metallic minerals","intensity",8.72706560795902,0.945778824691644,-0.5003196750688
+"FR",2021,"Non-metallic minerals","share_GVA",0.0599826518965741,1.01854935398959,0.00109237656369375
+"FR",2021,"Non-metallic minerals","share_energy_consumption",0.124463874746386,1.35579327884803,0.0326623614270851
+"FR",2021,"Other manufacturing","GVA",6771,0.893873186444706,-803.9
+"FR",2021,"Other manufacturing","energy_consumption",77741.354,0.621739525235043,-47297.108
+"FR",2021,"Other manufacturing","intensity",11.481517353419,0.695556746374676,-5.02542821681956
+"FR",2021,"Other manufacturing","share_GVA",0.0223485556119596,0.845049725053934,-0.00409788292221451
+"FR",2021,"Other manufacturing","share_energy_consumption",0.0610095975513211,0.827249750412961,-0.0127403159673778
+"FR",2021,"Paper, pulp and printing","GVA",8145.5,0.943508780058379,-487.700000000001
+"FR",2021,"Paper, pulp and printing","energy_consumption",99990.209,0.66849604929288,-49584.66
+"FR",2021,"Paper, pulp and printing","intensity",12.2755151924375,0.708521280799863,-5.05002678504474
+"FR",2021,"Paper, pulp and printing","share_GVA",0.0268852694930169,0.891974216550266,-0.0032560383992632
+"FR",2021,"Paper, pulp and printing","share_energy_consumption",0.078469978927335,0.889461209210599,-0.00975194476619796
+"FR",2021,"Textile and leather","GVA",6870.5,0.841467746083847,-1294.4
+"FR",2021,"Textile and leather","energy_consumption",10357.647,0.148850023245136,-59226.803
+"FR",2021,"Textile and leather","intensity",1.50755359871916,0.176893319961314,-7.01483491798037
+"FR",2021,"Textile and leather","share_GVA",0.0226769681482748,0.795506676174244,-0.00582935219756191
+"FR",2021,"Textile and leather","share_energy_consumption",0.00812843927375704,0.198051015868666,-0.0329137095791793
+"FR",2021,"Total","GVA",302972.6,1.05777584435952,16548.4
+"FR",2021,"Total","energy_consumption",1274247.94,0.751574146652414,-421190.821
+"FR",2021,"Total","intensity",4.20581907406808,0.710523075999612,-1.71350883537532
+"FR",2021,"Total","share_GVA",1,1,0
+"FR",2021,"Total","share_energy_consumption",1,1,-1.11022302462516e-16
+"FR",2021,"Transport equipment","GVA",24484.7,0.869769242792389,-3666.10000000001
+"FR",2021,"Transport equipment","energy_consumption",39725.812,0.612352436869334,-25148.286
+"FR",2021,"Transport equipment","intensity",1.62247493332571,0.704040114023094,-0.682045648682617
+"FR",2021,"Transport equipment","share_GVA",0.0808148987730243,0.822262341714782,-0.0174686959790951
+"FR",2021,"Transport equipment","share_energy_consumption",0.0311758887363789,0.814759847177838,-0.00708801055169455
+"FR",2021,"Wood and wood products","GVA",2878.6,1.13805645607654,349.2
+"FR",2021,"Wood and wood products","energy_consumption",27808.472,0.633216717293391,-16107.728
+"FR",2021,"Wood and wood products","intensity",9.6604154797471,0.556401849760961,-7.7018838797848
+"FR",2021,"Wood and wood products","share_GVA",0.0095011892164506,1.07589567501008,0.000670231497095877
+"FR",2021,"Wood and wood products","share_energy_consumption",0.0218234388513118,0.842520621702864,-0.00407911865191379

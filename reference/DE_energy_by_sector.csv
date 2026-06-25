@@ -1,0 +1,287 @@
+"geo","time","sector","energy_consumption"
+"DE",2000,"Basic metals",520197.624
+"DE",2000,"Chemical and petrochem.",429464.002
+"DE",2000,"Coke and ref. pet. products",342901.2
+"DE",2000,"Construction",31709.8
+"DE",2000,"Food, bev. and tobacco",189225.504
+"DE",2000,"Machinery",131401.918
+"DE",2000,"Mining and quarrying",64627.664
+"DE",2000,"Non-metallic minerals",299234.19
+"DE",2000,"Other manufacturing",231776.583
+"DE",2000,"Paper, pulp and printing",191833.314
+"DE",2000,"Textile and leather",38957.99
+"DE",2000,"Transport equipment",122080.75
+"DE",2000,"Wood and wood products",26222.96
+"DE",2001,"Basic metals",497728.904
+"DE",2001,"Chemical and petrochem.",430211.168
+"DE",2001,"Coke and ref. pet. products",329148.6
+"DE",2001,"Construction",29013.9
+"DE",2001,"Food, bev. and tobacco",188787.745
+"DE",2001,"Machinery",133025.316
+"DE",2001,"Mining and quarrying",62134.673
+"DE",2001,"Non-metallic minerals",275300.621
+"DE",2001,"Other manufacturing",229315.899
+"DE",2001,"Paper, pulp and printing",192430.609
+"DE",2001,"Textile and leather",38343.7
+"DE",2001,"Transport equipment",125823.45
+"DE",2001,"Wood and wood products",26340.2
+"DE",2002,"Basic metals",502108.025
+"DE",2002,"Chemical and petrochem.",439264.196
+"DE",2002,"Coke and ref. pet. products",341461.2
+"DE",2002,"Construction",26797.5
+"DE",2002,"Food, bev. and tobacco",193602.433
+"DE",2002,"Machinery",132716.994
+"DE",2002,"Mining and quarrying",58174.673
+"DE",2002,"Non-metallic minerals",276832.405
+"DE",2002,"Other manufacturing",234474.28
+"DE",2002,"Paper, pulp and printing",187856.578
+"DE",2002,"Textile and leather",36311.3
+"DE",2002,"Transport equipment",125003.7
+"DE",2002,"Wood and wood products",25500.1
+"DE",2003,"Basic metals",517923.977
+"DE",2003,"Chemical and petrochem.",498256.808
+"DE",2003,"Coke and ref. pet. products",297636.491
+"DE",2003,"Construction",0
+"DE",2003,"Food, bev. and tobacco",201373.346
+"DE",2003,"Machinery",185565.22
+"DE",2003,"Mining and quarrying",48031.121
+"DE",2003,"Non-metallic minerals",284868.566
+"DE",2003,"Other manufacturing",157699.874
+"DE",2003,"Paper, pulp and printing",202613.542
+"DE",2003,"Textile and leather",36166.16
+"DE",2003,"Transport equipment",135474.621
+"DE",2003,"Wood and wood products",44157.485
+"DE",2004,"Basic metals",504679.332
+"DE",2004,"Chemical and petrochem.",474350.86
+"DE",2004,"Coke and ref. pet. products",307621.653
+"DE",2004,"Construction",0
+"DE",2004,"Food, bev. and tobacco",204007.822
+"DE",2004,"Machinery",203692.713
+"DE",2004,"Mining and quarrying",54389.855
+"DE",2004,"Non-metallic minerals",292457.838
+"DE",2004,"Other manufacturing",165792.611
+"DE",2004,"Paper, pulp and printing",230017.21
+"DE",2004,"Textile and leather",32489.668
+"DE",2004,"Transport equipment",140347.237
+"DE",2004,"Wood and wood products",55156.17
+"DE",2005,"Basic metals",478883.572
+"DE",2005,"Chemical and petrochem.",504539.595
+"DE",2005,"Coke and ref. pet. products",318352.561
+"DE",2005,"Construction",0
+"DE",2005,"Food, bev. and tobacco",202993.189
+"DE",2005,"Machinery",202544.996
+"DE",2005,"Mining and quarrying",52392.984
+"DE",2005,"Non-metallic minerals",282147.493
+"DE",2005,"Other manufacturing",158743.908
+"DE",2005,"Paper, pulp and printing",259196.424
+"DE",2005,"Textile and leather",31760.599
+"DE",2005,"Transport equipment",138809.217
+"DE",2005,"Wood and wood products",58588.158
+"DE",2006,"Basic metals",518136.651
+"DE",2006,"Chemical and petrochem.",514120.175
+"DE",2006,"Coke and ref. pet. products",314595.615
+"DE",2006,"Construction",0
+"DE",2006,"Food, bev. and tobacco",201237.157
+"DE",2006,"Machinery",205752.369
+"DE",2006,"Mining and quarrying",44925.385
+"DE",2006,"Non-metallic minerals",289554.205
+"DE",2006,"Other manufacturing",171597.859
+"DE",2006,"Paper, pulp and printing",250526.92
+"DE",2006,"Textile and leather",29807.728
+"DE",2006,"Transport equipment",133981.887
+"DE",2006,"Wood and wood products",52615.774
+"DE",2007,"Basic metals",479192.579
+"DE",2007,"Chemical and petrochem.",578180.537
+"DE",2007,"Coke and ref. pet. products",312987.823
+"DE",2007,"Construction",0
+"DE",2007,"Food, bev. and tobacco",205840.363
+"DE",2007,"Machinery",206539.8
+"DE",2007,"Mining and quarrying",40331.855
+"DE",2007,"Non-metallic minerals",310917.995
+"DE",2007,"Other manufacturing",187918.909
+"DE",2007,"Paper, pulp and printing",269010.609
+"DE",2007,"Textile and leather",29254.138
+"DE",2007,"Transport equipment",131134.255
+"DE",2007,"Wood and wood products",59838.174
+"DE",2008,"Basic metals",477892.468
+"DE",2008,"Chemical and petrochem.",583372.174
+"DE",2008,"Coke and ref. pet. products",308516.402
+"DE",2008,"Construction",0
+"DE",2008,"Food, bev. and tobacco",200420.132
+"DE",2008,"Machinery",250602.862
+"DE",2008,"Mining and quarrying",43861.396
+"DE",2008,"Non-metallic minerals",295016.012
+"DE",2008,"Other manufacturing",157910.671
+"DE",2008,"Paper, pulp and printing",249477.127
+"DE",2008,"Textile and leather",25137.032
+"DE",2008,"Transport equipment",124201.265
+"DE",2008,"Wood and wood products",56798.878
+"DE",2009,"Basic metals",363543.616
+"DE",2009,"Chemical and petrochem.",529433.556
+"DE",2009,"Coke and ref. pet. products",297233.304
+"DE",2009,"Construction",0
+"DE",2009,"Food, bev. and tobacco",197682.231
+"DE",2009,"Machinery",216198.591
+"DE",2009,"Mining and quarrying",40147.797
+"DE",2009,"Non-metallic minerals",267581.875
+"DE",2009,"Other manufacturing",134099.565
+"DE",2009,"Paper, pulp and printing",245454.731
+"DE",2009,"Textile and leather",21078.572
+"DE",2009,"Transport equipment",107085.839
+"DE",2009,"Wood and wood products",62034.517
+"DE",2010,"Basic metals",445075.707
+"DE",2010,"Chemical and petrochem.",588419.799
+"DE",2010,"Coke and ref. pet. products",288341.643
+"DE",2010,"Construction",36138.854
+"DE",2010,"Food, bev. and tobacco",201710.195
+"DE",2010,"Machinery",232432.842
+"DE",2010,"Mining and quarrying",39658.147
+"DE",2010,"Non-metallic minerals",272879.162
+"DE",2010,"Other manufacturing",144124.375
+"DE",2010,"Paper, pulp and printing",262458.241
+"DE",2010,"Textile and leather",24704.762
+"DE",2010,"Transport equipment",123559.233
+"DE",2010,"Wood and wood products",75463.909
+"DE",2011,"Basic metals",467480.117
+"DE",2011,"Chemical and petrochem.",584615.773
+"DE",2011,"Coke and ref. pet. products",282952.236
+"DE",2011,"Construction",37300.438
+"DE",2011,"Food, bev. and tobacco",206583.248
+"DE",2011,"Machinery",238195.627
+"DE",2011,"Mining and quarrying",36956.712
+"DE",2011,"Non-metallic minerals",283847.342
+"DE",2011,"Other manufacturing",144868.045
+"DE",2011,"Paper, pulp and printing",252894.7
+"DE",2011,"Textile and leather",24047.461
+"DE",2011,"Transport equipment",121238.939
+"DE",2011,"Wood and wood products",84049.308
+"DE",2012,"Basic metals",437982.181
+"DE",2012,"Chemical and petrochem.",597018.421
+"DE",2012,"Coke and ref. pet. products",280895.148
+"DE",2012,"Construction",37637.936
+"DE",2012,"Food, bev. and tobacco",208996.055
+"DE",2012,"Machinery",239964.474
+"DE",2012,"Mining and quarrying",29795.998
+"DE",2012,"Non-metallic minerals",273026.905
+"DE",2012,"Other manufacturing",143628.074
+"DE",2012,"Paper, pulp and printing",244471.947
+"DE",2012,"Textile and leather",24062.275
+"DE",2012,"Transport equipment",125520.954
+"DE",2012,"Wood and wood products",84371.472
+"DE",2013,"Basic metals",428549.914
+"DE",2013,"Chemical and petrochem.",595868.402
+"DE",2013,"Coke and ref. pet. products",283474.869
+"DE",2013,"Construction",31841.32
+"DE",2013,"Food, bev. and tobacco",207142.269
+"DE",2013,"Machinery",246105.764
+"DE",2013,"Mining and quarrying",31361.623
+"DE",2013,"Non-metallic minerals",273507.106
+"DE",2013,"Other manufacturing",141152.24
+"DE",2013,"Paper, pulp and printing",244336.237
+"DE",2013,"Textile and leather",20680.639
+"DE",2013,"Transport equipment",130213.657
+"DE",2013,"Wood and wood products",80187.299
+"DE",2014,"Basic metals",424062.468
+"DE",2014,"Chemical and petrochem.",595037.958
+"DE",2014,"Coke and ref. pet. products",270318.87
+"DE",2014,"Construction",36359.037
+"DE",2014,"Food, bev. and tobacco",209709.183
+"DE",2014,"Machinery",237968.564
+"DE",2014,"Mining and quarrying",29498.525
+"DE",2014,"Non-metallic minerals",275271.75
+"DE",2014,"Other manufacturing",140144.155
+"DE",2014,"Paper, pulp and printing",244229.543
+"DE",2014,"Textile and leather",19721.313
+"DE",2014,"Transport equipment",120035.583
+"DE",2014,"Wood and wood products",77543.607
+"DE",2015,"Basic metals",446044.818
+"DE",2015,"Chemical and petrochem.",617383.642
+"DE",2015,"Coke and ref. pet. products",277742.027
+"DE",2015,"Construction",35077.5
+"DE",2015,"Food, bev. and tobacco",204843.899
+"DE",2015,"Machinery",214809.097
+"DE",2015,"Mining and quarrying",31144.288
+"DE",2015,"Non-metallic minerals",274429.657
+"DE",2015,"Other manufacturing",148077.966
+"DE",2015,"Paper, pulp and printing",237953.036
+"DE",2015,"Textile and leather",21569.934
+"DE",2015,"Transport equipment",120490.32
+"DE",2015,"Wood and wood products",74996.255
+"DE",2016,"Basic metals",446802.822
+"DE",2016,"Chemical and petrochem.",626068.587
+"DE",2016,"Coke and ref. pet. products",307684.176
+"DE",2016,"Construction",35349.18
+"DE",2016,"Food, bev. and tobacco",212275.638
+"DE",2016,"Machinery",219616.896
+"DE",2016,"Mining and quarrying",28756.127
+"DE",2016,"Non-metallic minerals",273190.999
+"DE",2016,"Other manufacturing",146997.607
+"DE",2016,"Paper, pulp and printing",232489.425
+"DE",2016,"Textile and leather",19859.772
+"DE",2016,"Transport equipment",126804.933
+"DE",2016,"Wood and wood products",80491.714
+"DE",2017,"Basic metals",445040.485
+"DE",2017,"Chemical and petrochem.",632676.583
+"DE",2017,"Coke and ref. pet. products",261010.936
+"DE",2017,"Construction",36776.045
+"DE",2017,"Food, bev. and tobacco",213709.351
+"DE",2017,"Machinery",221843.141
+"DE",2017,"Mining and quarrying",28026.788
+"DE",2017,"Non-metallic minerals",280919.694
+"DE",2017,"Other manufacturing",147479.611
+"DE",2017,"Paper, pulp and printing",238295.518
+"DE",2017,"Textile and leather",19753.767
+"DE",2017,"Transport equipment",126681.752
+"DE",2017,"Wood and wood products",78123.594
+"DE",2018,"Basic metals",446553.728
+"DE",2018,"Chemical and petrochem.",597910.291
+"DE",2018,"Coke and ref. pet. products",286083.654
+"DE",2018,"Construction",73211.412
+"DE",2018,"Food, bev. and tobacco",216995.165
+"DE",2018,"Machinery",219740.843
+"DE",2018,"Mining and quarrying",26859.585
+"DE",2018,"Non-metallic minerals",288371.742
+"DE",2018,"Other manufacturing",147100.505
+"DE",2018,"Paper, pulp and printing",230438.753
+"DE",2018,"Textile and leather",19125.464
+"DE",2018,"Transport equipment",123448.729
+"DE",2018,"Wood and wood products",75827.13
+"DE",2019,"Basic metals",419660.071
+"DE",2019,"Chemical and petrochem.",567567.069
+"DE",2019,"Coke and ref. pet. products",281877.274
+"DE",2019,"Construction",102209.422
+"DE",2019,"Food, bev. and tobacco",213476.288
+"DE",2019,"Machinery",214289.126
+"DE",2019,"Mining and quarrying",24400.645
+"DE",2019,"Non-metallic minerals",281834.083
+"DE",2019,"Other manufacturing",140893.698
+"DE",2019,"Paper, pulp and printing",223933.817
+"DE",2019,"Textile and leather",17319.823
+"DE",2019,"Transport equipment",120246.702
+"DE",2019,"Wood and wood products",72305.265
+"DE",2020,"Basic metals",389317.559
+"DE",2020,"Chemical and petrochem.",581765.295
+"DE",2020,"Coke and ref. pet. products",280872.387
+"DE",2020,"Construction",104072.6
+"DE",2020,"Food, bev. and tobacco",212588.988
+"DE",2020,"Machinery",198374.993
+"DE",2020,"Mining and quarrying",22095.8
+"DE",2020,"Non-metallic minerals",301815.532
+"DE",2020,"Other manufacturing",130651.471
+"DE",2020,"Paper, pulp and printing",217976.551
+"DE",2020,"Textile and leather",15191.455
+"DE",2020,"Transport equipment",108369.084
+"DE",2020,"Wood and wood products",72221.69
+"DE",2021,"Basic metals",410024.935
+"DE",2021,"Chemical and petrochem.",584465.968
+"DE",2021,"Coke and ref. pet. products",270983.907
+"DE",2021,"Construction",103104.001
+"DE",2021,"Food, bev. and tobacco",217850.13
+"DE",2021,"Machinery",209190.95
+"DE",2021,"Mining and quarrying",24161.406
+"DE",2021,"Non-metallic minerals",288692.191
+"DE",2021,"Other manufacturing",143324.857
+"DE",2021,"Paper, pulp and printing",225285.289
+"DE",2021,"Textile and leather",15749.832
+"DE",2021,"Transport equipment",112638.678
+"DE",2021,"Wood and wood products",81107.146

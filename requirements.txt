@@ -1,0 +1,7 @@
+dash==4.3.0
+dash-bootstrap-components==2.0.4
+eurostat==1.1.1
+pandas==2.3.3
+plotly==6.8.0
+pyarrow==24.0.0
+pytest==9.1.1
